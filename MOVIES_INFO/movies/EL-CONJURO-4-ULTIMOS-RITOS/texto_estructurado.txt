@@ -1,0 +1,7 @@
+1 nombre pelicula: EL CONJURO 4: ULTIMOS RITOS
+2 Restriccion Edad: 14
+3 duracion: 131 min
+4 categoria: Terror
+5 Sinopsis: El Conjuro 4: Últimos Ritos ofrece otro emocionante capítulo del icónico universo cinematográfico de El Conjuro, basado en hechos reales.
+6 Actores: 
+7 Directores: 

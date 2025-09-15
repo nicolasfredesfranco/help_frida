@@ -1,0 +1,8 @@
+1 nombre pelicula: PARANORMAN
+2 Restriccion Edad: TE+
+3 duracion: 104 min
+4 categoria: Animación, Aventura
+5 Sinopsis: Paranorman: Una historia de fantasmas, brujas y una maldición vuelve a los cines este Halloween: ¡más grande, más audaz y más aterradora que nunca!
+De los creadores de Coraline, este clásico favorito de los fanáticos regresa en una espectacular remasterización en formatos 3D y 2D, acompañado por un nuevo cortometraje animado, The Thrifting, con Anna Kendrick como Courtney y la presentación de un nuevo personaje en la voz de Finn Wolfhard.
+6 Actores: 
+7 Directores: Chris Butler, Sam Fell

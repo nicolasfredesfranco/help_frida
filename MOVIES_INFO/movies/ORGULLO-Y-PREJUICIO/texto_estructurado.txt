@@ -1,0 +1,7 @@
+1 nombre pelicula: ORGULLO Y PREJUICIO
+2 Restriccion Edad: 1
+3 duracion: 129 min
+4 categoria: Drama
+5 Sinopsis: Una de las mejores historias de amor de todos los tiempos, Orgullo y prejuicio, llega a la pantalla en una nueva y gloriosa adaptación protagonizada por Keira Knightley.
+6 Actores: 
+7 Directores: 

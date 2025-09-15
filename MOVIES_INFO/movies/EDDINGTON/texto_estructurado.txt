@@ -1,0 +1,7 @@
+1 nombre pelicula: EDDINGTON
+2 Restriccion Edad: 18
+3 duracion: 149 min
+4 categoria: Drama
+5 Sinopsis: Un enfrentamiento entre el sheriff de un pequeño pueblo (Joaquin Phoenix) y el alcalde (Pedro Pascal) desata un caos cuando los habitantes se enfrentan entre sí en Eddington, Nuevo México.
+6 Actores: Pedro Pascal, Joaquin Phoenix, Emma Stone, Austin Butler
+7 Directores: Ari Aster

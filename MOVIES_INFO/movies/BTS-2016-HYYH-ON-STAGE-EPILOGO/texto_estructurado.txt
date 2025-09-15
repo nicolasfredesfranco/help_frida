@@ -1,0 +1,7 @@
+1 nombre pelicula: BTS 2016 HYYH ON STAGE: EPILOGO
+2 Restriccion Edad: TE+
+3 duracion: 102 min
+4 categoria: Concierto
+5 Sinopsis: El gran final de la serie “The Most Beautiful Moment in Life” de BTS, donde la historia de la juventud brilla con más fuerza: <BTS 2016 Live The Most Beautiful Moment in Life On Stage: Epilogue Remastered>.
+6 Actores: 
+7 Directores: Jo Hyeongseok

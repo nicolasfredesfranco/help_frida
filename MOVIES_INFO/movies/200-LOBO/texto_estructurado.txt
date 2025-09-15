@@ -1,0 +1,7 @@
+1 nombre pelicula: 200% LOBO
+2 Restriccion Edad: OTE
+3 duracion: 98 min
+4 categoria: Animación
+5 Sinopsis: Un heroico caniche lucha por mantener el respeto de su manada de hombres lobo, cuando un deseo descarriado lo transforma en hombre lobo y desata a una traviesa hada en la Tierra.
+6 Actores: 
+7 Directores: Alex Stardermann

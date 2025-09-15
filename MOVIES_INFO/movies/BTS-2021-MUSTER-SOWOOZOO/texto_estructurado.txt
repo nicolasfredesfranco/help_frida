@@ -1,0 +1,7 @@
+1 nombre pelicula: BTS 2021 MUSTER SOWOOZOO
+2 Restriccion Edad: TE+
+3 duracion: 795 min
+4 categoria: Concierto
+5 Sinopsis: Una “FESTA” única que trascendió el tiempo y el espacio, uniendo a BTS y a ARMY en una sola energía: <BTS 2021 MUSTER SOWOOZOO Remastered>.
+6 Actores: 
+7 Directores: Jo Hyeongseok

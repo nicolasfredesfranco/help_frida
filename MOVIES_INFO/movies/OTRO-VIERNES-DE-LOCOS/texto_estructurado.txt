@@ -1,0 +1,7 @@
+1 nombre pelicula: OTRO VIERNES DE LOCOS
+2 Restriccion Edad: TE+
+3 duracion: 111 min
+4 categoria: Comedia
+5 Sinopsis: OTRO VIERNES DE LOCOS está dirigida por Nisha Ganatra y basada en el libro Freaky Friday de Mary Rodgers.
+6 Actores: Jamie Lee Curtis, Lindsay Lohan, Chad Michael Murray
+7 Directores: Nisha Ganatra

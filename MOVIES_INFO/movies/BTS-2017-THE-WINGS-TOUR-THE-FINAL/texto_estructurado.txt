@@ -1,0 +1,7 @@
+1 nombre pelicula: BTS 2017 THE WINGS TOUR THE FINAL
+2 Restriccion Edad: TE+
+3 duracion: 107 min
+4 categoria: Concierto
+5 Sinopsis: BTS consolidó su estatus global con su primera victoria en los Premios Billboard de la Música, y su meteórico ascenso queda plasmado con fuerza en <[BTS 2017 Live Trilogy EPISODE III THE WINGS TOUR THE FINAL Remasterizado>.
+6 Actores: 
+7 Directores: Kim Sanguk

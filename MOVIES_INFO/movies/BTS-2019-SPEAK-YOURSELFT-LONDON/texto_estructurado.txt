@@ -1,0 +1,7 @@
+1 nombre pelicula: BTS 2019 SPEAK YOURSELFT - LONDON
+2 Restriccion Edad: TE+
+3 duracion: 108 min
+4 categoria: Concierto
+5 Sinopsis: Una impresionante expresión del amor verdadero y el significado de la existencia bajo un cielo estrellado: <BTS 2019 WORLD TOUR ‘LOVE YOURSELF: SPEAK YOURSELF’ LONDON Remastered>.
+6 Actores: 
+7 Directores: Jo Hyeongseok

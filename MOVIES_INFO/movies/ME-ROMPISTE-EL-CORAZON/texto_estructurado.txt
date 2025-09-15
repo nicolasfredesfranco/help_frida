@@ -1,0 +1,7 @@
+1 nombre pelicula: ME ROMPISTE EL CORAZON
+2 Restriccion Edad: TE+
+3 duracion: 797 min
+4 categoria: Drama, Comedia
+5 Sinopsis: Me rompiste el corazón narra la historia de Roberto Parra Sandoval, creador de la cueca chora y cronista de la bohemia porteña.
+6 Actores: 
+7 Directores: 

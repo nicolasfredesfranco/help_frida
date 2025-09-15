@@ -1,0 +1,7 @@
+1 nombre pelicula: DEMON SLAYER: CASTILLO INFINITO
+2 Restriccion Edad: 14
+3 duracion: 155 min
+4 categoria: Animación, Acción
+5 Sinopsis: Estamos en la era Taisho de Japón.
+6 Actores: 
+7 Directores: Haruo Sotozaki

@@ -1,0 +1,7 @@
+1 nombre pelicula: DAVID GILMOUR: LIVE AT THE CIRCUS MAXIMUS
+2 Restriccion Edad: TE+
+3 duracion: 150 min
+4 categoria: Concierto
+5 Sinopsis: Una película-concierto del legendario guitarrista de Pink Floyd.
+6 Actores: David Gilmour
+7 Directores: 

@@ -1,0 +1,7 @@
+1 nombre pelicula: LOS TIPOS MALOS 2
+2 Restriccion Edad: 1
+3 duracion: 104 min
+4 categoria: Animación, Aventura
+5 Sinopsis: ¿Quiénes son más malos que Los Tipos Malos? Las Tipas Malas.
+6 Actores: 
+7 Directores: Pierre Perifel

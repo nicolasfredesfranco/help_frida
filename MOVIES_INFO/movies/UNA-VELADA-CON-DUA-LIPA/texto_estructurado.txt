@@ -1,0 +1,7 @@
+1 nombre pelicula: UNA VELADA CON DUA LIPA
+2 Restriccion Edad: TE+
+3 duracion: 763 min
+4 categoria: Concierto
+5 Sinopsis: Vea a la premiada Dua Lipa presentar una noche íntima para sus fans en el Royal Albert Hall de Londres.
+6 Actores: Dua Lipa, Elton John
+7 Directores: Paul Dugdale, Marcus P. Liversedge

@@ -1,0 +1,7 @@
+1 nombre pelicula: TOY STORY - 30 AÑOS
+2 Restriccion Edad: STE
+3 duracion: 81 min
+4 categoria: Animación, Aventura
+5 Sinopsis: Vive esta divertida fantasía acerca de las vidas que llevan los juguetes cuando están solos.
+6 Actores: 
+7 Directores: John Lasseter

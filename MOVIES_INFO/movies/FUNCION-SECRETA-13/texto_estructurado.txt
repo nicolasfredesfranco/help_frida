@@ -1,0 +1,7 @@
+1 nombre pelicula: FUNCION SECRETA 13
+2 Restriccion Edad: 31
+3 duracion: 120 min
+4 categoria: Drama
+5 Sinopsis: LA DURACION DE ESTA PELÍCULA ES GENERICA, Y NO ES EXACTA A LA DURACIÓN DE LA PELÍCULA A EXHIBIR.
+6 Actores: 
+7 Directores: 

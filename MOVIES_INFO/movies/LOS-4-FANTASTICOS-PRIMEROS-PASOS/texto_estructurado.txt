@@ -1,0 +1,7 @@
+1 nombre pelicula: LOS 4 FANTASTICOS: PRIMEROS PASOS
+2 Restriccion Edad: 1
+3 duracion: 118 min
+4 categoria: Ciencia Ficción, Acción, Aventura
+5 Sinopsis: Con el vibrante telón de fondo de un mundo retro-futurista inspirado en la década de 1960, LOS CUATRO FANTÁSTICOS: PRIMEROS PASOS de Marvel Studios presenta a La Primera Familia de Marvel: Reed Richards / Sr.
+6 Actores: Pedro Pascal, Julia Garner, Vannessa Kirby, Joseph Quinn
+7 Directores: Matt Shakman
