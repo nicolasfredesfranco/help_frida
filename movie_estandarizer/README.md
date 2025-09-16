@@ -1,11 +1,11 @@
-# Movie Standardizer - Cinema Transaction Deduplication Framework
+# 🎬 Movie Standardizer - Cinema Transaction Deduplication Framework
 
 ![Data Processing](https://img.shields.io/badge/Processing-Deduplication-blue)
 ![Transformation](https://img.shields.io/badge/Transformation-17M_Records-green)
 ![Standardization](https://img.shields.io/badge/Standardization-Movie_Catalog-orange)
 ![Status](https://img.shields.io/badge/Status-Production-brightgreen)
 
-## 🎯 Key Value Proposition
+## 📋 Overview
 
 **This framework transforms 17+ million transactional cinema records into a deduplicated, standardized movie catalog, enabling robust analytics and business intelligence on unique film titles rather than individual transactions.**
 
@@ -16,6 +16,30 @@ The system automatically identifies and consolidates **multiple movie name varia
 - **Language Variant Unification**: Merges ESP, SUB, and DUB versions under unified movie families
 - **Enrichment Pipeline**: Provides structure for metadata augmentation from external sources
 - **Scalable Processing**: Handles 5GB+ input files with streaming architecture
+
+## 🗂️ Directory Structure
+
+```
+movie_estandarizer/
+├── input_data/
+│   ├── Cinepolis.csv              # 📊 Input data (5GB, 17M+ records)
+│   ├── Cinepolis_sample.csv       # 📋 Sample data for testing
+│   ├── input_query.sql            # 🔍 SQL query to obtain data
+│   └── .gitkeep                   # 📁 Directory structure
+├── output_data/
+│   ├── example_output_data.csv     # 📝 Template structure
+│   ├── output_data_sample.csv      # 📋 Sample output
+│   ├── output_data.csv             # 🎯 Unique movies catalog
+│   ├── output_data_all.csv         # 📊 All records with IDs
+│   ├── output_data_final.csv       # ✅ Enriched final output
+│   ├── output_query.sql            # 🔍 Output data query
+│   └── .gitkeep                   # 📁 Directory structure
+├── estandarizer.py                 # 🔧 Core standardization engine
+├── movie_enricher.py               # 🌐 Web enrichment module
+├── complete_pipeline.py            # 🚀 Full automated pipeline
+├── requirements.txt                # 📦 Python dependencies
+└── README.md                       # 📚 This documentation
+```
 
 ## 🏗️ Core Transformation Principle
 
@@ -31,6 +55,19 @@ Original Transaction → Movie Name → Clean Title → Family Group → Unique 
 ```
 
 This multi-tier approach ensures **robust deduplication** while preserving format and language information for business analytics.
+
+## 📊 Processing Pipeline
+
+```mermaid
+graph TD
+    A["Input: Cinepolis.csv\n17M+ Records"] --> B["Standardizer\nestandarizer.py"]
+    B --> C["Unique Movie Catalog\n~2K Movies"]
+    B --> D["Full Record Mapping\n17M Records with IDs"]
+    D --> E["Data Propagation\nmovie_enricher.py"]
+    E --> F["Web Enrichment\nCinépolis Scraping"]
+    F --> G["Final Consistency Check"]
+    G --> H["Complete Dataset\noutput_data_final.csv"]
+```
 
 ## 📊 Data Architecture
 
@@ -692,13 +729,17 @@ def improved_generate_unique_name(title):
     return normalized_title
 ```
 
-## 📝 License
+## 📄 License
 
 Proprietary - Internal Use Only
 
-## 👥 Contributors
+---
+
+## 👥 Team
 
 Developed by the Data Engineering Team
+
+For questions or support, please contact the development team.
 
 ---
 
