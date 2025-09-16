@@ -1,0 +1,343 @@
+{
+  "summary": {
+    "timestamp": "2025-09-16T01:29:56.581229",
+    "file": "standardized.csv",
+    "total_rows": 100000,
+    "total_columns": 17,
+    "unique_movies": 457,
+    "data_richness_score": 70.96608787305001,
+    "overall_empty_percentage": 8.662705882352942
+  },
+  "completeness": {
+    "MOVIE_ID": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "MOVIE_NAME": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "TITULO_LIMPIO": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "FORMATO": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "IDIOMA": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "CATEGORIA": {
+      "filled_count": "89986",
+      "filled_percentage": 89.986,
+      "empty_count": "10014",
+      "empty_percentage": 10.014000000000001
+    },
+    "DESCRIPCION": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "FAMILIA": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "NOMBRE_ORIGINAL": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "DESCRIPCION2": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "ACTOR_PRINCIPAL": {
+      "filled_count": "67509",
+      "filled_percentage": 67.509,
+      "empty_count": "32491",
+      "empty_percentage": 32.491
+    },
+    "DIRECTOR": {
+      "filled_count": "5253",
+      "filled_percentage": 5.253,
+      "empty_count": "94747",
+      "empty_percentage": 94.747
+    },
+    "DURACION": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "CATEGORIA_CINEPOLIS": {
+      "filled_count": "89986",
+      "filled_percentage": 89.986,
+      "empty_count": "10014",
+      "empty_percentage": 10.014000000000001
+    },
+    "NOMBRE_ORIGINAL_CLEAN": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "TITULO_LIMPIO_CLEAN": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    },
+    "NOMBRE_UNICO": {
+      "filled_count": "100000",
+      "filled_percentage": 100.0,
+      "empty_count": "0",
+      "empty_percentage": 0.0
+    }
+  },
+  "description_quality": {
+    "DESCRIPCION": {
+      "count": 100000,
+      "avg_length": 2092.70987,
+      "min_length": "34",
+      "max_length": "2828",
+      "median_length": 2828.0,
+      "avg_word_count": 205.09424,
+      "min_word_count": "7",
+      "max_word_count": "273",
+      "has_punctuation_pct": 100.0,
+      "starts_with_capital_pct": 100.0,
+      "is_truncated_pct": 0.0,
+      "vocabulary_richness": 432,
+      "quality_score": 74.4724512831873
+    },
+    "DESCRIPCION2": {
+      "count": 100000,
+      "avg_length": 2092.70987,
+      "min_length": "34",
+      "max_length": "2828",
+      "median_length": 2828.0,
+      "avg_word_count": 205.09424,
+      "min_word_count": "7",
+      "max_word_count": "273",
+      "has_punctuation_pct": 100.0,
+      "starts_with_capital_pct": 100.0,
+      "is_truncated_pct": 0.0,
+      "vocabulary_richness": 383,
+      "quality_score": 75.02681666809563
+    }
+  },
+  "category_distribution": {
+    "CATEGORIA": {
+      "total_entries": 89986,
+      "unique_categories": 209,
+      "unique_category_tokens": 260,
+      "top_10_categories": {
+        "CIENCIA FICCIÓN FANTÁSTICA": "11133",
+        "CIENCIA FICCIÓN, ACCIÓN Y AVENTURAS": "5555",
+        "FANTASÍAAVENTURA ACCIÓNDRAMA": "5164",
+        "TERROR Y TERROR SOBRENATURAL": "5104",
+        "ACCIÓN, AVENTURA, CIENCIA FICCIÓN, TERROR": "4858",
+        "ACCIÓNAVENTURACOMEDIAFANTASÍAISEKAI": "4503",
+        "ACCIÓN, AVENTURA,[1]​ COMEDIA, DRAMA, FANTASÍA OSCURA,[2]​ HISTÓRICO, SOBRENATURAL": "4295",
+        "ACCIÓNCIENCIA FICCIÓNSUPERHÉROES": "4164",
+        "ACCIÓNDRAMADEPORTESAVENTURA": "4138",
+        "CINE DE SUPERHÉROES, ACCIÓN, AVENTURAS, CIENCIA FICCIÓN Y CRÍMENES": "2869"
+      },
+      "top_10_tokens": {
+        "ACCIÓN": 14619,
+        "CIENCIA FICCIÓN": 11248,
+        "CIENCIA FICCIÓN FANTÁSTICA": 11222,
+        "AVENTURA": 10252,
+        "DRAMA": 6974,
+        "ACCIÓN Y AVENTURAS": 5555,
+        "TERROR": 5529,
+        "FANTASÍA OSCURA": 5208,
+        "FANTASÍAAVENTURA ACCIÓNDRAMA": 5164,
+        "TERROR Y TERROR SOBRENATURAL": 5104
+      },
+      "diversity_index": 0.0016294095897021314,
+      "most_common": "CIENCIA FICCIÓN FANTÁSTICA",
+      "most_common_count": "11133",
+      "coverage_top_5": 35.354388460427174
+    },
+    "CATEGORIA_CINEPOLIS": {
+      "total_entries": 89986,
+      "unique_categories": 209,
+      "unique_category_tokens": 260,
+      "top_10_categories": {
+        "CIENCIA FICCIÓN FANTÁSTICA": "11133",
+        "CIENCIA FICCIÓN, ACCIÓN Y AVENTURAS": "5555",
+        "FANTASÍAAVENTURA ACCIÓNDRAMA": "5164",
+        "TERROR Y TERROR SOBRENATURAL": "5104",
+        "ACCIÓN, AVENTURA, CIENCIA FICCIÓN, TERROR": "4858",
+        "ACCIÓNAVENTURACOMEDIAFANTASÍAISEKAI": "4503",
+        "ACCIÓN, AVENTURA,[1]​ COMEDIA, DRAMA, FANTASÍA OSCURA,[2]​ HISTÓRICO, SOBRENATURAL": "4295",
+        "ACCIÓNCIENCIA FICCIÓNSUPERHÉROES": "4164",
+        "ACCIÓNDRAMADEPORTESAVENTURA": "4138",
+        "CINE DE SUPERHÉROES, ACCIÓN, AVENTURAS, CIENCIA FICCIÓN Y CRÍMENES": "2869"
+      },
+      "top_10_tokens": {
+        "ACCIÓN": 14619,
+        "CIENCIA FICCIÓN": 11248,
+        "CIENCIA FICCIÓN FANTÁSTICA": 11222,
+        "AVENTURA": 10252,
+        "DRAMA": 6974,
+        "ACCIÓN Y AVENTURAS": 5555,
+        "TERROR": 5529,
+        "FANTASÍA OSCURA": 5208,
+        "FANTASÍAAVENTURA ACCIÓNDRAMA": 5164,
+        "TERROR Y TERROR SOBRENATURAL": 5104
+      },
+      "diversity_index": 0.0016294095897021314,
+      "most_common": "CIENCIA FICCIÓN FANTÁSTICA",
+      "most_common_count": "11133",
+      "coverage_top_5": 35.354388460427174
+    }
+  },
+  "consistency": {
+    "movie_id_uniqueness": {
+      "total_ids": 100000,
+      "unique_ids": 457,
+      "has_duplicates": true
+    },
+    "nombre_unico_consistency": {
+      "unique_names": 457,
+      "names_with_single_id": "457",
+      "names_with_multiple_ids": "0",
+      "consistency_rate": 100.0
+    },
+    "format_distribution": {
+      "unique_formats": 5,
+      "formats": {
+        "2D": "96483",
+        "SCREENX": "1323",
+        "3D": "1147",
+        "4D": "544",
+        "IMAX": "503"
+      },
+      "most_common": "2D"
+    },
+    "language_distribution": {
+      "unique_languages": 3,
+      "languages": {
+        "ESP": "69693",
+        "SUB": "29599",
+        "DUB": "708"
+      },
+      "most_common": "ESP"
+    },
+    "duration_analysis": {
+      "avg_duration": 121.38655,
+      "min_duration": 51,
+      "max_duration": 539,
+      "median_duration": 118.0,
+      "std_duration": 21.02358839726225,
+      "outliers_below_60": 79,
+      "outliers_above_240": 9,
+      "format_consistency": 100.0
+    }
+  },
+  "enrichment_patterns": {
+    "missing_rates": {
+      "DIRECTOR": 94.747,
+      "ACTOR_PRINCIPAL": 32.491,
+      "CATEGORIA": 10.014000000000001,
+      "CATEGORIA_CINEPOLIS": 10.014000000000001,
+      "MOVIE_ID": 0.0,
+      "MOVIE_NAME": 0.0,
+      "TITULO_LIMPIO": 0.0,
+      "FORMATO": 0.0,
+      "IDIOMA": 0.0,
+      "DESCRIPCION": 0.0,
+      "FAMILIA": 0.0,
+      "NOMBRE_ORIGINAL": 0.0,
+      "DESCRIPCION2": 0.0,
+      "DURACION": 0.0,
+      "NOMBRE_ORIGINAL_CLEAN": 0.0,
+      "TITULO_LIMPIO_CLEAN": 0.0,
+      "NOMBRE_UNICO": 0.0
+    },
+    "most_incomplete_fields": [
+      "DIRECTOR",
+      "ACTOR_PRINCIPAL",
+      "CATEGORIA",
+      "CATEGORIA_CINEPOLIS",
+      "MOVIE_ID"
+    ],
+    "field_correlations": {
+      "director_actor_correlation": {
+        "both_present": "1",
+        "only_director": "5252",
+        "only_actor": "67508",
+        "both_missing": "27239"
+      }
+    },
+    "movies_needing_enrichment": [
+      [
+        "FLOW",
+        3
+      ],
+      [
+        "CAPITÁN AMÉRICA UN NUEVO MUNDO",
+        3
+      ],
+      [
+        "ESQUEMA FENICIO",
+        3
+      ],
+      [
+        "RUNSEOKJIN EP TOUR EN VIVO DESDE AMSTERDAM",
+        3
+      ],
+      [
+        "MUERTE DE UN UNICORNIO",
+        3
+      ],
+      [
+        "LILO Y STITCH SJ",
+        3
+      ],
+      [
+        "HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTO",
+        3
+      ],
+      [
+        "CUENTO DE PESCADORES",
+        3
+      ],
+      [
+        "WARNING EN VIVO DESDE EL AUDITORIO NAC",
+        3
+      ],
+      [
+        "CHOSEN LA ÚLTIMA CENA",
+        3
+      ]
+    ]
+  },
+  "improvement_opportunities": [
+    "Field 'DIRECTOR' is 94.7% empty - needs enrichment",
+    "Low category diversity in 'CATEGORIA' - expand category classification",
+    "Low category diversity in 'CATEGORIA_CINEPOLIS' - expand category classification",
+    "Director information missing for 94.7% - consider additional data sources",
+    "Actor information missing for 32.5% - enhance web scraping"
+  ]
+}
