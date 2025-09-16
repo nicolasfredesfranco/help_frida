@@ -1,0 +1,23 @@
+# Movie Standardizer - Requirements
+# Cinema Transaction Deduplication Framework
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web Scraping & Enrichment
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+urllib3>=1.26.0
+
+# Progress Visualization
+tqdm>=4.65.0
+
+# Optional: For fuzzy matching (future enhancement)
+# fuzzywuzzy>=0.18.0
+# python-Levenshtein>=0.20.0
+
+# Optional: For direct database connection (future)
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # For PostgreSQL
+# pymysql>=1.0.0         # For MySQL

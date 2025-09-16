@@ -1,0 +1,141 @@
+# Help Frida - Git Ignore File
+# Excludes sensitive data and large files from version control
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+*$py.class
+**/*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.env
+.pytest_cache/
+**/.pytest_cache/
+
+# Data Files - IMPORTANT: Exclude all CSV files
+*.csv
+*.CSV
+
+# Specifically exclude data directories
+movie_estandarizer/input_data/*.csv
+movie_estandarizer/output_data/*.csv
+movie_estandarizer/output_data/*.CSV
+order_range_recognition/query_output/*.csv
+MOVIES_INFO/*.csv
+
+# Allow sample CSV files for GitHub
+!movie_estandarizer/input_data/Cinepolis_sample.csv
+!movie_estandarizer/output_data/output_data_sample.csv
+
+# Log files
+*.log
+movie_standardizer.log
+movie_enricher.log
+complete_pipeline.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/
+
+# HTML cache files (from web scraping)
+MOVIES_INFO/main_page.html
+*.html
+
+# Large data files
+*.sql.gz
+*.zip
+*.tar.gz
+*.rar
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+**/.DS_Store
+
+# Backup files
+*.orig
+*.rej
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel files with data
+*.xlsx
+*.xls
+
+# Results and generated files
+*/results/*
+*/output/*
+*-output-*
+generated_*
+
+# Any potential cache directories
+*/.cache/
+**/__pycache__/
+**/node_modules/
+**/.pytest_cache/
+
+# Any potential credentials
+*_credentials.*
+*.env
+*config.json
+*secrets*
+
+# Keep these important files
+!requirements.txt
+!README.md
+!README.MD
+!*.sql
+!.gitignore
+
+# Keep empty directory structures with .gitkeep
+!**/input_data/
+!**/output_data/
+!**/query_output/
+!**/movies/
+**/input_data/*
+**/output_data/*
+**/query_output/*
+**/movies/*
+!**/input_data/.gitkeep
+!**/output_data/.gitkeep
+!**/query_output/.gitkeep
+!**/movies/.gitkeep

@@ -268,10 +268,27 @@ USE SCHEMA STREAMLIT_APPS;
 
 ### Query Execution
 
-**Both analyses** require a single parameter that can be easily modified:
-- `COMMERCE_ID`: Target merchant identifier for analysis
-- **Current default**: `'9ea20bdb-5cff-4b10-9c95-9cebf8b6ddb4'`
-- **Customization**: Simply replace this value with any valid `COMMERCE_ID` to analyze different merchants
+#### Step 1: Execute SQL Queries
+
+**For Acceptance Rate Analysis**:
+```sql
+-- Execute: ia_AR_order_amount_range_of_interest.sql
+-- Replace COMMERCE_ID parameter with your target merchant ID
+-- Current default: '9ea20bdb-5cff-4b10-9c95-9cebf8b6ddb4'
+```
+
+**For Effective Cost Rate Analysis**:
+```sql
+-- Execute: ia_ECR_order_amount_range_of_interest.sql  
+-- Replace COMMERCE_ID parameter with your target merchant ID
+-- Current default: '9ea20bdb-5cff-4b10-9c95-9cebf8b6ddb4'
+```
+
+#### Step 2: Export Query Results
+
+- **REPLACE** sample file: `query_output/ECR.csv` with your ECR analysis results
+- **CREATE** new file: `query_output/AR.csv` with your AR analysis results
+- Both files should contain the complete output structure as shown below
 
 ### Output Structure
 

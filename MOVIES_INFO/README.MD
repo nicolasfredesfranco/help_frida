@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## 💻 Usage
 
-Run the script with Python:
+### Step 1: Run the Web Scraper
 
 ```bash
 python wget.py
@@ -42,9 +42,18 @@ python wget.py
 
 The script will:
 1. Download the Cinépolis Chile main page
-2. Extract all movie URLs
+2. Extract all movie URLs  
 3. Process each movie page
-4. Create folders and files with structured information
+4. **REPLACE** existing sample data in `/movies` directory with fresh scraped content
+
+### Step 2: Verify Output Structure
+
+After execution, your `/movies` directory will contain:
+- Individual movie folders with structured metadata
+- Each folder contains: `description.txt`, `webpage.txt`, `texto_estructurado.txt`
+- **REPLACES** the sample movie data provided in the repository
+
+> 📁 **Sample Movie Data Available**: Pre-scraped movie metadata examples can be found in the `/movies` directory. A complete dataset can be accessed via [Google Drive](https://drive.google.com/drive/folders/1FzNKnWKWpBXWzYgMD24FJCjkY8wIcwtW?usp=drive_link) for reference and testing purposes.
 
 ### Output Structure
 
