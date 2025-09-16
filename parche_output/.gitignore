@@ -1,0 +1,26 @@
+# Parche Output - Git Ignore File
+# Prevents large CSV datasets from being uploaded to GitHub
+
+# Large CSV files - NEVER upload these
+output_data.csv
+standardized.csv
+
+# Any other CSV files that might be generated
+*.csv
+*.CSV
+
+# Allow the cache and metrics JSON files (they're small)
+!movie_cache.json
+!enrichment_metrics.json
+!final_metrics.json
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc

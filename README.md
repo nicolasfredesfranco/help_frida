@@ -7,11 +7,12 @@
 
 ## 📋 Repository Overview
 
-This repository contains three specialized data processing modules for different analytical purposes:
+This repository contains four specialized data processing modules for different analytical purposes:
 
 1. **Movie Standardizer** - Cinema transaction deduplication and enrichment
 2. **Order Range Recognition** - Bayesian payment amount analysis
 3. **Movies Info** - Web scraping utilities for movie metadata
+4. **Parche Output** - Final enrichment patch with comprehensive web scraping
 
 ---
 
@@ -45,6 +46,7 @@ help_frida/
 ├── movie_estandarizer/        # 🎬 Movie standardization and enrichment
 ├── order_range_recognition/   # 💳 Payment amount range analysis
 ├── MOVIES_INFO/               # 🌐 Movie metadata scraping
+├── parche_output/             # 🚀 Final enrichment patch with web scraping
 └── README.md                  # 📚 This documentation
 ```
 
@@ -294,6 +296,69 @@ For each movie:
 - Structured data extraction
 - Rate limiting to avoid server overload
 - Error handling and recovery
+
+---
+
+## 🚀 Module 4: Parche Output (`parche_output/`)
+
+### Purpose
+**Final enrichment patch that completes movie metadata by performing exhaustive web searches across multiple sources (Cinépolis, Wikipedia, IMDb) and applying intelligent data replication strategies to minimize empty cells.**
+
+This module takes the output from `movie_estandarizer` and enhances it to achieve maximum data completeness - reducing empty cells from 35% to less than 9%.
+
+### Directory Structure
+```
+parche_output/
+├── GOAT_enrichment.py         # Main enrichment engine
+├── README.MD                  # Detailed documentation
+├── output_data.csv           # ⚠️ Input (copy from movie_estandarizer)
+├── standardized.csv          # Final enriched output (33GB+)
+├── movie_cache.json          # Web search cache
+└── enrichment_metrics.json   # Performance metrics
+```
+
+### 🏗️ Core Transformation Principle
+
+**Multi-source web enrichment with dual replication strategies:**
+
+1. **Web Scraping**: Searches Cinépolis, Wikipedia, IMDb for missing metadata
+2. **Vertical Replication**: Propagates data across rows with same movie name
+3. **Horizontal Replication**: Duplicates data across related columns
+
+### 🚀 Usage
+
+#### Step 1: Prepare Input Data
+```bash
+# First generate output_data.csv with movie_estandarizer
+cd movie_estandarizer
+python complete_pipeline.py
+
+# Copy the output to parche_output
+cd ../parche_output
+cp ../movie_estandarizer/output_data/output_data.csv ./
+```
+
+#### Step 2: Run Enrichment
+```bash
+cd parche_output
+python GOAT_enrichment.py
+
+# Processing time: ~50 minutes for 868 unique movies
+# Output: standardized.csv (33GB with 7.5M rows)
+```
+
+### 📊 Results
+- **Empty cells**: 35.29% → 8.63% (76% reduction)
+- **Descriptions**: 100% complete
+- **Categories**: 90.3% filled
+- **Actors**: 67.5% filled
+- **Directors**: 5.3% filled
+
+### ⚠️ Important Notes
+- Input file `output_data.csv` must be copied from movie_estandarizer
+- Output file `standardized.csv` will be ~33GB
+- Both CSV files are excluded from Git via .gitignore
+- Uses caching to avoid duplicate web searches
 
 ---
 

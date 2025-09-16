@@ -31,6 +31,11 @@ movie_estandarizer/output_data/*.CSV
 order_range_recognition/query_output/*.csv
 MOVIES_INFO/*.csv
 
+# Parche Output - Large enriched datasets
+parche_output/output_data.csv
+parche_output/standardized.csv
+parche_output/*.csv
+
 # Allow sample CSV files for GitHub
 !movie_estandarizer/input_data/Cinepolis_sample.csv
 !movie_estandarizer/output_data/output_data_sample.csv
