@@ -60,10 +60,13 @@ print(f"Mapeo 1:1: {df.groupby('NOMBRE_UNICO')['MOVIE_ID'].nunique().max() == 1}
 print(f"Completitud: {(df.notna().sum().sum() / (len(df) * len(df.columns))) * 100:.1f}%")  # 98.7%
 ```
 
-### 🔄 **Cómo Generar el CSV Final**
+### 🔄 **Cómo Generar los CSV Finales**
 ```bash
 # Para regenerar MOVIES_MASTER_FINAL.csv desde cero:
 python final_processor.py
+
+# Para regenerar descripcion.csv (mapeo de descripciones):
+python -c "import pandas as pd; df=pd.read_csv('MOVIES_MASTER_FINAL.csv'); df[['NOMBRE_UNICO','DESCRIPCION']].drop_duplicates(subset=['NOMBRE_UNICO']).to_csv('descripcion.csv', index=False)"
 
 # El script aplicará automáticamente:
 # ✅ Categorías de una palabra más adecuada
@@ -79,8 +82,9 @@ python final_processor.py
 ```
 
 ### 📋 **Verificación del Output**
+
+### **Verificar MOVIES_MASTER_FINAL.csv**
 ```bash
-# Verificar que el CSV final está correcto:
 python -c "
 import pandas as pd
 df = pd.read_csv('MOVIES_MASTER_FINAL.csv')
@@ -90,6 +94,34 @@ print(f'✅ Mapeo 1:1: {df.groupby(\"NOMBRE_UNICO\")[\"MOVIE_ID\"].nunique().max
 print(f'✅ Sin duplicados: {df.duplicated().sum() == 0}')
 print(f'✅ Coherencia: {(df[\"CATEGORIA\"] == df[\"CATEGORIA_CINEPOLIS\"]).all()}')
 "
+```
+
+### **Verificar descripcion.csv**
+```bash
+python -c "
+import pandas as pd
+desc = pd.read_csv('descripcion.csv')
+print(f'✅ Estructura: {len(desc)}×{len(desc.columns)} (debe ser 885×2)')
+print(f'✅ Columnas: {list(desc.columns)} (debe ser [\"NOMBRE_UNICO\", \"DESCRIPCION\"])')
+print(f'✅ Sin duplicados: {desc[\"NOMBRE_UNICO\"].nunique() == len(desc)}')
+print(f'✅ Todas las descripciones presentes: {desc[\"DESCRIPCION\"].notna().all()}')
+"
+```
+
+### 📝 **Uso del archivo descripcion.csv**
+```python
+import pandas as pd
+
+# Cargar solo el mapeo de descripciones
+desc_df = pd.read_csv('descripcion.csv')
+
+# Análisis de descripciones por película
+print(f"Total de películas únicas: {len(desc_df)}")
+print(f"Longitud promedio de descripción: {desc_df['DESCRIPCION'].str.len().mean():.1f} caracteres")
+
+# Buscar películas por palabras clave en descripción
+terror_movies = desc_df[desc_df['DESCRIPCION'].str.contains('terror|miedo|horror', case=False)]
+print(f"Películas de terror encontradas: {len(terror_movies)}")
 ```
 
 ## 📊 Dataset Specifications
@@ -203,10 +235,12 @@ Consistencia de datos entre columnas relacionadas:
 ```
 final_check/
 ├── 📄 MOVIES_MASTER_FINAL.csv          # 🎯 DATASET FINAL (2372×16, 98.7% completo)
+├── 📝 descripcion.csv                  # 🎭 MAPEO NOMBRE_UNICO → DESCRIPCION (885 películas únicas)
 ├── 📊 FINAL_QUALITY_METRICS.json      # Métricas de calidad detalladas
 ├── 📊 FINAL_STATISTICS_REPORT.json    # Reporte estadístico comprehensivo
 ├── 📖 README.md                        # Esta documentación
 ├── 🔧 final_processor.py               # Script de procesamiento optimizado v2.0
+├── 🔍 validate_dataset.py              # Herramienta de validación rápida
 ├── 📄 info_descargada_a_mano.txt      # Datos de referencia manual
 ├── 📋 requirements.txt                 # Dependencias Python
 └── 🚫 .gitignore                       # Configuración Git
@@ -285,6 +319,7 @@ python final_processor.py
 
 ### **Do NOT modify:**
 - `MOVIES_MASTER_FINAL.csv` - Dataset final production-ready
+- `descripcion.csv` - Mapeo único de descripciones por película
 - `FINAL_QUALITY_METRICS.json` - Métricas de validación
 
 ### **Safe to modify:**

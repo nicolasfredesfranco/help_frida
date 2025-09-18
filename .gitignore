@@ -36,8 +36,11 @@ parche_output/output_data.csv
 parche_output/standardized.csv
 parche_output/*.csv
 
-# Final Check - Large files explicitly excluded
-final_check/standardized.csv            # Large file (34GB) - EXCLUDED
+# Final Check - Keep production dataset, exclude intermediates
+final_check/standardized.csv            # Large file - EXCLUDED
+final_check/*_backup.csv                # Exclude backups
+final_check/*_temp.csv                  # Exclude temporary files
+!final_check/MOVIES_MASTER_FINAL.csv    # KEEP: Production dataset (1MB)
 
 # Log files
 *.log

@@ -82,10 +82,12 @@ docs/_build/
 
 # ESSENTIAL FILES TO KEEP:
 # ✅ MOVIES_MASTER_FINAL.csv - Final production dataset (2372×16, 98.7% complete)
+# ✅ descripcion.csv - NOMBRE_UNICO → DESCRIPCION mapping (885 unique movies)
 # ✅ FINAL_QUALITY_METRICS.json - Quality metrics (100.0/100)
 # ✅ FINAL_STATISTICS_REPORT.json - Comprehensive statistics report
 # ✅ README.md - Module documentation
 # ✅ final_processor.py - Main processing script v2.0
+# ✅ validate_dataset.py - Quick validation tool
 # ✅ info_descargada_a_mano.txt - Manual reference data
 # ✅ requirements.txt - Python dependencies
 # ✅ .gitignore - This file

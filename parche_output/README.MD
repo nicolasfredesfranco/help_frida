@@ -1,8 +1,10 @@
-# 🎬 Movie Data Enrichment Patch
+# 🚀 Parche Output - Advanced Movie Enrichment
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Status](https://img.shields.io/badge/Status-Legacy-orange.svg)]()
+[![Enrichment](https://img.shields.io/badge/Enrichment-Multi_Source-green.svg)]()
+
+> **Note**: This module is part of the legacy pipeline. For production use, refer to `final_check/MOVIES_MASTER_FINAL.csv`
 
 ## ⚠️ IMPORTANT: Prerequisites
 
