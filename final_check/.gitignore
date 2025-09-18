@@ -81,10 +81,11 @@ test_*
 docs/_build/
 
 # ESSENTIAL FILES TO KEEP:
-# ✅ MOVIES_MASTER_FINAL.csv - Final production dataset
-# ✅ FINAL_QUALITY_METRICS.json - Quality metrics (100/100)
-# ✅ README.md - Comprehensive documentation
-# ✅ movies_master_processor.py - Reproducible main script
+# ✅ MOVIES_MASTER_FINAL.csv - Final production dataset (2372×16, 98.7% complete)
+# ✅ FINAL_QUALITY_METRICS.json - Quality metrics (100.0/100)
+# ✅ FINAL_STATISTICS_REPORT.json - Comprehensive statistics report
+# ✅ README.md - Module documentation
+# ✅ final_processor.py - Main processing script v2.0
 # ✅ info_descargada_a_mano.txt - Manual reference data
 # ✅ requirements.txt - Python dependencies
 # ✅ .gitignore - This file

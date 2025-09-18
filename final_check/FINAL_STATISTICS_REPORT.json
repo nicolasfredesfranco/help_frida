@@ -1,0 +1,36 @@
+{
+  "estructura": {
+    "registros": 2372,
+    "columnas": 16,
+    "peliculas_unicas": 885,
+    "dimensiones": "2372×16"
+  },
+  "calidad": {
+    "score_final": 100.0,
+    "completitud_general": 98.69572091062395,
+    "validaciones": {
+      "Estructura correcta (2372×16)": true,
+      "Completitud > 95%": true,
+      "Mapeo 1:1 perfecto": true,
+      "Sin duplicados": true,
+      "Coherencia horizontal": true,
+      "Categorías de una palabra": true,
+      "Películas únicas = 885": true
+    }
+  },
+  "distribucion": {
+    "categorias": 69,
+    "idiomas": {
+      "ESP": 1053,
+      "SUB": 954,
+      "DOB": 365
+    },
+    "formatos": {
+      "2D": 1905,
+      "4D": 175,
+      "IMAX": 131,
+      "3D": 83,
+      "SCREENX": 78
+    }
+  }
+}
