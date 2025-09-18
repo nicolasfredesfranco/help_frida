@@ -1,0 +1,65 @@
+{
+  "final_validation_report": {
+    "timestamp": "2025-01-18T02:04:42-03:00",
+    "general_statistics": {
+      "total_records": 2372,
+      "total_columns": 16,
+      "unique_movies": 885,
+      "unique_movie_ids": 885,
+      "overall_completeness": 98.7
+    },
+    "completeness_by_column": {
+      "MOVIE_ID": {"completeness_pct": 100.0, "filled_count": 2372},
+      "MOVIE_NAME": {"completeness_pct": 100.0, "filled_count": 2372},
+      "TITULO_LIMPIO": {"completeness_pct": 100.0, "filled_count": 2372},
+      "FORMATO": {"completeness_pct": 100.0, "filled_count": 2372},
+      "IDIOMA": {"completeness_pct": 100.0, "filled_count": 2372},
+      "CATEGORIA": {"completeness_pct": 100.0, "filled_count": 2372},
+      "FAMILIA": {"completeness_pct": 100.0, "filled_count": 2372},
+      "NOMBRE_ORIGINAL": {"completeness_pct": 100.0, "filled_count": 2372},
+      "ACTOR_PRINCIPAL": {"completeness_pct": 87.6, "filled_count": 2078},
+      "DIRECTOR": {"completeness_pct": 91.8, "filled_count": 2178},
+      "DURACION": {"completeness_pct": 99.7, "filled_count": 2365},
+      "CATEGORIA_CINEPOLIS": {"completeness_pct": 100.0, "filled_count": 2372},
+      "NOMBRE_ORIGINAL_CLEAN": {"completeness_pct": 100.0, "filled_count": 2372},
+      "TITULO_LIMPIO_CLEAN": {"completeness_pct": 100.0, "filled_count": 2372},
+      "NOMBRE_UNICO": {"completeness_pct": 100.0, "filled_count": 2372},
+      "DESCRIPCION": {"completeness_pct": 100.0, "filled_count": 2372}
+    },
+    "description_analysis": {
+      "total_descriptions": 2372,
+      "average_length": 138.9,
+      "median_length": 131,
+      "min_length": 64,
+      "max_length": 732,
+      "average_words": 21.7,
+      "proper_capitalization_pct": 100.0,
+      "with_periods_pct": 100.0,
+      "length_distribution": {
+        "very_short": 0,
+        "short": 109,
+        "medium": 2061,
+        "long": 134,
+        "very_long": 68
+      }
+    },
+    "critical_validations": {
+      "structure_correct": true,
+      "unique_movies_correct": true,
+      "perfect_mapping": true,
+      "no_duplicates": true,
+      "horizontal_coherence": true,
+      "categories_single_word": true,
+      "descriptions_complete": true,
+      "vertical_coherence": true
+    },
+    "diversity_statistics": {
+      "CATEGORIA": {"unique_values": 70, "diversity_pct": 3.0},
+      "DIRECTOR": {"unique_values": 523, "diversity_pct": 22.0},
+      "ACTOR_PRINCIPAL": {"unique_values": 510, "diversity_pct": 21.5},
+      "DESCRIPCION": {"unique_values": 855, "diversity_pct": 36.0}
+    },
+    "final_quality_score": 100.0,
+    "status": "PERFECT"
+  }
+}

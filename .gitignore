@@ -20,11 +20,11 @@ venv/
 .pytest_cache/
 **/.pytest_cache/
 
-# Data Files - IMPORTANT: Exclude all CSV files
+# Data Files - IMPORTANT: Exclude all CSV files by default
 *.csv
 *.CSV
 
-# Specifically exclude data directories
+# Specifically exclude large data directories and files
 movie_estandarizer/input_data/*.csv
 movie_estandarizer/output_data/*.csv
 movie_estandarizer/output_data/*.CSV
@@ -36,9 +36,8 @@ parche_output/output_data.csv
 parche_output/standardized.csv
 parche_output/*.csv
 
-# Allow sample CSV files for GitHub
-!movie_estandarizer/input_data/Cinepolis_sample.csv
-!movie_estandarizer/output_data/output_data_sample.csv
+# Final Check - Large files explicitly excluded
+final_check/standardized.csv            # Large file (34GB) - EXCLUDED
 
 # Log files
 *.log
@@ -65,11 +64,48 @@ tmp/
 MOVIES_INFO/main_page.html
 *.html
 
-# Large data files
+# Large data files and archives
 *.sql.gz
 *.zip
 *.tar.gz
 *.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Large image files
+*.psd
+*.ai
+*.eps
+*.tiff
+*.tif
+
+# Large binary files
+*.bin
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Files larger than 100MB (GitHub limit)
+# Note: This is a reminder - git doesn't support size-based ignoring
+# Manual check required for files >100MB
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
@@ -144,3 +180,8 @@ generated_*
 !**/output_data/.gitkeep
 !**/query_output/.gitkeep
 !**/movies/.gitkeep
+
+# EXCEPTIONS: Allow specific small CSV files for GitHub (MUST BE AT THE END)
+!movie_estandarizer/input_data/Cinepolis_sample.csv
+!movie_estandarizer/output_data/output_data_sample.csv
+!final_check/Cinepolis.csv

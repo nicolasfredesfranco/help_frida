@@ -1,0 +1,4185 @@
+# INFORMACIÓN DE PELÍCULAS OBTENIDA MANUALMENTE VÍA GEMINI
+# ================================================================
+#
+# PROCESO MANUAL UTILIZADO:
+# 1. Se tomó la lista de películas únicas del archivo "nombres_unicos_prioritarios.txt"
+#    (ordenada de más falta de información a menor falta de información)
+# 2. Se copió y pegó la lista completa en Google Gemini
+# 3. Se solicitó a Gemini que completara la información faltante (DIRECTOR y ACTOR_PRINCIPAL)
+#    para cada película en la medida de lo posible
+#
+# AUTOMATIZACIÓN FUTURA:
+# Este proceso manual se puede automatizar en posteriores pasos mediante:
+# - Integración con la API de Google Gemini
+# - Uso de credenciales de cuenta individual de cada usuario
+# - Implementación de consultas automáticas por lotes
+# - Validación y limpieza automática de respuestas
+#
+# FORMATO ESPERADO:
+# Cada línea debe seguir el formato:
+# NOMBRE_UNICO|DIRECTOR|ACTOR_PRINCIPAL
+#
+# Ejemplo:
+# ALIEN ROMULUS|Fede Álvarez|Cailee Spaeny; David Jonsson
+# BEETLEJUICE BEETLEJUICE|Tim Burton|Michael Keaton; Winona Ryder
+#
+# NOTAS:
+# - Si no se encuentra información, dejar el campo vacío después del |
+# - Múltiples actores separados por punto y coma (;)
+# - Múltiples directores separados por punto y coma (;)
+# - Mantener los nombres únicos exactamente como aparecen en la lista original
+#
+# ================================================================
+# INFORMACIÓN RECOLECTADA (COPIAR Y PEGAR AQUÍ):
+# ================================================================
+NOMBRE_UNICO,DIRECTOR,ACTOR_PRINCIPAL 
+
+ 1938 CUANDO EL PETRÓLEO FUE NUESTRO,Joaquín Pseudo, 
+
+ 1992 NOCHE SIN LEY,, 
+
+ 200 LOBO,Rodrigo "Lobo" Courdurier, 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FES,Matt Shakman,Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FINA,Matt Shakman,Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FINB,Matt Shakman,Pedro Pascal 
+
+ 48HFP 2024 GRUPO A,, 
+
+ 48HFP 2024 GRUPO C,, 
+
+ 48HFP 2024 GRUPO D,, 
+
+ 48HFP 2024 GRUPO E,, 
+
+ 48HFP 2024 GRUPO F,, 
+
+ 48HFP 2024 GRUPO G,, 
+
+ 48HFP 2024 GRUPO H,, 
+
+ 48HFP 2024 GRUPO I,, 
+
+ 48HFP 2024 GRUPO J,, 
+
+ 48HFP 2024 GRUPO K,, 
+
+ 48HFP 2024 GRUPO L,, 
+
+ 48HFP 2024 GRUPO M,, 
+
+ 48HFP 2024 GRUPO N,, 
+
+ 6DAYS,Toa Fraser,Jamie Bell 
+
+ 76MICT CERRAR LOS OJOS,Víctor Erice,Manolo Solo 
+
+ 76MICT EL PESAR DE LOS SUEÑOS,Juana Lotero, 
+
+ 76MICT MEMORY,Michel Franco,Jessica Chastain 
+
+ 76MICT MISERICORDIA,Emma Dante,Simone Zambelli 
+
+ 76MICT PROFUNDO CARMESÍ,Arturo Ripstein,Regina Orozco 
+
+ 76MICT SIMÓN DE LA MONTAÑA,Federico Luis,Lorenzo Ferro 
+
+ 76MICT TIERRA DE HERMANOS,Hlynur Pálmason,Elliott Crosset Hove 
+
+ ACABA CON ELLOS,Felipe Gálvez Haberle,Alfredo Castro 
+
+ ACREDITACIÓN FICM 2025,, 
+
+ ADO SPECIAL LIVE SHINZOU EN CINES,,Ado 
+
+ ALARUM CÓDIGO LETAL,Michael Polish,Sylvester Stallone 
+
+ ALAS BLANCAS,Paul-André Robin, 
+
+ ALIEN ROMULUS,Fede Álvarez,Cailee Spaeny 
+
+ ALMAS MARCADAS,Mauro Mauad, 
+
+ ALTO KNIGHTS MAFIA Y PODER,Barry Levinson,Robert De Niro 
+
+ AMATEUR OPERACIÓN VENGANZA BR,James Hawes,Rami Malek 
+
+ AMATEUR OPERACIÓN VENGANZA LED,James Hawes,Rami Malek 
+
+ AMB APOCALIPSIS EN LOS TRÓPICOS,Petra Costa, 
+
+ AMB BINNIGULA SA LOS ANTIGUOS ZAPOTECAS,Enrique H. Mendoza, 
+
+ AMB CAMERAPERSON,Kirsten Johnson, 
+
+ AMB CORAZÓN DE PERRO,Laurie Anderson, 
+
+ AMB DIARIO DE MI SEXTORSIÓN,Joserra Zúñiga, 
+
+ AMB EL OBJETO ANTES LLAMADO DISCO,Elisa Cepedal, 
+
+ AMB EL PROYECTO DEL ASESINO DEL ZODIACO,Tom Hanson, 
+
+ AMB LA LIBERTAD DE FIERRO,Julio H. Cordón, 
+
+ AMB LA LIBERTAD DEL DIABLO,Everardo González, 
+
+ AMB LA PESADILLA DE DARWIN,Hubert Sauper, 
+
+ AMB LEVIATÁN,Lucien Castaing-Taylor & Véréna Paravel, 
+
+ AMB LI CHAM MORÍ,Isabel Vaca, 
+
+ AMB PINA,Wim Wenders,Pina Bausch 
+
+ AMB SALÓN DE BAILE,María T. Larraín, 
+
+ AMB SANTIAGO,João Moreira Salles, 
+
+ AMB VIVAN LAS ANTÍPODAS,Viktor Kossakovsky, 
+
+ AMIGOS IMAGINARIOS,John Krasinski,Ryan Reynolds 
+
+ AMORES MATERIALISTAS BR,Fernando Frías de la Parra,Thomasin McKenzie 
+
+ AMORES MATERIALISTAS LED,Fernando Frías de la Parra,Thomasin McKenzie 
+
+ AN EVENING WITH DUA LIPA EN CINES,,Dua Lipa 
+
+ ANDREA BOCELLI 30 THE CELEBRATION,,Andrea Bocelli 
+
+ ANDREA BOCELLI BECAUSE I BELIEVE,,Andrea Bocelli 
+
+ ANIMALES PELIGROSO,Dean Fleischer Camp,Jason Statham 
+
+ APOCALIPSIS DE SAN JUAN,Raúl García, 
+
+ APOCALIPSIS RADIOACTIVO,Giga Agladze,Jim Sturgess 
+
+ APOCALIPSIS ZOMBIE PACIENTE Z,Jacobo Rispa, 
+
+ AQUÍ,Robert Zemeckis,Tom Hanks 
+
+ ARGONAUTAS,David Freyne,Shazad Latif 
+
+ ARGONAUTAS SJ,David Freyne,Shazad Latif 
+
+ ARILLO DE HOMBRE MUERTO,Alejandro Gerber Bicecci, 
+
+ ARMADOS,Ardit Sadiku, 
+
+ ARMAGEDÓN DIOSES DEL APOCALIPSIS,Chino Moya, 
+
+ ARMAND UNA ACUSACIÓN PELIGROSA,Halfdan Ullmann Tøndel,Renate Reinsve 
+
+ ASESINO SERIAL,Kevin Greutert,Kiefer Sutherland 
+
+ ATAQUE ZOMBIE ESTACIÓN GANGNAM,Lee Soo-seong,Ji Il-joo 
+
+ ATEEZ TOWARDS THE LIGHT WILL TO POWER,,ATEEZ 
+
+ ATEEZ WORLD TOUR HACIA LA LUZ VOLUNTAD DE,,ATEEZ 
+
+ ATEEZ WORLD TOUR TOWARDS THE LIGHT,,ATEEZ 
+
+ ATENTADO EN MADRID,Daniel Calparsoro,Javier Rey 
+
+ AUTOS M A Y ROCANROL,Everardo Valerio, 
+
+ AVENTURAS CANINAS EL MISTERIO DE LA CORONA,Stephen Shimek, 
+
+ AVENTURAS CANINAS EL MISTERIO DE LA CORONA SJ,Stephen Shimek, 
+
+ AVENTURAS DE DOG MAN,Peter Hastings, 
+
+ AVENTURAS DE DOG MAN SJ,Peter Hastings, 
+
+ AÚN ESTOY AQUÍ,Walter Salles,Fernanda Montenegro 
+
+ BABYGIRL DESEO PROHIBIDO,Halina Reijn,Nicole Kidman 
+
+ BAEKHYUN,,Baekhyun 
+
+ BAEKHYUN LONSDALEITE,,Baekhyun 
+
+ BAEKHYUN LONSDALEITE EN CINES,,Baekhyun 
+
+ BAGMAN EL ESPÍRITU DEL MAL,Colm McCarthy,Sam Claflin 
+
+ BAGMAN ESPÍRITU DEL MAL,Colm McCarthy,Sam Claflin 
+
+ BAILARINA BR,Len Wiseman,Ana de Armas 
+
+ BAILARINA LED,Len Wiseman,Ana de Armas 
+
+ BAMBI UNA AVENTURA EN EL BOSQUE SJ,David Hand & James Algar, 
+
+ BARBIE,Greta Gerwig,Margot Robbie 
+
+ BECOMING LED ZEPPELIN,Bernard MacMahon, 
+
+ BECOMING LED ZEPPELIN LOS INICIOS,Bernard MacMahon, 
+
+ BEETLEJUICE BEETLEJUICE,Tim Burton,Michael Keaton 
+
+ BETTER MAN LA HISTORIA DE ROBBIE SING ALONG,Michael Gracey,Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE W SING ALONG,Michael Gracey,Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE WILLIAMS,Michael Gracey,Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE WILLIAMS BR,Michael Gracey,Robbie Williams 
+
+ BIRD EMPRENDER EL VUELO,Andrea Arnold,Barry Keoghan 
+
+ BJÖRK CORNUCOPIA,,Björk 
+
+ BJÖRK CORNUCOPIA EN CINES,,Björk 
+
+ BLANCA NIEVES FINA,Marc Webb,Rachel Zegler 
+
+ BLANCA NIEVES FINB,Marc Webb,Rachel Zegler 
+
+ BLANCA NIEVES SJ,Marc Webb,Rachel Zegler 
+
+ BLUEY JUGUEMOS A SER CHEF,, 
+
+ BLUEY JUGUEMOS A SER CHEF SJ,, 
+
+ BLUR LIVE AT WEMBLEY STADIUM,Toby L,Damon Albarn 
+
+ BRIDGET JONES LOCA POR ÉL BR,Michael Morris,Renée Zellweger 
+
+ BRUJA,Yana Titova, 
+
+ BRUTALISTA,Brady Corbet,Adrien Brody 
+
+ BTS 2016 HYYH ON STAGE EPILOGO REMASTERIZ,,BTS 
+
+ BTS 2016 HYYH ON STAGE EPILOGO REMASTERIZADO,,BTS 
+
+ BTS 2017 THE WINGS TOUR FINAL REMASTERIZADO,,BTS 
+
+ BTS 2017 THE WINGS TOUR THE FINAL REMASTERI,,BTS 
+
+ BTS 2017 THE WINGS TOUR THE FINAL REMASTERIZAD,,BTS 
+
+ BTS 2019 SPEAK YOURSELF LONDON REMASTERIZADO,,BTS 
+
+ BTS 2019SPEAK YOURSELF LONDON REMASTERIZA,,BTS 
+
+ BTS 2021 MUSTER SOWOOZOO REMASTERIZADO,,BTS 
+
+ BTS ARMY FOREVER WE ARE YOUNG,,BTS 
+
+ BTS MAP OF THE SOUL ON E,,BTS 
+
+ BUEN SALVAJE,Santiago Mohar Volkow, 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO,Julius Onah,Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO BR,Julius Onah,Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO SJ,Julius Onah,Anthony Mackie 
+
+ CAPITÁN AVISPA,Jean Gabriel Guerra & Jonathan Meléndez,Juan Luis Guerra 
+
+ CARGA MÁS PRECIADA,Michel Hazanavicius, 
+
+ CHARLIE UN PERRO ESPECIAL,Dean Cain, 
+
+ CHOSEN LA ÚLTIMA CENA,Dallas Jenkins,Jonathan Roumie 
+
+ CHOSEN T4 EP 5 Y 6,Dallas Jenkins,Jonathan Roumie 
+
+ CHOSEN ÚLTIMA CENA,Dallas Jenkins,Jonathan Roumie 
+
+ COCINA,Alonso Ruizpalacios,Raúl Briones Carmona 
+
+ COLORFUL STAGE LA PELÍCULA MIKU NO PUEDE CA,Hiroyuki Oshima, 
+
+ COLORFUL STAGE MIKU NO PUEDE CANTAR,Hiroyuki Oshima, 
+
+ COMPLETO DESCONOCIDO,James Mangold,Timothée Chalamet 
+
+ CONJURO 4 ÚLTIMOS RITOS BR,Michael Chaves,Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS FES,Michael Chaves,Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS FINA,Michael Chaves,Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS LED,Michael Chaves,Patrick Wilson 
+
+ CONTADOR 2 BR,Gavin O'Connor,Ben Affleck 
+
+ CORTE DIRECTOR PÁRVULOS HIJOS DEL APOCALIPSIS,Elias Matar, 
+
+ CUADRILÁTERO,Daniela Castro & Nicolás Pimentel, 
+
+ CUANDO EL DEMONIO LLAMA,Alberto Corredor,Freya Allan 
+
+ CUENTO DE LA PRINCESA KAGUYA,Isao Takahata, 
+
+ CUENTO DE PESCADORES,Marco Almada, 
+
+ CÓDIGO NEGRO BR,Ric Roman Waugh,Gerard Butler 
+
+ CÓDIGO NEGRO LED,Ric Roman Waugh,Gerard Butler 
+
+ CÓDIGO TRAJE ROJO SJ,, 
+
+ CÓMO ENTRENAR A TU DRAGÓN FINA,Dean DeBlois,Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN FINB,Dean DeBlois,Mason Thames 
+
+ CÓNCLAVE BR,Edward Berger,Ralph Fiennes 
+
+ DAFT PUNK LEIJI MATSUMOTO INTERSTELLA,Kazuhisa Takenouchi, 
+
+ DAFT PUNK LEIJI MATSUMOTO INTERSTELLA 5555,Kazuhisa Takenouchi, 
+
+ DALIA Y EL LIBRO ROJO SJ,David Bisbano, 
+
+ DAN DA DAN,Fuga Yamashiro, 
+
+ DAVID GILMOUR,,David Gilmour 
+
+ DAVID GILMOUR CONCIERTO EN EL CIRCO MÁ,,David Gilmour 
+
+ DAVID GILMOUR LIVE AT THE CIRCUS MAXIMUS,,David Gilmour 
+
+ DAVID GILMOUR LIVE CIRCUS MAXIMUS ROME,,David Gilmour 
+
+ DE LA LUZ Y DE LAS SOMBRAS,Taiina, 
+
+ DEMON SLAYER EL TREN INFINITO,Haruo Sotozaki, 
+
+ DEMON SLAYER EL TREN INFINITO BR,Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA BR,Haruo Sotozaki, 
+
+ DEMON SLAYER MUGEN TRAIN LA PELÍCULA,Haruo Sotozaki, 
+
+ DEMONIO VIENE POR TI,Ángel Gonzalez, 
+
+ DOS MONJAS EXORCISMOS PROHIBIDOS,Paul Catalanotto, 
+
+ DRÁCULA MAR DE SANGRE,André Øvredal,Corey Hawkins 
+
+ DÍA QUE LA TIERRA EXPLOTÓ LOONEY TUNES,Pete Browngardt,Eric Bauza 
+
+ EFÍMERA,Luis Mariano García, 
+
+ ELIO,Adrian Molina, 
+
+ ELIO FINA,Adrian Molina, 
+
+ ELIO FINB,Adrian Molina, 
+
+ ELIO LED,Adrian Molina, 
+
+ ELIO SJ,Adrian Molina, 
+
+ EMILIA PÉREZ BR,Jacques Audiard,Zoe Saldaña 
+
+ ENHYPEN WORLD TOUR FATE,,ENHYPEN 
+
+ ENTRE NOSOTROS,Jude Anthany Joseph, 
+
+ ESCAPE EXPLOSIVO,Nimród Antal,Liam Neeson 
+
+ ESPOSA DEL PRESIDENTE,Léa Domenach,Catherine Deneuve 
+
+ ESQUEMA FENICIO,Elias Khlat, 
+
+ ESTACIÓN FANTASMA,Michael Crum, 
+
+ EVENTO ESPECIAL DEMON SLAYER,, 
+
+ EXORCISTAS TRINIDAD PROFANA,Joe Chien, 
+
+ EXTERMINIO LA EVOLUCIÓN BR,Danny Boyle,Jodie Comer 
+
+ EXTERMINIO LA EVOLUCIÓN LED,Danny Boyle,Jodie Comer 
+
+ F1 BR,Joseph Kosinski,Brad Pitt 
+
+ F1 FAN FIRST PREMIERES EXCLUSIVELY IN,, 
+
+ F1 LED,Joseph Kosinski,Brad Pitt 
+
+ FALLA,Juan Antonio M-R, 
+
+ FICG A MELHOR MÃE DO MUNDO,Anna Muylaert, 
+
+ FICG A NATUREZA DAS COISAS INVISÍVEIS,Karla Souza, 
+
+ FICG A PROCURA DE MARTINA,Marcia Faria, 
+
+ FICG A SAVANA E A MONTANHA,Paulo Carneiro, 
+
+ FICG ABRACADÁVER,Manolo Caro, 
+
+ FICG APENAS COISAS BOAS,Daniel Tavares, 
+
+ FICG AT THE END OF THE WORLD,Ruda Santos, 
+
+ FICG AUTOS MOTA Y ROCANROL,Everardo Valerio, 
+
+ FICG BOCA VIEJA,Alê Abreu, 
+
+ FICG CAFÉ CHAIREL,Carlos Enderle, 
+
+ FICG CASA DE LAVA,Pedro Costa, 
+
+ FICG COCODRILOS,Jorge Yúdice, 
+
+ FICG COPAN,Caru Alves de Souza, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 01,, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 02,, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 03,, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 04,, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 05,, 
+
+ FICG CROMA,Jean-Christophe Meurisse, 
+
+ FICG CUERPO CELESTE,Alice Rohrwacher, 
+
+ FICG DOCE LUNAS,Frédéric Fonteyne, 
+
+ FICG ECO DE LUZ,Ere de la Parra, 
+
+ FICG EL ATARDECER DE LOS GRILLOS,Silvana Lopa, 
+
+ FICG EL CANTO DE LAS MANOS,Paula Pires, 
+
+ FICG EL TEMA DEL VERANO,Israel Adrián Caetano, 
+
+ FICG ENDLESS COOKIE,Seth Scriver, 
+
+ FICG ESTA ISLA,Svetlana Cvetko, 
+
+ FICG FARO,Gabe Ibáñez, 
+
+ FICG HOT MILK,Rebecca Lenkiewicz,Fiona Shaw 
+
+ FICG ISLEÑO,David Pantaleón, 
+
+ FICG LA GRAN HISTORIA DE LA FILOSOFÍA OCCIDENTAL,Jordi évolé, 
+
+ FICG LA JOIA BAD GYAL,David Camarero, 
+
+ FICG LA MEMORIA DE LAS MARIPOSAS,Tatiana Huezo, 
+
+ FICG LA QUINTA,Leandro Listorti, 
+
+ FICG LESBIAN SPACE PRINCESS,Veronica Kedar, 
+
+ FICG LLAMARSE OLIMPIA,Esmir Filho, 
+
+ FICG LLUEVE SOBRE BABEL,Gustavo Steinberg, 
+
+ FICG LO IMPOSIBLE,J.A. Bayona,Naomi Watts 
+
+ FICG LOS AÑOS SALVAJES,Ventura Durall, 
+
+ FICG MAYA DONNE MOI UN TITRE,Michel Gondry, 
+
+ FICG MIRABA CAER LAS GOTAS ILUMINADAS,Begoña Vicario, 
+
+ FICG MOLT LLUNY,Gerard Oms, 
+
+ FICG NAYOLA,José Miguel Ribeiro, 
+
+ FICG NO DEJES A LOS NIÑOS SOLOS,Jorge Algora, 
+
+ FICG NO GRACIAS YA NO FUMO,Rodrigo García, 
+
+ FICG O ÚLTIMO AZUL,Irene Zoe Alameda, 
+
+ FICG OLIVIA LAS NUBES,Tomás Corredor, 
+
+ FICG ONDA NOVA,Sérgio Machado, 
+
+ FICG ONLY ON EARTH,Robin Petré, 
+
+ FICG ORO AMARGO,Bárbara Pestan, 
+
+ FICG OS VERDES ANOS,Paulo Rocha, 
+
+ FICG OURO NEGRO,Daniel Filho, 
+
+ FICG PATIO DE CHACALES,Diego Mondaca, 
+
+ FICG PREMIO RIGO MORA 01,, 
+
+ FICG PREMIO RIGO MORA 02,, 
+
+ FICG PREMIO RIGO MORA 03,, 
+
+ FICG RUNA SIMI,Juan Sebastián Jácome, 
+
+ FICG SABAR BONDA,M. G. Srinivas, 
+
+ FICG SEEDS,Brittany Snow, 
+
+ FICG SIEMPRE VUELVEN,Marcelo Lordello, 
+
+ FICG SOBRE LAS OLAS,Horacio Alcalá, 
+
+ FICG SONHAR COM LEÕES,Paolo Marinou-Blanco, 
+
+ FICG SPACE CADET,Liz W. Garcia,Emma Roberts 
+
+ FICG TARDES DE SOLEDAD,Albert Serra, 
+
+ FICG THE MOUNTAIN WON T MOVE,Frédéric Guillaume, 
+
+ FICG THE SHEPHERD AND THE BEAR,Miloslav Luther, 
+
+ FICG TIGUERE,José María Cabral, 
+
+ FICG TRÁS OS MONTES,António Reis & Margarida Cordeiro, 
+
+ FICG UM ADEUS PORTUGUÊS,João Botelho, 
+
+ FICJM AMÉRICA,Ofir Raul Graizer, 
+
+ FICJM CORRIENDO EN LA ARENA,Gabor Csupo, 
+
+ FICJM ESCUCHA,Ana Rocha de Sousa, 
+
+ FICJM LA HISTORIA DE ANNETTE,Vicente Villanueva, 
+
+ FICJM LA PROMESA DE IRENE,Louise Archambault,Sophie Nélisse 
+
+ FICJM LO QUE NO SE HABLÓ,Ángeles Cruz, 
+
+ FICM 1992,Ariel Winograd, 
+
+ FICM A REAL PAIN,Jesse Eisenberg,Jesse Eisenberg 
+
+ FICM CONCLAVE,Edward Berger,Ralph Fiennes 
+
+ FLOW,Gints Zilbalodis, 
+
+ FLOW BR,Gints Zilbalodis, 
+
+ FLOW OV,Gints Zilbalodis, 
+
+ FLOW SJ OV,Gints Zilbalodis, 
+
+ FRONTERA INVISIBLE,Alejandro Small, 
+
+ FTM CORAZÓN EN JUEGO,Frank Ariza, 
+
+ FTM CÓMO SER MILLONARIO ANTES QUE MUERA LA ABUELA,Pat Boonnitipat,Putthipong Assaratanakul 
+
+ FTM DESPIERTA MAMÁ,Arianne Benedetti, 
+
+ FTM DESVANECIDO,Tim Brown, 
+
+ FTM EL ABUELO LLEGÓ,César Cotelo, 
+
+ FTM EL DIABLO A LOS OJOS,Davo scrib, 
+
+ FTM EL HIJO DE SU PADRE,Jiajie Yu Yan, 
+
+ FTM EL MARAVILLOSO MAGO DE OZ,Victor Fleming,Judy Garland 
+
+ FTM LAS HIJAS DEL VIENTO,Javier Balaguer, 
+
+ FTM LO QUE DICE EL CORAZÓN,David Nixon, 
+
+ FTM NOSOTROS LOS DE LA FE,Julio Roman, 
+
+ FTM RAISING THE BAR THE ALMA RICHARDS STORY,D.W. Richards, 
+
+ FTM REFLEJOS EN EL TIEMPO,Stiles White, 
+
+ FTM SIEMPRE HABRÁ UN MAÑANA,Paola Cortellesi,Paola Cortellesi 
+
+ G I DLE WORLD TOUR IDOL IN,,(G)I-DLE 
+
+ G I DLE WORLD TOUR IDOL IN CINEMAS,,(G)I-DLE 
+
+ GLADIADOR II BR,Ridley Scott,Paul Mescal 
+
+ GO WILD ATARASHII GAKKO LA PELÍCULA,,Atarashii Gakko! 
+
+ GOODBYE HORSES LAS MUCHAS VIDAS DE Q LAZZARUS,Alex Steyermark, 
+
+ GRAN CICLÓN,Herbert James, 
+
+ GRAN VIAJE DE TU VIDA,Miguel Ángel Tobías, 
+
+ GUNDAM GQUUUUUUX EL INICIO,Yoshiyuki Tomino, 
+
+ HANS ZIMMER FRIENDS DIAMOND IN THE DESER,,Hans Zimmer 
+
+ HANS ZIMMER FRIENDS DIAMOND IN THE DESERT,,Hans Zimmer 
+
+ HAZ QUE REGRESE,Vadhir Derbez,Vadhir Derbez 
+
+ HERENCIA SINIESTRA,Julio César Estrada, 
+
+ HERMANASTRA FEA,Jennifer Kaytin Robinson,Camila Mendes 
+
+ HIJAS DEL MAGUEY,Tania Hernández Velasco, 
+
+ HIJO DEL DIABLO,JJ Geier, 
+
+ HIJOS DEL EXORCISMO,Norbert Keil, 
+
+ HOLA FRIDA,Karla Castañeda, 
+
+ HOLDING BACK THE YEARS 40 YEARS OF SIMPLY,,Simply Red 
+
+ HOMBRE LOBO BR,Leigh Whannell,Christopher Abbott 
+
+ HORA DE LA DESAPARICIÓN BR,Brad Anderson,Hayden Christensen 
+
+ HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTO,Trey Edward Shults,The Weeknd 
+
+ HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTORES,Trey Edward Shults,The Weeknd 
+
+ HYBE CINEMA NORAEBANG,, 
+
+ IMAGINE DRAGONS EN VIVO DESDE,,Imagine Dragons 
+
+ IMAGINE DRAGONS LIVE FROM THE HOLLYWOOD BOWL,,Imagine Dragons 
+
+ INFIERNO EN EL PANTANO,Richard Boddington, 
+
+ INFILTRADA,Stéphane Cazes, 
+
+ INSTINTO MATERNO,Benoît Delhomme,Anne Hathaway 
+
+ INTERESTELAR DIG,Christopher Nolan,Matthew McConaughey 
+
+ INVASIÓN ZOMBIE HIJOS DEL APOCALIPSIS,Elias Matar, 
+
+ INVENCIBLE UN NIÑO FUERA DE SERIE,Mark Polonia, 
+
+ IU CONCERT THE WINNING,,IU 
+
+ IVE THE 1ST WORLD TOUR EN CINES,,IVE 
+
+ J HOPE TOUR HOPE ON THE STAGE,,J-Hope 
+
+ J HOPE TOUR HOPE ON THE STAGE IN JAPAN,,J-Hope 
+
+ J HOPE TOUR HOPE ON THE STAGE LIVE VIEWING OV,,J-Hope 
+
+ JOYLAND LA TIERRA DE LOS SUEÑOS,Saim Sadiq,Ali Junejo 
+
+ JUICIO DE UN PERRO,Gorman Bechard, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TE,Shōta Goshozono, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TE BR,Shōta Goshozono, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TESORO,Shōta Goshozono, 
+
+ JUNE Y JOHN,David Lynch, 
+
+ JURASSIC WORLD RENACE BR,Gareth Edwards,Scarlett Johansson 
+
+ JURASSIC WORLD RENACE FES,Gareth Edwards,Scarlett Johansson 
+
+ KARATE KID LEYENDAS BR,Jonathan Entwistle,Ben Wang 
+
+ KARATE KID LEYENDAS FINA,Jonathan Entwistle,Ben Wang 
+
+ KARATE KID LEYENDAS FINB,Jonathan Entwistle,Ben Wang 
+
+ KARATE KID LEYENDAS LED,Jonathan Entwistle,Ben Wang 
+
+ KARATE KID LEYENDAS SJ,Jonathan Entwistle,Ben Wang 
+
+ KARUARA LA GENTE DEL RÍO,Cristóbal Sotomayor, 
+
+ KAYARA EL CORAZÓN DE LOS ANDES,César Zelada, 
+
+ KAYARA EL CORAZÓN DE LOS ANDES SJ,César Zelada, 
+
+ KAYARA LA PRINCESA INCA,César Zelada, 
+
+ KAYARA LA PRINCESA INCA SJ,César Zelada, 
+
+ KENIA OS LA OG,,Kenia Os 
+
+ KENIA OS LA OG BR,,Kenia Os 
+
+ KRAVEN EL CAZADOR BR,J.C. Chandor,Aaron Taylor-Johnson 
+
+ KYGO 2025 BACK AT THE BOWL,,Kygo 
+
+ KYGO BACK AT THE BOWL,,Kygo 
+
+ LEONORA,Gibrán Bazán, 
+
+ LEYENDA DEL DRAGÓN SJ,Li Jianping, 
+
+ LILO LILO COCODRILO,Will Speck & Josh Gordon,Shawn Mendes 
+
+ LILO STITCH,Dean Fleischer Camp,Maia Kealoha 
+
+ LILO STITCH SJ,Dean Fleischer Camp,Maia Kealoha 
+
+ LILO Y STITCH,Dean Fleischer Camp,Maia Kealoha 
+
+ LILO Y STITCH BR,Dean Fleischer Camp,Maia Kealoha 
+
+ LILO Y STITCH FINB,Dean Fleischer Camp,Maia Kealoha 
+
+ LILO Y STITCH SJ,Dean Fleischer Camp,Maia Kealoha 
+
+ LO QUE DICE EL CORAZÓN,David Nixon, 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ,Pete Browngardt,Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ BR,Pete Browngardt,Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ SJ,Pete Browngardt,Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA FINA,Pete Browngardt,Eric Bauza 
+
+ M3GAN 2 0 BR,Gerard Johnstone,Allison Williams 
+
+ MAMÁ REINVENTADA,Matthew Johnson, 
+
+ MAMÁ REINVENTADA BR,Matthew Johnson, 
+
+ MARAVILLOSO MAGO DE OZ,Victor Fleming,Judy Garland 
+
+ MARIA CALLAS,Tom Volf, 
+
+ MARS EXPRESS,Jérémie Périn, 
+
+ MARÍA CALLAS,Tom Volf, 
+
+ MASCOTA JURÁSICA 3 VIAJE A LA PREHISTORIA,Ryan Bellgardt, 
+
+ MASCOTAS EN APUROS,Reinhard Klooss, 
+
+ MASCOTAS EN APUROS SJ,Reinhard Klooss, 
+
+ MASTERCHEF CELEBRITY GENERACIONES GRAN FIN,, 
+
+ MEGATORMENTA,Peter Geiger, 
+
+ MEMORIAS DE UN CARACOL,Adam Elliot, 
+
+ MEMORY UN RECUERDO INCOMPLETO,Michel Franco,Jessica Chastain 
+
+ MESA DE REGALOS,Roberto Sneider, 
+
+ MESA DE REGALOS BR,Roberto Sneider, 
+
+ MICKEY 17,Bong Joon-ho,Robert Pattinson 
+
+ MICKEY 17 BR,Bong Joon-ho,Robert Pattinson 
+
+ MICKEY 17 LED,Bong Joon-ho,Robert Pattinson 
+
+ MICMX ARILLO DE HOMBRE MUERTO,Alejandro Gerber Bicecci, 
+
+ MICMX CONCIERTO PARA OTRAS MANOS,Cristóbal Cruz, 
+
+ MICMX CORTOMETRAJES DE FICCIÓN MX,, 
+
+ MICMX HOMBRES ÍNTEGROS,Alejandro Andrade, 
+
+ MICMX LIFTING,David Castro, 
+
+ MICMX PARTIDA,Diego Ozuna, 
+
+ MICMX PRIMERA PERSONA,Máximo Hollander, 
+
+ MICMX ROSINANTE,Olmo Guerra, 
+
+ MICMX SONG OF THE LAST LACANDON HOLY MAN,Nicolas Défossé, 
+
+ MICMX SOY LO QUE NUNCA FUI,America Maldonado, 
+
+ MICMX VOZ VIAJANTE,Constanza Valerio, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 1,, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 2,, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 3,, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 4,, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 5,, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 6,, 
+
+ MIJARES SINFÓNICO CELEBRA EL AMOR,,Mijares 
+
+ MIRACULOUS LAS AVENTURAS DE LADYBUG Y CAT SJ,Jeremy Zag, 
+
+ MIRREYES VS GODÍNEZ LAS VEGAS BR,Chava Cartas,Regina Blandón 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL BR,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL FINA,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA BR,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA MORTAL P 1,Christopher McQuarrie,Tom Cruise 
+
+ MIX ALMA DEL DESIERTO,Mónica Álvarez Franco, 
+
+ MIX ARRUINARLO TODO,Andrea Rovira, 
+
+ MIX BREVE HISTORIA DE UN BREVE DRAG,Fausto Estrada, 
+
+ MIX CORTOS PANORAMA PROGRAMA 2,, 
+
+ MIX DETRANS DE MÍ,Issa López, 
+
+ MIX HOMBRES ÍNTEGROS,Alejandro Andrade, 
+
+ MIX LA RED,Tonatiuh Loza, 
+
+ MIX LLÁMAME AGNES,Aglaja Veteranyi, 
+
+ MIX LO QUE ESCRIBIMOS JUNTOS,Valeria Stucki, 
+
+ MIX MEMORABILIA,Pedro de Filippis, 
+
+ MIX MI NOVIO EL FASCISTA,Roberta Torre, 
+
+ MIX SANDBAG DAM,Jamie M. Dagg, 
+
+ MIX SER MIKOLAJ,Krzysztof Chodorowski, 
+
+ MIX SOY LO QUE NUNCA FUI,America Maldonado, 
+
+ MIX SPEAKING OUT,Bárbara Lago, 
+
+ MIX TODO LO QUE SIEMPRE QUISIMOS,Luis Murillo Arias, 
+
+ MIX VIH LA CAUSA JUSTA,Richie Alvarez, 
+
+ MOANA 2,Dave Derrick Jr.,Auliʻi Cravalho 
+
+ MOANA 2 BR,Dave Derrick Jr.,Auliʻi Cravalho 
+
+ MOANA 2 FINA,Dave Derrick Jr.,Auliʻi Cravalho 
+
+ MOANA 2 FINB,Dave Derrick Jr.,Auliʻi Cravalho 
+
+ MTV UNPLUGGED LOS BUNKERS,,Los Bunkers 
+
+ MUERTE DE UN UNICORNIO,Alex Scharfman,Paul Rudd 
+
+ MUFASA EL REY LEÓN BR,Barry Jenkins,Aaron Pierre 
+
+ MUFASA EL REY LEÓN FES,Barry Jenkins,Aaron Pierre 
+
+ MUFASA EL REY LEÓN FINA,Barry Jenkins,Aaron Pierre 
+
+ MUFASA EL REY LEÓN FINB,Barry Jenkins,Aaron Pierre 
+
+ MUFASA EL REY LEÓN SJ,Barry Jenkins,Aaron Pierre 
+
+ MUJERES DEL ALBA,Jimena Montemayor Loyo, 
+
+ MY HERO ACADEMIA AHORA ES TU TURNO,Kenji Nagasaki, 
+
+ MÉDIUM,Cristina Gallego & Ciro Guerra, 
+
+ NADIE,Ilya Naishuller,Bob Odenkirk 
+
+ NADIE 2 BR,Timo Tjahjanto,Bob Odenkirk 
+
+ NCT DREAM MYSTERY LAB DREAM SCAPE EN CIN,,NCT Dream 
+
+ NCT DREAM MYSTERY LAB DREAM SCAPE EN CINES,,NCT Dream 
+
+ NIKO LA AVENTURA DE LAS NARICES FRÍAS,Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LA AVENTURA DE LAS NARICES FRÍAS SJ,Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LAS AVENTURAS DE LAS NARICES FRÍAS,Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LAS AVENTURAS DE LAS NARICES FRÍAS SJ,Kari Juusonen & Jørgen Lerdam, 
+
+ NO HAGAS OLAS,Alexander Mackendrick,Tony Curtis 
+
+ NOCHE DE LOS HOMBRES LOBO,François Uzan,Jean Reno 
+
+ NOVICIA REBELDE 60 ANIVERSARIO,Robert Wise,Julie Andrews 
+
+ NOVOCAINE SIN DOLOR BR,Dan Berk & Robert Olsen,Jack Quaid 
+
+ ODISEA EL REGRESO,Uberto Pasolini,Ralph Fiennes 
+
+ ONE DIRECTION ASI SOMOS,Morgan Spurlock,One Direction 
+
+ ONE DIRECTION ASÍ SOMOS,Morgan Spurlock,One Direction 
+
+ OPERACIÓN PANDA MISIÓN RESCATE SJ,Vasily Rovenskiy, 
+
+ OTRO VIERNES DE LOCOS BR,Nisha Ganatra,Jamie Lee Curtis 
+
+ OTRO VIERNES DE LOCOS FINB,Nisha Ganatra,Jamie Lee Curtis 
+
+ PADDINGTON AVENTURA EN LA SELVA SJ,Dougal Wilson,Ben Whishaw 
+
+ PADDINGTON EN PERÚ SJ,Dougal Wilson,Ben Whishaw 
+
+ PAISAJES,Paul Urkijo Alijo, 
+
+ PARANORMAN REMASTERIZADO,Chris Butler & Sam Fell, 
+
+ PARTHENOPE LOS AMORES DE NÁPOLES,Paolo Sorrentino,Celeste Dalla Porta 
+
+ PASANTE DE MODA 10 ANIVERSARIO,Nancy Meyers,Robert De Niro 
+
+ PATASOLA CAZA INFIELES,Ersain Hidalgo, 
+
+ PAW PATROL LA SÚPER PELÍCULA,Cal Brunker, 
+
+ PECADORES,B. Harrison Smith, 
+
+ PELÍCULA DE MINECRAFT BR,Jared Hess,Jason Momoa 
+
+ PELÍCULA DE MINECRAFT FINA,Jared Hess,Jason Momoa 
+
+ PELÍCULA DE MINECRAFT FINB,Jared Hess,Jason Momoa 
+
+ PELÍCULA DE MINECRAFT SJ,Jared Hess,Jason Momoa 
+
+ PEQUEÑA,Lucía Carreras, 
+
+ PEQUEÑA CONFUSIÓN,A.T. White, 
+
+ PEREZ OSOS,Juan Carlos Cremata Malberti, 
+
+ PEREZ OSOS SJ,Juan Carlos Cremata Malberti, 
+
+ PITUFOS FINB,Chris Miller, 
+
+ PITUFOS SJ,Chris Miller, 
+
+ PLAN DEL ASESINO,Daniel Benmayor,Mario Casas 
+
+ PRINCE SIGN O THE TIMES,Prince,Prince 
+
+ PUENTE EN LLAMAS,Isaac Florentine,Dolph Lundgren 
+
+ PÉREZ OSOS,Juan Carlos Cremata Malberti, 
+
+ PÉREZ OSOS SJ,Juan Carlos Cremata Malberti, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 1,, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 3,, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 4,, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 5,, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 6,, 
+
+ QUÉ HUEVOS SOFÍA,Marlon Moreno,Mónica Huarte 
+
+ QUÉ HUEVOS SOFÍA BR,Marlon Moreno,Mónica Huarte 
+
+ RE ANTES DEL AMANECER,Richard Linklater,Ethan Hawke 
+
+ RE DC LIGA DE SUPERMASCOTAS,Jared Stern,Dwayne Johnson 
+
+ RE DEMON SLAYER EL TREN INFINITO,Haruo Sotozaki, 
+
+ RE DEMON SLAYER MUGEN TRAIN,Haruo Sotozaki, 
+
+ RE EL CONJURO 3 EL DIABLO ME OBLIGÓ A HACERLO,Michael Chaves,Patrick Wilson 
+
+ RE LA MOMIA 25 ANIVERSARIO,Stephen Sommers,Brendan Fraser 
+
+ RE PULP FICTION,Quentin Tarantino,John Travolta 
+
+ RE STAR WARS III LA VENGANZA DE LOS SITHS,George Lucas,Ewan McGregor 
+
+ RE STAR WARS III LA VENGANZA DE SITH,George Lucas,Ewan McGregor 
+
+ RE TIBURÓN,Steven Spielberg,Roy Scheider 
+
+ RE YANA WARA,Tito Catacora, 
+
+ RECUERDOS DEL AYER,Isao Takahata, 
+
+ RED VELVET HAPPINESS DIARY MY DEAR REVE1UV,,Red Velvet 
+
+ RESCATE IMPLACABLE BR,Mabrouk El Mechri,Henry Cavill 
+
+ RIESGO BAJO CERO,Jonathan Hensleigh,Liam Neeson 
+
+ RM LA GENTE ADECUADA EN EL LUGAR EQUIVOCADO,,RM 
+
+ RM RIGHT PEOPLE WRONG PLACE,,RM 
+
+ ROBIN EL POSEÍDO,Robin Entreinger, 
+
+ ROBOT SALVAJE,Chris Sanders,Lupita Nyong'o 
+
+ ROBOT SALVAJE SJ,Chris Sanders,Lupita Nyong'o 
+
+ ROSARIO HERENCIA MALDITA,Homero Bueno, 
+
+ ROSES BR,Lluís Danés, 
+
+ RUNSEOKJIN EP TOUR EN VIVO DESDE AMSTERDAM,, 
+
+ RUNSEOKJIN_EP TOUR GLOBAL LIVE VIEWING OV,, 
+
+ RYAN GARCIA VS ROLLY ROMERO ORI,,Ryan Garcia 
+
+ SATURDAY NIGHT LA NOCHE QUE CAMBIÓ LA COME,Jason Reitman,Gabriel LaBelle 
+
+ SEPTIEMBRE 5,Tim Fehlbaum,Peter Sarsgaard 
+
+ SEVENTEEN RIGHT HERE WORLD,,SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR,,SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR EN,,SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR EN CINES,,SEVENTEEN 
+
+ SEVENTEEN TOUR FOLLOW NUEVAM,,SEVENTEEN 
+
+ SEVENTEEN WORLD TOUR BE THE SUN,,SEVENTEEN 
+
+ SEÑOR DE LOS ANILLOS EL RETORNO DEL REY,Peter Jackson,Elijah Wood 
+
+ SEÑOR DE LOS ANILLOS GUERRA ROHIRRIM,Kenji Kamiyama,Brian Cox 
+
+ SEÑOR DE LOS ANILLOS LA GUERRA DE LOS BR,Kenji Kamiyama,Brian Cox 
+
+ SFF 2000 METERS TO ANDRIIVKA,Anton Shtuka, 
+
+ SFF DJ AHMET,Georgi M. Unkovski, 
+
+ SFF FUNCIÓN ESPECIAL ABEL,Diego Luna,Christopher Ruíz-Esparza 
+
+ SFF FUNCIÓN ESPECIAL LA LEY DE HERODES,Luis Estrada,Damián Alcázar 
+
+ SFF LURKER,Alex Russell, 
+
+ SFF MALU,Pedro Freire, 
+
+ SFF MR NOBODY AGAINST PUTIN,David Borenstein, 
+
+ SFF ONE TO ONE JOHN YOKO,Kevin Macdonald, 
+
+ SFF PLAINCLOTHES,Oren Gerner, 
+
+ SFF PRIME MINISTER,David Wexler, 
+
+ SFF PROGRAMA DE CORTOS,, 
+
+ SFF SALLY,Cristina Costantini, 
+
+ SFF SELENA Y LOS DINOS,Gregory Nava,Jennifer Lopez 
+
+ SFF SESIÓN Q A 2000 METERS TO ANDRIIVKA,, 
+
+ SFF SESIÓN Q A DJ AHMET,, 
+
+ SFF SESIÓN Q A GEN_,, 
+
+ SFF SESIÓN Q A LURKER,, 
+
+ SFF SESIÓN Q A MR NOBODY AGAINST PUTIN,, 
+
+ SFF SESIÓN Q A ONE TO ONE JOHN YOKO,, 
+
+ SFF SESIÓN Q A PLAINCLOTHES,, 
+
+ SFF SESIÓN Q A PRIME MINISTER,, 
+
+ SFF SESIÓN Q A PROGRAMA DE CORTOS,, 
+
+ SFF SESIÓN Q A SELENA Y LOS DINOS,, 
+
+ SFF SESIÓN Q A THE DATING GAME,, 
+
+ SFF SESIÓN Q A THE VIRGIN OF THE QUARRY LAKE,, 
+
+ SFF SESIÓN Q A TOGETHER,, 
+
+ SFF SESIÓN Q A TWINLESS,, 
+
+ SFF THE DATING GAME,Anna Kendrick,Anna Kendrick 
+
+ SFF THE UGLY STEPSISTER,Emilie Blichfeldt, 
+
+ SFF THE VIRGIN OF THE QUARRY LAKE,Laura Casabé, 
+
+ SFF TWINLESS,James Sweeney, 
+
+ SIEMPRE HABRÁ UN MAÑANA,Paola Cortellesi,Paola Cortellesi 
+
+ SIKANDAR,A.R. Murugadoss,Salman Khan 
+
+ SKETCH DIBUJOS ANIMADOS,Seth Worley, 
+
+ SNEAKS UN PAR CON SUERTE SJ,Rob Edwards, 
+
+ SOBREVIVIENTE LA CAÍDA DEL VUELO 811,Pasha Patriki, 
+
+ SOLO LEVELING SEGUNDO DESPERTAR,Shunsuke Nakashige, 
+
+ SOLTERA CODICIADA 2,Joanna Lombardi,Gisela Ponce de León 
+
+ SONIC 3 LA PELÍCULA BR,Jeff Fowler,Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA SJ,Jeff Fowler,Ben Schwartz 
+
+ SONIC LA PELÍCULA,Jeff Fowler,Ben Schwartz 
+
+ STANS EMINEM SUS GRANDES FANS,Steven Leckart, 
+
+ STAR WARS EPISODIO III LA VENGANZA DE FES,George Lucas,Ewan McGregor 
+
+ STRAIGHT,Marcel Gisler, 
+
+ STRAIGHT CUÁL ES TU SECRETO,Marcel Gisler, 
+
+ SUBMARINITOS,Elly Mackay, 
+
+ SUBMARINITOS SJ,Elly Mackay, 
+
+ SUPERMAN BR,James Gunn,David Corenswet 
+
+ SUPERNOVA STRIKERS AMIGO,Young-Soo, 
+
+ SUSTANCIA,Coralie Fargeat,Demi Moore 
+
+ TAEYONG TY TRACK IN CINEMAS,,Taeyong 
+
+ TCF CUANDO LLEGA EL OTOÑO,Jean-Jacques Annaud, 
+
+ TCF LA MAESTRA VIOLET,Léa Pool, 
+
+ TCF LOS LAZOS QUE NOS UNEN,Roschdy Zem, 
+
+ TCF RODRIGO ENAMORADO,Juan Ibáñez, 
+
+ TCF UN TOQUE DE AMOR,Guillaume Canet, 
+
+ TEARS FOR FEARS LIVE A TIPPING POINT FILM,,Tears for Fears 
+
+ TERREMOTO 8 5 GRADOS,John Andreas Andersen, 
+
+ TERREMOTO MAGNITUD 9 0,Kim Ji-hoon, 
+
+ TERRIFIER 3 PAYASO SINIESTRO,Damien Leone,David Howard Thornton 
+
+ THUNDERBOLTS BR,Jake Schreier,Florence Pugh 
+
+ THUNDERBOLTS FES,Jake Schreier,Florence Pugh 
+
+ THUNDERBOLTS FINA,Jake Schreier,Florence Pugh 
+
+ TIBURÓN BLANCO ATAQUE FINAL,James Nunn, 
+
+ TIPOS MALOS 2 BR,Pierre Perifel,Sam Rockwell 
+
+ TIPOS MALOS 2 FINB,Pierre Perifel,Sam Rockwell 
+
+ TOMORROW X TOGETHER WORLD TOUR,,Tomorrow X Together 
+
+ TOMORROW X TOGETHER WORLD TOUR SWEET MIRAGE,,Tomorrow X Together 
+
+ TORTUGA ROJA,Michaël Dudok de Wit, 
+
+ TOY STORY 30 ANIVERSARIO,Lee Unkrich,Tom Hanks 
+
+ TOY STORY 30 ANIVERSARIO SJ,Lee Unkrich,Tom Hanks 
+
+ TRAMPA DEL RATÓN,Kike Maíllo, 
+
+ TRANSFORMERS UNO SJ,Josh Cooley,Chris Hemsworth 
+
+ TRATADO DE INVISIBILIDAD,Lucía Feijóo, 
+
+ TRIVIA NIGHT BY CINÉPOLIS Y CAPITÁN AMÉRICA,, 
+
+ TUMBA DE LAS LUCIÉRNAGAS,Isao Takahata, 
+
+ TÉTANO,Salomé Lamas, 
+
+ UNTIL DOWN NOCHE DE TERROR,David F. Sandberg,Ella Rubin 
+
+ VAMPIRA HUMANISTA BUSCA SUICIDA,Ariane Louis-Seize,Sara Montpetit 
+
+ VELADA CON DUA LIPA,,Dua Lipa 
+
+ VENGANZA DE CENICIENTA,Louisa Warren, 
+
+ VIDA EN GRIS,Lasse Hallström, 
+
+ VIDAS DE SING SING,Greg Kwedar,Colman Domingo 
+
+ VIENES O ME VOY,Frank Ariza,Dani Rovira 
+
+ WARNING EN VIVO DESDE EL AUDITORIO NAC,, 
+
+ WICKED SING ALONG,Jon M. Chu,Cynthia Erivo 
+
+ YO VI TRES LUCES NEGRAS,Santiago Lozano Álvarez, 
+
+ YUNGBLUD ARE YOU READY BOY,,Yungblud 
+
+ YUNGBLUD ARE YOU READY BOY EN CINES,,Yungblud 
+
+ ZAK Y WOWO LA LEYENDA DE LENDARYS,Philippe Duchêne, 
+
+ ZERO BASE ONE TIMELESS WORLD,,ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS,,ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS WORLD,,ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS WORLD IN,,ZEROBASEONE 
+
+ ÁGUILA Y EL GUSANO,Guita Schyfter, 
+
+ ÚLTIMA CENA,Dallas Jenkins,Jonathan Roumie 
+
+ ÚLTIMO RODEO,Conor Allyn,Scott Eastwood 
+
+ ÚLTIMO VIAJE FINB,Anna Marsh, 
+
+ 200 LOBO SJ,Rodrigo "Lobo" Courdurier, 
+
+ 2023 WEVERSE CON FESTIVAL,, 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS,Matt Shakman,Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS BR,Matt Shakman,Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS LED,Matt Shakman,Pedro Pascal 
+
+ ABUELA,Paco Plaza,Almudena Amor 
+
+ ALUVIÓN,Alejandro Nieto Polo, 
+
+ AMATEUR OPERACIÓN VENGANZA,James Hawes,Rami Malek 
+
+ AMB BUSCANDO A SUGAR MAN,Malik Bendjelloul, 
+
+ AMB CASSANDRO EL EXÓTICO,Roger Ross Williams,Gael García Bernal 
+
+ AMB EL ACTO DE MATAR,Joshua Oppenheimer, 
+
+ AMB KAMAY,Sharofat Arabova, 
+
+ AMB LA IMAGEN AUSENTE,Rithy Panh, 
+
+ AMB LOS SUEÑOS QUE COMPARTIMOS,Valentina Pelayo, 
+
+ AMB PEACHES GOES BANANAS,Marie Losier, 
+
+ AMB SIEMPRE SEREMOS JÓVENES,Gonzalo Perdomo, 
+
+ AMB USUARIOS,Natalia Almada, 
+
+ AMB ZOÉ PANORAMAS,Rodrigo Guardiola & Gabriel Cruz Rivas, 
+
+ AMENAZA EN EL AIRE,Timo Vuorensola, 
+
+ AMOR EN LA GRAN CIUDAD,Don Scardino, 
+
+ AMOR ERIZO,Adrien Candiard, 
+
+ AMORES COMPARTIDOS,Paloma Zapata, 
+
+ AMORES INCOMPLETOS,Gilberto González Penilla, 
+
+ AMORES MATERIALISTAS,Fernando Frías de la Parra,Thomasin McKenzie 
+
+ ANIMALES PELIGROSOS,Dean Fleischer Camp,Jason Statham 
+
+ ANORA,Sean Baker,Mikey Madison 
+
+ APRENDIZ,Ali Abbasi,Sebastian Stan 
+
+ ARRIERA,Isabel Cristina Fregoso, 
+
+ ASESINO IMPLACABLE,Pierre Morel,Liam Neeson 
+
+ ATRAPADO ROBANDO,James Foley, 
+
+ ATREVIDA,Víctor Hugo Borges, 
+
+ ATTACK ON TITAN EL ATAQUE FINAL,Yūichirō Hayashi, 
+
+ AÑO DIFÍCIL,Éric Toledano & Olivier Nakache,Pio Marmaï 
+
+ BAILARINA,Len Wiseman,Ana de Armas 
+
+ BALADA DE LA ISLA,Eytan Fox, 
+
+ BAMBI UNA AVENTURA EN EL BOSQUE,David Hand & James Algar, 
+
+ BATMAN AZTECA CHOQUE DE IMPERIOS,Juan Meza-León,Horacio Garcia Rojas 
+
+ BAÑO DEL DIABLO,Veronika Franz & Severin Fiala,Anja Plaschg 
+
+ BLANCA NIEVES,Marc Webb,Rachel Zegler 
+
+ BLANCA NIEVES BR,Marc Webb,Rachel Zegler 
+
+ BLANCA NIEVES LED,Marc Webb,Rachel Zegler 
+
+ BLINDADO SIN SALIDA,Eduardo Chow, 
+
+ BOONIE BEARS VIAJE EN EL TIEMPO,Lin Huida, 
+
+ BRIDGET JONES LOCA POR ÉL,Michael Morris,Renée Zellweger 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO FINA,Julius Onah,Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO LED,Julius Onah,Anthony Mackie 
+
+ CATÁSTROFE EN LA NIEVE,Julian Gilbey, 
+
+ CAZATESOROS,Jesse V. Johnson,Thomas Jane 
+
+ CHICAS PESADAS 20 ANIVERSARIO,Samantha Jayne & Arturo Perez Jr.,Angourie Rice 
+
+ CLUB PERFECTO,Castille Landon, 
+
+ COLINA DE LAS AMAPOLAS,Gorō Miyazaki, 
+
+ COMPAÑERA PERFECTA,Zoë Kravitz,Naomi Ackie 
+
+ CONDE DE MONTECRISTO,Matthieu Delaporte & Alexandre de La Patellière,Pierre Niney 
+
+ CONFESIÓN DEL DIABLO,Pål Øie, 
+
+ CONJURO,James Wan,Vera Farmiga 
+
+ CONJURO 3 EL DIABLO ME OBLIGÓ,Michael Chaves,Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS,Michael Chaves,Patrick Wilson 
+
+ CONJURO DE LA BRUJA,Mark Atkins, 
+
+ CONTADOR 2,Gavin O'Connor,Ben Affleck 
+
+ CONTRATO PARA MATAR,James Cullen Bressack, 
+
+ CORAZONES JÓVENES,Anthony Schatteman, 
+
+ CORINA,Carla Estrada,Naian González Norvind 
+
+ CRIATURA INFERNAL,Scott Slone, 
+
+ CRIATURAS LÍNEA DE EXTINCIÓN,Giles Alderson, 
+
+ CRUCIFIJO SANGRE DEL EXORCISTA,Chris Beyrooty, 
+
+ CUADRO PERDIDO,Mariano Pozzi, 
+
+ CÓDIGO NEGRO,Ric Roman Waugh,Gerard Butler 
+
+ CÓDIGO TRAJE ROJO,, 
+
+ CÓMO ENTRENAR A TU DRAGÓN,Dean DeBlois,Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN BR,Dean DeBlois,Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN SJ,Dean DeBlois,Mason Thames 
+
+ CÓMO SER MILLONARIO ANTES QUE MUERA LA,Pat Boonnitipat,Putthipong Assaratanakul 
+
+ CÓMO SER MILLONARIO ANTES QUE MUERA LA ABUELA,Pat Boonnitipat,Putthipong Assaratanakul 
+
+ CÓNCLAVE,Edward Berger,Ralph Fiennes 
+
+ CÓNCLAVE LED,Edward Berger,Ralph Fiennes 
+
+ DALIA Y EL LIBRO ROJO,David Bisbano, 
+
+ DAN DA DAN EVIL EYE,Fuga Yamashiro, 
+
+ DEMON SLAYER CASTILLO INFINITO,Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA,Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA CASTILLO,Haruo Sotozaki, 
+
+ DEMONIO EN EL COFRE,Lawrence Fowler, 
+
+ DESASTRE EN EL ÁRTICO,Adam MacDonald, 
+
+ DESPUÉS DEL APOCALIPSIS,Elias Matar, 
+
+ DESTINO FINAL LAZOS DE SANGRE,Zach Lipovsky & Adam B. Stein, 
+
+ DESTINO FINAL LAZOS DE SANGRE BR,Zach Lipovsky & Adam B. Stein, 
+
+ DOGMAN,Luc Besson,Caleb Landry Jones 
+
+ DOLOR REAL,Jesse Eisenberg,Jesse Eisenberg 
+
+ DRAGON BALL DAIMA,Aya Komaki, 
+
+ DREAMS SUEÑOS,Akira Kurosawa,Akira Terao 
+
+ DROP AMENAZA ANÓNIMA,Christopher Landon, 
+
+ DRÁCULA,Francis Ford Coppola,Gary Oldman 
+
+ DUNA PARTE DOS,Denis Villeneuve,Timothée Chalamet 
+
+ DÉJAME ESTAR CONTIGO,Sang-Hee, 
+
+ EDDINGTON,Ari Aster,Joaquin Phoenix 
+
+ EMILIA PÉREZ,Jacques Audiard,Zoe Saldaña 
+
+ ENCERRADO,Nour Wazzi, 
+
+ ESTA AMBICIÓN DESMEDIDA,Santos Bacana, C. Tangana & Cristina Trenas,C. Tangana 
+
+ ESTA ES LA U,Daniel Henríquez, 
+
+ EXORCISMO,Joshua John Miller,Russell Crowe 
+
+ EXORCISMO EL RITUAL,Scott Derrickson, 
+
+ EXTERMINIO LA EVOLUCIÓN,Danny Boyle,Jodie Comer 
+
+ F1,Joseph Kosinski,Brad Pitt 
+
+ F1 LA PELÍCULA,Joseph Kosinski,Brad Pitt 
+
+ FICG CEREMONIA,, 
+
+ FICG LOS INOCENTES,Guillermo Helo, 
+
+ FICG SORDA,Eva Libertad, 
+
+ FICG UN MUNDO PARA MÍ,Reyes Caballero, 
+
+ GLADIADOR II,Ridley Scott,Paul Mescal 
+
+ GLADIADOR II LED,Ridley Scott,Paul Mescal 
+
+ GODZILLA MINUS ONE,Takashi Yamazaki,Ryunosuke Kamiki 
+
+ GOLPE DE SUERTE EN PARÍS,Woody Allen,Lou de Laâge 
+
+ GUASÓN 2 FOLIE A DEUX,Todd Phillips,Joaquin Phoenix 
+
+ GUTEN TAG RAMÓN,Jorge Ramírez Suárez,Kristyan Ferrer 
+
+ HABITACIÓN DE AL LADO,Pedro Almodóvar,Julianne Moore 
+
+ HELLBOY THE CROOKED MAN,Brian Taylor,Jack Kesy 
+
+ HEREJE,Orlando von Einsiedel, 
+
+ HERENCIA DIABÓLICA,Gabriel Grieco, 
+
+ HIJOS,Gustav Möller, 
+
+ HIJOS DEL DIABLO,George Gallo, 
+
+ HISPANOAMÉRICA,José Luis López-Linares, 
+
+ HOMBRE DIFERENTE,Aaron Schimberg,Sebastian Stan 
+
+ HOMBRE LOBO,Leigh Whannell,Christopher Abbott 
+
+ HOMBRE LOBO EL DESPERTAR,Sean Ellis, 
+
+ HOMBRE LOBO LED,Leigh Whannell,Christopher Abbott 
+
+ HORA DE LA DESAPARICIÓN,Brad Anderson,Hayden Christensen 
+
+ HOT MILK,Rebecca Lenkiewicz,Fiona Shaw 
+
+ IMPLACABLE,Martin Campbell,Jackie Chan 
+
+ INFIERNO EN ALTAMAR,Andrzej Sekuła, 
+
+ INSTANTE DE EMOCIÓN,Aki Kaurismäki, 
+
+ JOSEE EL TIGRE Y EL PEZ,Kotaro Tamura, 
+
+ JURASSIC WORLD RENACE,Gareth Edwards,Scarlett Johansson 
+
+ KAIJU NO 8 MISIÓN DE RECONOCIMIENTO,Shigeyuki Miya, 
+
+ KARATE KID LEYENDAS,Jonathan Entwistle,Ben Wang 
+
+ KINRA EL VIAJE DE ATOQCHA,Marco Tóxico, 
+
+ KRAVEN EL CAZADOR,J.C. Chandor,Aaron Taylor-Johnson 
+
+ LECCIONES DE UN PINGÜINO,Peter Cattaneo, 
+
+ LEYENDA DE OCHI,Isaiah Saxon, 
+
+ LEYENDA DEL DRAGÓN,Li Jianping, 
+
+ LIBÉRANOS,Lee Cronin, 
+
+ LILO Y STITCH FINA,Dean Fleischer Camp,Maia Kealoha 
+
+ LLUVIA,Rodrigo García, 
+
+ LOCO POR ELLA,Dani de la Orden,Álvaro Cervantes 
+
+ LOCO POR ELLA BR,Dani de la Orden,Álvaro Cervantes 
+
+ LOCOS DE AMOR MI PRIMER AMOR,Frank Pérez-Garland, 
+
+ LOOK BACK CONTINÚA DIBUJANDO,Kiyotaka Oshiyama, 
+
+ LUZ QUE IMAGINAMOS,Payal Kapadia, 
+
+ M3GAN 2 0,Gerard Johnstone,Allison Williams 
+
+ MALDICIÓN DE SAYURI,Kōji Shiraishi, 
+
+ MALDICIÓN DEL BOSQUE,Corin Hardy, 
+
+ MARÍA ME MUERO,Mór Lichter, 
+
+ MASCOTAS AL RESCATE,Alexs Stadermann, 
+
+ MASCOTAS AL RESCATE SJ,Alexs Stadermann, 
+
+ MEJOR PAPÁ,Anne-Marie O'Connor, 
+
+ MELODÍA DE UN AMOR SECRETO,A.V. Rockwell, 
+
+ MEMORIA,Apichatpong Weerasethakul,Tilda Swinton 
+
+ MENÚ TEMÁTICO LILO Y STITCH,, 
+
+ MI VILLANO FAVORITO 4,Chris Renaud,Steve Carell 
+
+ MILEY CYRUS SOMETHING BEAUTIFUL,,Miley Cyrus 
+
+ MILEY CYRUS SOMETHING BEAUTIFUL EN,,Miley Cyrus 
+
+ MIRACULOUS AVENTURAS DE LADYBUG CAT NOIR,Jeremy Zag, 
+
+ MIRACULOUS LAS AVENTURAS DE LADYBUG Y CAT,Jeremy Zag, 
+
+ MIRREYES VS GODÍNEZ LAS VEGAS,Chava Cartas,Regina Blandón 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL LED,Christopher McQuarrie,Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA,Christopher McQuarrie,Tom Cruise 
+
+ MISTURA,Ricardo de Montreuil, 
+
+ MIX 300 CARTAS,Lucas Santa Ana, 
+
+ MIX CORTOS PANORAMA PROGRAMA 1,, 
+
+ MIX EL SILENCIO DE MIS MANOS,Manuel Acuña, 
+
+ MOANA 2 SJ,Dave Derrick Jr.,Auliʻi Cravalho 
+
+ MONO,Gustav Möller, 
+
+ MONO BR,Gustav Möller, 
+
+ MOON SOBREVIVIENTE,Duncan Jones,Sam Rockwell 
+
+ MUFASA EL REY LEÓN,Barry Jenkins,Aaron Pierre 
+
+ NADIE 2,Timo Tjahjanto,Bob Odenkirk 
+
+ NIÑA DE MIS OJOS,Selman Nacar, 
+
+ NO ENTRES,Fede Álvarez, 
+
+ NO HABLES CON EXTRAÑOS,James Watkins,James McAvoy 
+
+ NO HAY OTRA TIERRA,Basel Adra, Yuval Abraham, Hamdan Ballal & Rachel Szor, 
+
+ NO NOS MOVERÁN,Pierre Saint-Amand, 
+
+ NO TE MUERAS POR MI,Carlos R. Contreras, 
+
+ NO TE SUELTES,Christian E. Christiansen, 
+
+ NOCHE DE LOS DESAPARECIDOS,Robin Campillo, 
+
+ NOSFERATU,Robert Eggers,Bill Skarsgård 
+
+ NOSFERATU BR,Robert Eggers,Bill Skarsgård 
+
+ NOSOTROS LOS DE LA FE,Julio Roman, 
+
+ NOVOCAINE SIN DOLOR,Dan Berk & Robert Olsen,Jack Quaid 
+
+ OPERACIÓN PANDA MISIÓN RESCATE,Vasily Rovenskiy, 
+
+ OPERACIÓN ZOMBIE RESURRECCIÓN,Freddie Hutton-Mills & Bart Ruspoli, 
+
+ OSHI NO KO EL ÚLTIMO ACTO,Daisuke Hiramaki, 
+
+ OTRO VIERNES DE LOCOS,Nisha Ganatra,Jamie Lee Curtis 
+
+ OVERLORD EL REINO SAGRADO,Naoyuki Itō, 
+
+ PADDINGTON AVENTURA EN LA SELVA,Dougal Wilson,Ben Whishaw 
+
+ PADDINGTON EN PERÚ,Dougal Wilson,Ben Whishaw 
+
+ PANDA EN ÁFRICA,Richard Claus & Karsten Kiilerich, 
+
+ PATOS,Benjamin Renner,Kumail Nanjiani 
+
+ PECADORES BR,B. Harrison Smith, 
+
+ PELÍCULA DE MINECRAFT,Jared Hess,Jason Momoa 
+
+ PELÍCULA SORPRESA,, 
+
+ PELÍCULA SORPRESA VIP,, 
+
+ PETER PAN EL INFIERNO DEL NUNCA JAMÁS,Scott Jeffrey, 
+
+ PETER PAN PESADILLA EN LA TIERRA DEL NUNCA,Scott Jeffrey, 
+
+ PINK FLOYD AT POMPEII MCMLXXII,Adrian Maben, 
+
+ PINK FLOYD EN POMPEII MCMLXXII,Adrian Maben, 
+
+ PITUFOS,Chris Miller, 
+
+ POMPOKO LA GUERRA DE LOS MAPACHES,Isao Takahata, 
+
+ POZO RITUALES SATÁNICOS,Paul Urkijo Alijo, 
+
+ PRESENCIA,Steven Soderbergh,Lucy Liu 
+
+ PRINCESA MONONOKE,Hayao Miyazaki, 
+
+ PROYECTO FANTASMA,Roberto Doveris, 
+
+ PRUEBAS MENÚ TEMÁTICO,, 
+
+ PUERTA DEL INFIERNO,Tarik Saleh, 
+
+ PUTIN,Patryk Vega, 
+
+ PÉRDIDA TOTAL,Antoine Fuqua, 
+
+ QUEER,Luca Guadagnino,Daniel Craig 
+
+ QUIMERA DE ORO,Lila Avilés, 
+
+ QUIMERA DEL ORO 100 AÑOS,Lila Avilés, 
+
+ RADLEY,James Kathleen, 
+
+ RE ANTES DEL ATARDECER,Richard Linklater,Ethan Hawke 
+
+ RE CARRIE,Brian De Palma,Sissy Spacek 
+
+ RE EL CONJURO,James Wan,Vera Farmiga 
+
+ RE EL CONJURO 2,James Wan,Vera Farmiga 
+
+ RE EL CONJURO 3,Michael Chaves,Patrick Wilson 
+
+ RE ESTRENO EXTERMINIO,Danny Boyle,Cillian Murphy 
+
+ RE ESTRENO INTERESTELAR,Christopher Nolan,Matthew McConaughey 
+
+ RE GLADIADOR,Ridley Scott,Russell Crowe 
+
+ RE INTERESTELAR 2014,Christopher Nolan,Matthew McConaughey 
+
+ RE ORGULLO Y PREJUICIO,Joe Wright,Keira Knightley 
+
+ RE PESADILLA EN LA CALLE ELM,Wes Craven,Robert Englund 
+
+ RE SEVEN 1995,David Fincher,Brad Pitt 
+
+ RE TERMINATOR,James Cameron,Arnold Schwarzenegger 
+
+ RE VOLVER AL FUTURO 2,Robert Zemeckis,Michael J. Fox 
+
+ RESCATE IMPLACABLE,Mabrouk El Mechri,Henry Cavill 
+
+ RESCATE IMPOSIBLE,William Eubank,Russell Crowe 
+
+ REY DE REYES,Cecil B. DeMille, 
+
+ RITUAL MALDITO,Russell Crowe, 
+
+ ROBO PERFECTO PANTERA,Ljubomir Stefanov & Tamara Kotevska, 
+
+ ROSES,Lluís Danés, 
+
+ SATURDAY NIGHT LA NOCHE QUE CAMBIÓ LA COMEDIA,Jason Reitman,Gabriel LaBelle 
+
+ SCREAMBOAT LA MASACRE DEL RATÓN,Steven LaMorte, 
+
+ SEMILLA DEL FRUTO SAGRADO,Mohammad Rasoulof, 
+
+ SER MILLONARIO ANTES QUE MUERA LA ABUELA,Pat Boonnitipat,Putthipong Assaratanakul 
+
+ SEÑOR DE LOS ANILLOS LA GUERRA DE LOS,Kenji Kamiyama,Brian Cox 
+
+ SFF GEN_,Horacio Alcalá, 
+
+ SFF TOGETHER,Michael Shanks, 
+
+ SHADOW FORCE SENTENCIA DE MUERTE,Joe Carnahan,Kerry Washington 
+
+ SNEAKS UN PAR CON SUERTE,Rob Edwards, 
+
+ SOBREVIVIENDO AL MAREMOTO,Richard Holm, 
+
+ SOLTERA CASADA VIUDA DIVORCIADA,Ani Alva Helfer,Gianella Neyra 
+
+ SOLTERA CASADA VIUDA DIVORCIADA 2,Ani Alva Helfer,Gianella Neyra 
+
+ SONIC 2 LA PELÍCULA,Jeff Fowler,Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA,Jeff Fowler,Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA LED,Jeff Fowler,Ben Schwartz 
+
+ SONRÍE 2,Parker Finn,Naomi Scott 
+
+ SR BLAKE A SUS ÓRDENES,Gilles Legardinier,John Malkovich 
+
+ STAR WARS EPISODIO III LA VENGANZA DE,George Lucas,Ewan McGregor 
+
+ STAR WARS EPISODIO III LA VENGANZA DE LOS,George Lucas,Ewan McGregor 
+
+ STAR WARS EPISODIO III LA VENGANZA DE LOS BR,George Lucas,Ewan McGregor 
+
+ STELLA UNA VIDA,Kilian Riedhof, 
+
+ STING ARAÑA ASESINA,Kiah Roache-Turner, 
+
+ SUJO,Astrid Rondero & Fernanda Valadez,Juan Jesús Varela 
+
+ SUPER MAN LA HISTORIA DE CHRISTOPHER REEVE,Ian Bonhôte & Peter Ettedgui, 
+
+ SUPERMAN,James Gunn,David Corenswet 
+
+ SUSURROS MORTALES 2,Renny Harlin, 
+
+ SÉ LO QUE HICIERON EL VERANO PASADO,Jennifer Kaytin Robinson, 
+
+ TCF EL ACUSADO,Yvan Attal, 
+
+ TCF LOS COLORES DEL TIEMPO,James Franco & Edna Luise Biesold, 
+
+ THUNDERBOLTS,Jake Schreier,Florence Pugh 
+
+ TIEMPO DE GUERRA,Alex Garland,Kirsten Dunst 
+
+ TIEMPO QUE TENEMOS,James D'Arcy, 
+
+ TIERRAS PERDIDAS,Paul W.S. Anderson,Milla Jovovich 
+
+ TIPOS MALOS,Pierre Perifel,Sam Rockwell 
+
+ TIPOS MALOS 2,Pierre Perifel,Sam Rockwell 
+
+ TIPOS MALOS 2 SJ,Pierre Perifel,Sam Rockwell 
+
+ TIPOS MALOS SJ,Pierre Perifel,Sam Rockwell 
+
+ TOGETHER JUNTOS HASTA LA MUERTE,Michael Shanks, 
+
+ TONI Y SU FAMILIA,Nathan Ambrosioni, 
+
+ TORMENTA DE NIEVE CATÁSTROFE POLAR,Emilia Ruiz, 
+
+ TORNADOS CATEGORÍA 5,Lee Isaac Chung,Daisy Edgar-Jones 
+
+ TRANSFORMERS UNO,Josh Cooley,Chris Hemsworth 
+
+ TRAPEZIUM LA PELÍCULA,Masahiro Shinohara, 
+
+ TURNO NOCTURNO,Benjamin China & Paul China, 
+
+ UNTIL DAWN NOCHE DE TERROR,David F. Sandberg,Ella Rubin 
+
+ VENOM EL ÚLTIMO BAILE,Kelly Marcel,Tom Hardy 
+
+ VIAJE DE CHIHIRO,Hayao Miyazaki, 
+
+ VIDA DE CHUCK,Mike Flanagan,Tom Hiddleston 
+
+ WICKED,Jon M. Chu,Cynthia Erivo 
+
+ WICKED BR,Jon M. Chu,Cynthia Erivo 
+
+ WICKED LED,Jon M. Chu,Cynthia Erivo 
+
+ Y DÓNDE ESTÁ EL POLICÍA,Akiva Schaffer,Liam Neeson 
+
+ ZAFARI,David Weinstein, 
+
+ ÚLTIMO VIAJE,Anna Marsh, 
+
+ Lista de Títulos, Directores y Actores Principales 
+
+ 1938 CUANDO EL PETRÓLEO FUE NUESTRO: Joaquín Pseudo, 
+
+ 1992 NOCHE SIN LEY: , 
+
+ 200 LOBO: Rodrigo "Lobo" Courdurier, 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FES: Matt Shakman, Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FINA: Matt Shakman, Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS FINB: Matt Shakman, Pedro Pascal 
+
+ 48HFP 2024 GRUPO A: , 
+
+ 48HFP 2024 GRUPO C: , 
+
+ 48HFP 2024 GRUPO D: , 
+
+ 48HFP 2024 GRUPO E: , 
+
+ 48HFP 2024 GRUPO F: , 
+
+ 48HFP 2024 GRUPO G: , 
+
+ 48HFP 2024 GRUPO H: , 
+
+ 48HFP 2024 GRUPO I: , 
+
+ 48HFP 2024 GRUPO J: , 
+
+ 48HFP 2024 GRUPO K: , 
+
+ 48HFP 2024 GRUPO L: , 
+
+ 48HFP 2024 GRUPO M: , 
+
+ 48HFP 2024 GRUPO N: , 
+
+ 6DAYS: Toa Fraser, Jamie Bell 
+
+ 76MICT CERRAR LOS OJOS: Víctor Erice, Manolo Solo 
+
+ 76MICT EL PESAR DE LOS SUEÑOS: Juana Lotero, 
+
+ 76MICT MEMORY: Michel Franco, Jessica Chastain 
+
+ 76MICT MISERICORDIA: Emma Dante, Simone Zambelli 
+
+ 76MICT PROFUNDO CARMESÍ: Arturo Ripstein, Regina Orozco 
+
+ 76MICT SIMÓN DE LA MONTAÑA: Federico Luis, Lorenzo Ferro 
+
+ 76MICT TIERRA DE HERMANOS: Hlynur Pálmason, Elliott Crosset Hove 
+
+ ACABA CON ELLOS: Felipe Gálvez Haberle, Alfredo Castro 
+
+ ACREDITACIÓN FICM 2025: , 
+
+ ADO SPECIAL LIVE SHINZOU EN CINES: , Ado 
+
+ ALARUM CÓDIGO LETAL: Michael Polish, Sylvester Stallone 
+
+ ALAS BLANCAS: Paul-André Robin, 
+
+ ALIEN ROMULUS: Fede Álvarez, Cailee Spaeny 
+
+ ALMAS MARCADAS: Mauro Mauad, 
+
+ ALTO KNIGHTS MAFIA Y PODER: Barry Levinson, Robert De Niro 
+
+ AMATEUR OPERACIÓN VENGANZA BR: James Hawes, Rami Malek 
+
+ AMATEUR OPERACIÓN VENGANZA LED: James Hawes, Rami Malek 
+
+ AMB APOCALIPSIS EN LOS TRÓPICOS: Petra Costa, 
+
+ AMB BINNIGULA SA LOS ANTIGUOS ZAPOTECAS: Enrique H. Mendoza, 
+
+ AMB CAMERAPERSON: Kirsten Johnson, 
+
+ AMB CORAZÓN DE PERRO: Laurie Anderson, 
+
+ AMB DIARIO DE MI SEXTORSIÓN: Joserra Zúñiga, 
+
+ AMB EL OBJETO ANTES LLAMADO DISCO: Elisa Cepedal, 
+
+ AMB EL PROYECTO DEL ASESINO DEL ZODIACO: Tom Hanson, 
+
+ AMB LA LIBERTAD DE FIERRO: Julio H. Cordón, 
+
+ AMB LA LIBERTAD DEL DIABLO: Everardo González, 
+
+ AMB LA PESADILLA DE DARWIN: Hubert Sauper, 
+
+ AMB LEVIATÁN: Lucien Castaing-Taylor & Véréna Paravel, 
+
+ AMB LI CHAM MORÍ: Isabel Vaca, 
+
+ AMB PINA: Wim Wenders, Pina Bausch 
+
+ AMB SALÓN DE BAILE: María T. Larraín, 
+
+ AMB SANTIAGO: João Moreira Salles, 
+
+ AMB VIVAN LAS ANTÍPODAS: Viktor Kossakovsky, 
+
+ AMIGOS IMAGINARIOS: John Krasinski, Ryan Reynolds 
+
+ AMORES MATERIALISTAS BR: Fernando Frías de la Parra, Thomasin McKenzie 
+
+ AMORES MATERIALISTAS LED: Fernando Frías de la Parra, Thomasin McKenzie 
+
+ AN EVENING WITH DUA LIPA EN CINES: , Dua Lipa 
+
+ ANDREA BOCELLI 30 THE CELEBRATION: , Andrea Bocelli 
+
+ ANDREA BOCELLI BECAUSE I BELIEVE: , Andrea Bocelli 
+
+ ANIMALES PELIGROSO: Dean Fleischer Camp, Jason Statham 
+
+ APOCALIPSIS DE SAN JUAN: Raúl García, 
+
+ APOCALIPSIS RADIOACTIVO: Giga Agladze, Jim Sturgess 
+
+ APOCALIPSIS ZOMBIE PACIENTE Z: Jacobo Rispa, 
+
+ AQUÍ: Robert Zemeckis, Tom Hanks 
+
+ ARGONAUTAS: David Freyne, Shazad Latif 
+
+ ARGONAUTAS SJ: David Freyne, Shazad Latif 
+
+ ARILLO DE HOMBRE MUERTO: Alejandro Gerber Bicecci, 
+
+ ARMADOS: Ardit Sadiku, 
+
+ ARMAGEDÓN DIOSES DEL APOCALIPSIS: Chino Moya, 
+
+ ARMAND UNA ACUSACIÓN PELIGROSA: Halfdan Ullmann Tøndel, Renate Reinsve 
+
+ ASESINO SERIAL: Kevin Greutert, Kiefer Sutherland 
+
+ ATAQUE ZOMBIE ESTACIÓN GANGNAM: Lee Soo-seong, Ji Il-joo 
+
+ ATEEZ TOWARDS THE LIGHT WILL TO POWER: , ATEEZ 
+
+ ATEEZ WORLD TOUR HACIA LA LUZ VOLUNTAD DE: , ATEEZ 
+
+ ATEEZ WORLD TOUR TOWARDS THE LIGHT: , ATEEZ 
+
+ ATENTADO EN MADRID: Daniel Calparsoro, Javier Rey 
+
+ AUTOS M A Y ROCANROL: Everardo Valerio, 
+
+ AVENTURAS CANINAS EL MISTERIO DE LA CORONA: Stephen Shimek, 
+
+ AVENTURAS CANINAS EL MISTERIO DE LA CORONA SJ: Stephen Shimek, 
+
+ AVENTURAS DE DOG MAN: Peter Hastings, 
+
+ AVENTURAS DE DOG MAN SJ: Peter Hastings, 
+
+ AÚN ESTOY AQUÍ: Walter Salles, Fernanda Montenegro 
+
+ BABYGIRL DESEO PROHIBIDO: Halina Reijn, Nicole Kidman 
+
+ BAEKHYUN: , Baekhyun 
+
+ BAEKHYUN LONSDALEITE: , Baekhyun 
+
+ BAEKHYUN LONSDALEITE EN CINES: , Baekhyun 
+
+ BAGMAN EL ESPÍRITU DEL MAL: Colm McCarthy, Sam Claflin 
+
+ BAGMAN ESPÍRITU DEL MAL: Colm McCarthy, Sam Claflin 
+
+ BAILARINA BR: Len Wiseman, Ana de Armas 
+
+ BAILARINA LED: Len Wiseman, Ana de Armas 
+
+ BAMBI UNA AVENTURA EN EL BOSQUE SJ: David Hand & James Algar, 
+
+ BARBIE: Greta Gerwig, Margot Robbie 
+
+ BECOMING LED ZEPPELIN: Bernard MacMahon, 
+
+ BECOMING LED ZEPPELIN LOS INICIOS: Bernard MacMahon, 
+
+ BEETLEJUICE BEETLEJUICE: Tim Burton, Michael Keaton 
+
+ BETTER MAN LA HISTORIA DE ROBBIE SING ALONG: Michael Gracey, Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE W SING ALONG: Michael Gracey, Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE WILLIAMS: Michael Gracey, Robbie Williams 
+
+ BETTER MAN LA HISTORIA DE ROBBIE WILLIAMS BR: Michael Gracey, Robbie Williams 
+
+ BIRD EMPRENDER EL VUELO: Andrea Arnold, Barry Keoghan 
+
+ BJÖRK CORNUCOPIA: , Björk 
+
+ BJÖRK CORNUCOPIA EN CINES: , Björk 
+
+ BLANCA NIEVES FINA: Marc Webb, Rachel Zegler 
+
+ BLANCA NIEVES FINB: Marc Webb, Rachel Zegler 
+
+ BLANCA NIEVES SJ: Marc Webb, Rachel Zegler 
+
+ BLUEY JUGUEMOS A SER CHEF: , 
+
+ BLUEY JUGUEMOS A SER CHEF SJ: , 
+
+ BLUR LIVE AT WEMBLEY STADIUM: Toby L, Damon Albarn 
+
+ BRIDGET JONES LOCA POR ÉL BR: Michael Morris, Renée Zellweger 
+
+ BRUJA: Yana Titova, 
+
+ BRUTALISTA: Brady Corbet, Adrien Brody 
+
+ BTS 2016 HYYH ON STAGE EPILOGO REMASTERIZ: , BTS 
+
+ BTS 2016 HYYH ON STAGE EPILOGO REMASTERIZADO: , BTS 
+
+ BTS 2017 THE WINGS TOUR FINAL REMASTERIZADO: , BTS 
+
+ BTS 2017 THE WINGS TOUR THE FINAL REMASTERI: , BTS 
+
+ BTS 2017 THE WINGS TOUR THE FINAL REMASTERIZAD: , BTS 
+
+ BTS 2019 SPEAK YOURSELF LONDON REMASTERIZADO: , BTS 
+
+ BTS 2019SPEAK YOURSELF LONDON REMASTERIZA: , BTS 
+
+ BTS 2021 MUSTER SOWOOZOO REMASTERIZADO: , BTS 
+
+ BTS ARMY FOREVER WE ARE YOUNG: , BTS 
+
+ BTS MAP OF THE SOUL ON E: , BTS 
+
+ BUEN SALVAJE: Santiago Mohar Volkow, 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO: Julius Onah, Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO BR: Julius Onah, Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO SJ: Julius Onah, Anthony Mackie 
+
+ CAPITÁN AVISPA: Jean Gabriel Guerra & Jonathan Meléndez, Juan Luis Guerra 
+
+ CARGA MÁS PRECIADA: Michel Hazanavicius, 
+
+ CHARLIE UN PERRO ESPECIAL: Dean Cain, 
+
+ CHOSEN LA ÚLTIMA CENA: Dallas Jenkins, Jonathan Roumie 
+
+ CHOSEN T4 EP 5 Y 6: Dallas Jenkins, Jonathan Roumie 
+
+ CHOSEN ÚLTIMA CENA: Dallas Jenkins, Jonathan Roumie 
+
+ COCINA: Alonso Ruizpalacios, Raúl Briones Carmona 
+
+ COLORFUL STAGE LA PELÍCULA MIKU NO PUEDE CA: Hiroyuki Oshima, 
+
+ COLORFUL STAGE MIKU NO PUEDE CANTAR: Hiroyuki Oshima, 
+
+ COMPLETO DESCONOCIDO: James Mangold, Timothée Chalamet 
+
+ CONJURO 4 ÚLTIMOS RITOS BR: Michael Chaves, Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS FES: Michael Chaves, Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS FINA: Michael Chaves, Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS LED: Michael Chaves, Patrick Wilson 
+
+ CONTADOR 2 BR: Gavin O'Connor, Ben Affleck 
+
+ CORTE DIRECTOR PÁRVULOS HIJOS DEL APOCALIPSIS: Elias Matar, 
+
+ CUADRILÁTERO: Daniela Castro & Nicolás Pimentel, 
+
+ CUANDO EL DEMONIO LLAMA: Alberto Corredor, Freya Allan 
+
+ CUENTO DE LA PRINCESA KAGUYA: Isao Takahata, 
+
+ CUENTO DE PESCADORES: Marco Almada, 
+
+ CÓDIGO NEGRO BR: Ric Roman Waugh, Gerard Butler 
+
+ CÓDIGO NEGRO LED: Ric Roman Waugh, Gerard Butler 
+
+ CÓDIGO TRAJE ROJO SJ: , 
+
+ CÓMO ENTRENAR A TU DRAGÓN FINA: Dean DeBlois, Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN FINB: Dean DeBlois, Mason Thames 
+
+ CÓNCLAVE BR: Edward Berger, Ralph Fiennes 
+
+ DAFT PUNK LEIJI MATSUMOTO INTERSTELLA: Kazuhisa Takenouchi, 
+
+ DAFT PUNK LEIJI MATSUMOTO INTERSTELLA 5555: Kazuhisa Takenouchi, 
+
+ DALIA Y EL LIBRO ROJO SJ: David Bisbano, 
+
+ DAN DA DAN: Fuga Yamashiro, 
+
+ DAVID GILMOUR: , David Gilmour 
+
+ DAVID GILMOUR CONCIERTO EN EL CIRCO MÁ: , David Gilmour 
+
+ DAVID GILMOUR LIVE AT THE CIRCUS MAXIMUS: , David Gilmour 
+
+ DAVID GILMOUR LIVE CIRCUS MAXIMUS ROME: , David Gilmour 
+
+ DE LA LUZ Y DE LAS SOMBRAS: Taiina, 
+
+ DEMON SLAYER EL TREN INFINITO: Haruo Sotozaki, 
+
+ DEMON SLAYER EL TREN INFINITO BR: Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA BR: Haruo Sotozaki, 
+
+ DEMON SLAYER MUGEN TRAIN LA PELÍCULA: Haruo Sotozaki, 
+
+ DEMONIO VIENE POR TI: Ángel Gonzalez, 
+
+ DOS MONJAS EXORCISMOS PROHIBIDOS: Paul Catalanotto, 
+
+ DRÁCULA MAR DE SANGRE: André Øvredal, Corey Hawkins 
+
+ DÍA QUE LA TIERRA EXPLOTÓ LOONEY TUNES: Pete Browngardt, Eric Bauza 
+
+ EFÍMERA: Luis Mariano García, 
+
+ ELIO: Adrian Molina, 
+
+ ELIO FINA: Adrian Molina, 
+
+ ELIO FINB: Adrian Molina, 
+
+ ELIO LED: Adrian Molina, 
+
+ ELIO SJ: Adrian Molina, 
+
+ EMILIA PÉREZ BR: Jacques Audiard, Zoe Saldaña 
+
+ ENHYPEN WORLD TOUR FATE: , ENHYPEN 
+
+ ENTRE NOSOTROS: Jude Anthany Joseph, 
+
+ ESCAPE EXPLOSIVO: Nimród Antal, Liam Neeson 
+
+ ESPOSA DEL PRESIDENTE: Léa Domenach, Catherine Deneuve 
+
+ ESQUEMA FENICIO: Elias Khlat, 
+
+ ESTACIÓN FANTASMA: Michael Crum, 
+
+ EVENTO ESPECIAL DEMON SLAYER: , 
+
+ EXORCISTAS TRINIDAD PROFANA: Joe Chien, 
+
+ EXTERMINIO LA EVOLUCIÓN BR: Danny Boyle, Jodie Comer 
+
+ EXTERMINIO LA EVOLUCIÓN LED: Danny Boyle, Jodie Comer 
+
+ F1 BR: Joseph Kosinski, Brad Pitt 
+
+ F1 FAN FIRST PREMIERES EXCLUSIVELY IN: , 
+
+ F1 LED: Joseph Kosinski, Brad Pitt 
+
+ FALLA: Juan Antonio M-R, 
+
+ FICG A MELHOR MÃE DO MUNDO: Anna Muylaert, 
+
+ FICG A NATUREZA DAS COISAS INVISÍVEIS: Karla Souza, 
+
+ FICG A PROCURA DE MARTINA: Marcia Faria, 
+
+ FICG A SAVANA E A MONTANHA: Paulo Carneiro, 
+
+ FICG ABRACADÁVER: Manolo Caro, 
+
+ FICG APENAS COISAS BOAS: Daniel Tavares, 
+
+ FICG AT THE END OF THE WORLD: Ruda Santos, 
+
+ FICG AUTOS MOTA Y ROCANROL: Everardo Valerio, 
+
+ FICG BOCA VIEJA: Alê Abreu, 
+
+ FICG CAFÉ CHAIREL: Carlos Enderle, 
+
+ FICG CASA DE LAVA: Pedro Costa, 
+
+ FICG COCODRILOS: Jorge Yúdice, 
+
+ FICG COPAN: Caru Alves de Souza, 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 01: , 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 02: , 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 03: , 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 04: , 
+
+ FICG CORTOMETRAJE IBEROAMERICANO 05: , 
+
+ FICG CROMA: Jean-Christophe Meurisse, 
+
+ FICG CUERPO CELESTE: Alice Rohrwacher, 
+
+ FICG DOCE LUNAS: Frédéric Fonteyne, 
+
+ FICG ECO DE LUZ: Ere de la Parra, 
+
+ FICG EL ATARDECER DE LOS GRILLOS: Silvana Lopa, 
+
+ FICG EL CANTO DE LAS MANOS: Paula Pires, 
+
+ FICG EL TEMA DEL VERANO: Israel Adrián Caetano, 
+
+ FICG ENDLESS COOKIE: Seth Scriver, 
+
+ FICG ESTA ISLA: Svetlana Cvetko, 
+
+ FICG FARO: Gabe Ibáñez, 
+
+ FICG HOT MILK: Rebecca Lenkiewicz, Fiona Shaw 
+
+ FICG ISLEÑO: David Pantaleón, 
+
+ FICG LA GRAN HISTORIA DE LA FILOSOFÍA OCCIDENTAL: Jordi évolé, 
+
+ FICG LA JOIA BAD GYAL: David Camarero, 
+
+ FICG LA MEMORIA DE LAS MARIPOSAS: Tatiana Huezo, 
+
+ FICG LA QUINTA: Leandro Listorti, 
+
+ FICG LESBIAN SPACE PRINCESS: Veronica Kedar, 
+
+ FICG LLAMARSE OLIMPIA: Esmir Filho, 
+
+ FICG LLUEVE SOBRE BABEL: Gustavo Steinberg, 
+
+ FICG LO IMPOSIBLE: J.A. Bayona, Naomi Watts 
+
+ FICG LOS AÑOS SALVAJES: Ventura Durall, 
+
+ FICG MAYA DONNE MOI UN TITRE: Michel Gondry, 
+
+ FICG MIRABA CAER LAS GOTAS ILUMINADAS: Begoña Vicario, 
+
+ FICG MOLT LLUNY: Gerard Oms, 
+
+ FICG NAYOLA: José Miguel Ribeiro, 
+
+ FICG NO DEJES A LOS NIÑOS SOLOS: Jorge Algora, 
+
+ FICG NO GRACIAS YA NO FUMO: Rodrigo García, 
+
+ FICG O ÚLTIMO AZUL: Irene Zoe Alameda, 
+
+ FICG OLIVIA LAS NUBES: Tomás Corredor, 
+
+ FICG ONDA NOVA: Sérgio Machado, 
+
+ FICG ONLY ON EARTH: Robin Petré, 
+
+ FICG ORO AMARGO: Bárbara Pestan, 
+
+ FICG OS VERDES ANOS: Paulo Rocha, 
+
+ FICG OURO NEGRO: Daniel Filho, 
+
+ FICG PATIO DE CHACALES: Diego Mondaca, 
+
+ FICG PREMIO RIGO MORA 01: , 
+
+ FICG PREMIO RIGO MORA 02: , 
+
+ FICG PREMIO RIGO MORA 03: , 
+
+ FICG RUNA SIMI: Juan Sebastián Jácome, 
+
+ FICG SABAR BONDA: M. G. Srinivas, 
+
+ FICG SEEDS: Brittany Snow, 
+
+ FICG SIEMPRE VUELVEN: Marcelo Lordello, 
+
+ FICG SOBRE LAS OLAS: Horacio Alcalá, 
+
+ FICG SONHAR COM LEÕES: Paolo Marinou-Blanco, 
+
+ FICG SPACE CADET: Liz W. Garcia, Emma Roberts 
+
+ FICG TARDES DE SOLEDAD: Albert Serra, 
+
+ FICG THE MOUNTAIN WON T MOVE: Frédéric Guillaume, 
+
+ FICG THE SHEPHERD AND THE BEAR: Miloslav Luther, 
+
+ FICG TIGUERE: José María Cabral, 
+
+ FICG TRÁS OS MONTES: António Reis & Margarida Cordeiro, 
+
+ FICG UM ADEUS PORTUGUÊS: João Botelho, 
+
+ FICJM AMÉRICA: Ofir Raul Graizer, 
+
+ FICJM CORRIENDO EN LA ARENA: Gabor Csupo, 
+
+ FICJM ESCUCHA: Ana Rocha de Sousa, 
+
+ FICJM LA HISTORIA DE ANNETTE: Vicente Villanueva, 
+
+ FICJM LA PROMESA DE IRENE: Louise Archambault, Sophie Nélisse 
+
+ FICJM LO QUE NO SE HABLÓ: Ángeles Cruz, 
+
+ FICM 1992: Ariel Winograd, 
+
+ FICM A REAL PAIN: Jesse Eisenberg, Jesse Eisenberg 
+
+ FICM CONCLAVE: Edward Berger, Ralph Fiennes 
+
+ FLOW: Gints Zilbalodis, 
+
+ FLOW BR: Gints Zilbalodis, 
+
+ FLOW OV: Gints Zilbalodis, 
+
+ FLOW SJ OV: Gints Zilbalodis, 
+
+ FRONTERA INVISIBLE: Alejandro Small, 
+
+ FTM CORAZÓN EN JUEGO: Frank Ariza, 
+
+ FTM CÓMO SER MILLONARIO ANTES QUE MUERA LA ABUELA: Pat Boonnitipat, Putthipong Assaratanakul 
+
+ FTM DESPIERTA MAMÁ: Arianne Benedetti, 
+
+ FTM DESVANECIDO: Tim Brown, 
+
+ FTM EL ABUELO LLEGÓ: César Cotelo, 
+
+ FTM EL DIABLO A LOS OJOS: Davo scrib, 
+
+ FTM EL HIJO DE SU PADRE: Jiajie Yu Yan, 
+
+ FTM EL MARAVILLOSO MAGO DE OZ: Victor Fleming, Judy Garland 
+
+ FTM LAS HIJAS DEL VIENTO: Javier Balaguer, 
+
+ FTM LO QUE DICE EL CORAZÓN: David Nixon, 
+
+ FTM NOSOTROS LOS DE LA FE: Julio Roman, 
+
+ FTM RAISING THE BAR THE ALMA RICHARDS STORY: D.W. Richards, 
+
+ FTM REFLEJOS EN EL TIEMPO: Stiles White, 
+
+ FTM SIEMPRE HABRÁ UN MAÑANA: Paola Cortellesi, Paola Cortellesi 
+
+ G I DLE WORLD TOUR IDOL IN: , (G)I-DLE 
+
+ G I DLE WORLD TOUR IDOL IN CINEMAS: , (G)I-DLE 
+
+ GLADIADOR II BR: Ridley Scott, Paul Mescal 
+
+ GO WILD ATARASHII GAKKO LA PELÍCULA: , Atarashii Gakko! 
+
+ GOODBYE HORSES LAS MUCHAS VIDAS DE Q LAZZARUS: Alex Steyermark, 
+
+ GRAN CICLÓN: Herbert James, 
+
+ GRAN VIAJE DE TU VIDA: Miguel Ángel Tobías, 
+
+ GUNDAM GQUUUUUUX EL INICIO: Yoshiyuki Tomino, 
+
+ HANS ZIMMER FRIENDS DIAMOND IN THE DESER: , Hans Zimmer 
+
+ HANS ZIMMER FRIENDS DIAMOND IN THE DESERT: , Hans Zimmer 
+
+ HAZ QUE REGRESE: Vadhir Derbez, Vadhir Derbez 
+
+ HERENCIA SINIESTRA: Julio César Estrada, 
+
+ HERMANASTRA FEA: Jennifer Kaytin Robinson, Camila Mendes 
+
+ HIJAS DEL MAGUEY: Tania Hernández Velasco, 
+
+ HIJO DEL DIABLO: JJ Geier, 
+
+ HIJOS DEL EXORCISMO: Norbert Keil, 
+
+ HOLA FRIDA: Karla Castañeda, 
+
+ HOLDING BACK THE YEARS 40 YEARS OF SIMPLY: , Simply Red 
+
+ HOMBRE LOBO BR: Leigh Whannell, Christopher Abbott 
+
+ HORA DE LA DESAPARICIÓN BR: Brad Anderson, Hayden Christensen 
+
+ HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTO: Trey Edward Shults, The Weeknd 
+
+ HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTORES: Trey Edward Shults, The Weeknd 
+
+ HYBE CINEMA NORAEBANG: , 
+
+ IMAGINE DRAGONS EN VIVO DESDE: , Imagine Dragons 
+
+ IMAGINE DRAGONS LIVE FROM THE HOLLYWOOD BOWL: , Imagine Dragons 
+
+ INFIERNO EN EL PANTANO: Richard Boddington, 
+
+ INFILTRADA: Stéphane Cazes, 
+
+ INSTINTO MATERNO: Benoît Delhomme, Anne Hathaway 
+
+ INTERESTELAR DIG: Christopher Nolan, Matthew McConaughey 
+
+ INVASIÓN ZOMBIE HIJOS DEL APOCALIPSIS: Elias Matar, 
+
+ INVENCIBLE UN NIÑO FUERA DE SERIE: Mark Polonia, 
+
+ IU CONCERT THE WINNING: , IU 
+
+ IVE THE 1ST WORLD TOUR EN CINES: , IVE 
+
+ J HOPE TOUR HOPE ON THE STAGE: , J-Hope 
+
+ J HOPE TOUR HOPE ON THE STAGE IN JAPAN: , J-Hope 
+
+ J HOPE TOUR HOPE ON THE STAGE LIVE VIEWING OV: , J-Hope 
+
+ JOYLAND LA TIERRA DE LOS SUEÑOS: Saim Sadiq, Ali Junejo 
+
+ JUICIO DE UN PERRO: Gorman Bechard, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TE: Shōta Goshozono, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TE BR: Shōta Goshozono, 
+
+ JUJUTSU KAISEN EL TESORO ESCONDIDO EL TESORO: Shōta Goshozono, 
+
+ JUNE Y JOHN: David Lynch, 
+
+ JURASSIC WORLD RENACE BR: Gareth Edwards, Scarlett Johansson 
+
+ JURASSIC WORLD RENACE FES: Gareth Edwards, Scarlett Johansson 
+
+ KARATE KID LEYENDAS BR: Jonathan Entwistle, Ben Wang 
+
+ KARATE KID LEYENDAS FINA: Jonathan Entwistle, Ben Wang 
+
+ KARATE KID LEYENDAS FINB: Jonathan Entwistle, Ben Wang 
+
+ KARATE KID LEYENDAS LED: Jonathan Entwistle, Ben Wang 
+
+ KARATE KID LEYENDAS SJ: Jonathan Entwistle, Ben Wang 
+
+ KARUARA LA GENTE DEL RÍO: Cristóbal Sotomayor, 
+
+ KAYARA EL CORAZÓN DE LOS ANDES: César Zelada, 
+
+ KAYARA EL CORAZÓN DE LOS ANDES SJ: César Zelada, 
+
+ KAYARA LA PRINCESA INCA: César Zelada, 
+
+ KAYARA LA PRINCESA INCA SJ: César Zelada, 
+
+ KENIA OS LA OG: , Kenia Os 
+
+ KENIA OS LA OG BR: , Kenia Os 
+
+ KRAVEN EL CAZADOR BR: J.C. Chandor, Aaron Taylor-Johnson 
+
+ KYGO 2025 BACK AT THE BOWL: , Kygo 
+
+ KYGO BACK AT THE BOWL: , Kygo 
+
+ LEONORA: Gibrán Bazán, 
+
+ LEYENDA DEL DRAGÓN SJ: Li Jianping, 
+
+ LILO LILO COCODRILO: Will Speck & Josh Gordon, Shawn Mendes 
+
+ LILO STITCH: Dean Fleischer Camp, Maia Kealoha 
+
+ LILO STITCH SJ: Dean Fleischer Camp, Maia Kealoha 
+
+ LILO Y STITCH: Dean Fleischer Camp, Maia Kealoha 
+
+ LILO Y STITCH BR: Dean Fleischer Camp, Maia Kealoha 
+
+ LILO Y STITCH FINB: Dean Fleischer Camp, Maia Kealoha 
+
+ LILO Y STITCH SJ: Dean Fleischer Camp, Maia Kealoha 
+
+ LO QUE DICE EL CORAZÓN: David Nixon, 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ: Pete Browngardt, Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ BR: Pete Browngardt, Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ SJ: Pete Browngardt, Eric Bauza 
+
+ LOONEY TUNES EL DÍA QUE LA TIERRA FINA: Pete Browngardt, Eric Bauza 
+
+ M3GAN 2 0 BR: Gerard Johnstone, Allison Williams 
+
+ MAMÁ REINVENTADA: Matthew Johnson, 
+
+ MAMÁ REINVENTADA BR: Matthew Johnson, 
+
+ MARAVILLOSO MAGO DE OZ: Victor Fleming, Judy Garland 
+
+ MARIA CALLAS: Tom Volf, 
+
+ MARS EXPRESS: Jérémie Périn, 
+
+ MARÍA CALLAS: Tom Volf, 
+
+ MASCOTA JURÁSICA 3 VIAJE A LA PREHISTORIA: Ryan Bellgardt, 
+
+ MASCOTAS EN APUROS: Reinhard Klooss, 
+
+ MASCOTAS EN APUROS SJ: Reinhard Klooss, 
+
+ MASTERCHEF CELEBRITY GENERACIONES GRAN FIN: , 
+
+ MEGATORMENTA: Peter Geiger, 
+
+ MEMORIAS DE UN CARACOL: Adam Elliot, 
+
+ MEMORY UN RECUERDO INCOMPLETO: Michel Franco, Jessica Chastain 
+
+ MESA DE REGALOS: Roberto Sneider, 
+
+ MESA DE REGALOS BR: Roberto Sneider, 
+
+ MICKEY 17: Bong Joon-ho, Robert Pattinson 
+
+ MICKEY 17 BR: Bong Joon-ho, Robert Pattinson 
+
+ MICKEY 17 LED: Bong Joon-ho, Robert Pattinson 
+
+ MICMX ARILLO DE HOMBRE MUERTO: Alejandro Gerber Bicecci, 
+
+ MICMX CONCIERTO PARA OTRAS MANOS: Cristóbal Cruz, 
+
+ MICMX CORTOMETRAJES DE FICCIÓN MX: , 
+
+ MICMX HOMBRES ÍNTEGROS: Alejandro Andrade, 
+
+ MICMX LIFTING: David Castro, 
+
+ MICMX PARTIDA: Diego Ozuna, 
+
+ MICMX PRIMERA PERSONA: Máximo Hollander, 
+
+ MICMX ROSINANTE: Olmo Guerra, 
+
+ MICMX SONG OF THE LAST LACANDON HOLY MAN: Nicolas Défossé, 
+
+ MICMX SOY LO QUE NUNCA FUI: America Maldonado, 
+
+ MICMX VOZ VIAJANTE: Constanza Valerio, 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 1: , 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 2: , 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 3: , 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 4: , 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 5: , 
+
+ MIG XII MUESTRA INTERGALÁCTICA DÍA 6: , 
+
+ MIJARES SINFÓNICO CELEBRA EL AMOR: , Mijares 
+
+ MIRACULOUS LAS AVENTURAS DE LADYBUG Y CAT SJ: Jeremy Zag, 
+
+ MIRREYES VS GODÍNEZ LAS VEGAS BR: Chava Cartas, Regina Blandón 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL BR: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL FINA: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA BR: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA MORTAL P 1: Christopher McQuarrie, Tom Cruise 
+
+ MIX ALMA DEL DESIERTO: Mónica Álvarez Franco, 
+
+ MIX ARRUINARLO TODO: Andrea Rovira, 
+
+ MIX BREVE HISTORIA DE UN BREVE DRAG: Fausto Estrada, 
+
+ MIX CORTOS PANORAMA PROGRAMA 2: , 
+
+ MIX DETRANS DE MÍ: Issa López, 
+
+ MIX HOMBRES ÍNTEGROS: Alejandro Andrade, 
+
+ MIX LA RED: Tonatiuh Loza, 
+
+ MIX LLÁMAME AGNES: Aglaja Veteranyi, 
+
+ MIX LO QUE ESCRIBIMOS JUNTOS: Valeria Stucki, 
+
+ MIX MEMORABILIA: Pedro de Filippis, 
+
+ MIX MI NOVIO EL FASCISTA: Roberta Torre, 
+
+ MIX SANDBAG DAM: Jamie M. Dagg, 
+
+ MIX SER MIKOLAJ: Krzysztof Chodorowski, 
+
+ MIX SOY LO QUE NUNCA FUI: America Maldonado, 
+
+ MIX SPEAKING OUT: Bárbara Lago, 
+
+ MIX TODO LO QUE SIEMPRE QUISIMOS: Luis Murillo Arias, 
+
+ MIX VIH LA CAUSA JUSTA: Richie Alvarez, 
+
+ MOANA 2: Dave Derrick Jr., Auliʻi Cravalho 
+
+ MOANA 2 BR: Dave Derrick Jr., Auliʻi Cravalho 
+
+ MOANA 2 FINA: Dave Derrick Jr., Auliʻi Cravalho 
+
+ MOANA 2 FINB: Dave Derrick Jr., Auliʻi Cravalho 
+
+ MTV UNPLUGGED LOS BUNKERS: , Los Bunkers 
+
+ MUERTE DE UN UNICORNIO: Alex Scharfman, Paul Rudd 
+
+ MUFASA EL REY LEÓN BR: Barry Jenkins, Aaron Pierre 
+
+ MUFASA EL REY LEÓN FES: Barry Jenkins, Aaron Pierre 
+
+ MUFASA EL REY LEÓN FINA: Barry Jenkins, Aaron Pierre 
+
+ MUFASA EL REY LEÓN FINB: Barry Jenkins, Aaron Pierre 
+
+ MUFASA EL REY LEÓN SJ: Barry Jenkins, Aaron Pierre 
+
+ MUJERES DEL ALBA: Jimena Montemayor Loyo, 
+
+ MY HERO ACADEMIA AHORA ES TU TURNO: Kenji Nagasaki, 
+
+ MÉDIUM: Cristina Gallego & Ciro Guerra, 
+
+ NADIE: Ilya Naishuller, Bob Odenkirk 
+
+ NADIE 2 BR: Timo Tjahjanto, Bob Odenkirk 
+
+ NCT DREAM MYSTERY LAB DREAM SCAPE EN CIN: , NCT Dream 
+
+ NCT DREAM MYSTERY LAB DREAM SCAPE EN CINES: , NCT Dream 
+
+ NIKO LA AVENTURA DE LAS NARICES FRÍAS: Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LA AVENTURA DE LAS NARICES FRÍAS SJ: Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LAS AVENTURAS DE LAS NARICES FRÍAS: Kari Juusonen & Jørgen Lerdam, 
+
+ NIKO LAS AVENTURAS DE LAS NARICES FRÍAS SJ: Kari Juusonen & Jørgen Lerdam, 
+
+ NO HAGAS OLAS: Alexander Mackendrick, Tony Curtis 
+
+ NOCHE DE LOS HOMBRES LOBO: François Uzan, Jean Reno 
+
+ NOVICIA REBELDE 60 ANIVERSARIO: Robert Wise, Julie Andrews 
+
+ NOVOCAINE SIN DOLOR BR: Dan Berk & Robert Olsen, Jack Quaid 
+
+ ODISEA EL REGRESO: Uberto Pasolini, Ralph Fiennes 
+
+ ONE DIRECTION ASI SOMOS: Morgan Spurlock, One Direction 
+
+ ONE DIRECTION ASÍ SOMOS: Morgan Spurlock, One Direction 
+
+ OPERACIÓN PANDA MISIÓN RESCATE SJ: Vasily Rovenskiy, 
+
+ OTRO VIERNES DE LOCOS BR: Nisha Ganatra, Jamie Lee Curtis 
+
+ OTRO VIERNES DE LOCOS FINB: Nisha Ganatra, Jamie Lee Curtis 
+
+ PADDINGTON AVENTURA EN LA SELVA SJ: Dougal Wilson, Ben Whishaw 
+
+ PADDINGTON EN PERÚ SJ: Dougal Wilson, Ben Whishaw 
+
+ PAISAJES: Paul Urkijo Alijo, 
+
+ PARANORMAN REMASTERIZADO: Chris Butler & Sam Fell, 
+
+ PARTHENOPE LOS AMORES DE NÁPOLES: Paolo Sorrentino, Celeste Dalla Porta 
+
+ PASANTE DE MODA 10 ANIVERSARIO: Nancy Meyers, Robert De Niro 
+
+ PATASOLA CAZA INFIELES: Ersain Hidalgo, 
+
+ PAW PATROL LA SÚPER PELÍCULA: Cal Brunker, 
+
+ PECADORES: B. Harrison Smith, 
+
+ PELÍCULA DE MINECRAFT BR: Jared Hess, Jason Momoa 
+
+ PELÍCULA DE MINECRAFT FINA: Jared Hess, Jason Momoa 
+
+ PELÍCULA DE MINECRAFT FINB: Jared Hess, Jason Momoa 
+
+ PELÍCULA DE MINECRAFT SJ: Jared Hess, Jason Momoa 
+
+ PEQUEÑA: Lucía Carreras, 
+
+ PEQUEÑA CONFUSIÓN: A.T. White, 
+
+ PEREZ OSOS: Juan Carlos Cremata Malberti, 
+
+ PEREZ OSOS SJ: Juan Carlos Cremata Malberti, 
+
+ PITUFOS FINB: Chris Miller, 
+
+ PITUFOS SJ: Chris Miller, 
+
+ PLAN DEL ASESINO: Daniel Benmayor, Mario Casas 
+
+ PRINCE SIGN O THE TIMES: Prince, Prince 
+
+ PUENTE EN LLAMAS: Isaac Florentine, Dolph Lundgren 
+
+ PÉREZ OSOS: Juan Carlos Cremata Malberti, 
+
+ PÉREZ OSOS SJ: Juan Carlos Cremata Malberti, 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 1: , 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 3: , 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 4: , 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 5: , 
+
+ QFF QUEER FILM FESTIVAL SELECCIÓN OFICIAL 6: , 
+
+ QUÉ HUEVOS SOFÍA: Marlon Moreno, Mónica Huarte 
+
+ QUÉ HUEVOS SOFÍA BR: Marlon Moreno, Mónica Huarte 
+
+ RE ANTES DEL AMANECER: Richard Linklater, Ethan Hawke 
+
+ RE DC LIGA DE SUPERMASCOTAS: Jared Stern, Dwayne Johnson 
+
+ RE DEMON SLAYER EL TREN INFINITO: Haruo Sotozaki, 
+
+ RE DEMON SLAYER MUGEN TRAIN: Haruo Sotozaki, 
+
+ RE EL CONJURO 3 EL DIABLO ME OBLIGÓ A HACERLO: Michael Chaves, Patrick Wilson 
+
+ RE LA MOMIA 25 ANIVERSARIO: Stephen Sommers, Brendan Fraser 
+
+ RE PULP FICTION: Quentin Tarantino, John Travolta 
+
+ RE STAR WARS III LA VENGANZA DE LOS SITHS: George Lucas, Ewan McGregor 
+
+ RE STAR WARS III LA VENGANZA DE SITH: George Lucas, Ewan McGregor 
+
+ RE TIBURÓN: Steven Spielberg, Roy Scheider 
+
+ RE YANA WARA: Tito Catacora, 
+
+ RECUERDOS DEL AYER: Isao Takahata, 
+
+ RED VELVET HAPPINESS DIARY MY DEAR REVE1UV: , Red Velvet 
+
+ RESCATE IMPLACABLE BR: Mabrouk El Mechri, Henry Cavill 
+
+ RIESGO BAJO CERO: Jonathan Hensleigh, Liam Neeson 
+
+ RM LA GENTE ADECUADA EN EL LUGAR EQUIVOCADO: , RM 
+
+ RM RIGHT PEOPLE WRONG PLACE: , RM 
+
+ ROBIN EL POSEÍDO: Robin Entreinger, 
+
+ ROBOT SALVAJE: Chris Sanders, Lupita Nyong'o 
+
+ ROBOT SALVAJE SJ: Chris Sanders, Lupita Nyong'o 
+
+ ROSARIO HERENCIA MALDITA: Homero Bueno, 
+
+ ROSES BR: Lluís Danés, 
+
+ RUNSEOKJIN EP TOUR EN VIVO DESDE AMSTERDAM: , 
+
+ RUNSEOKJIN_EP TOUR GLOBAL LIVE VIEWING OV: , 
+
+ RYAN GARCIA VS ROLLY ROMERO ORI: , Ryan Garcia 
+
+ SATURDAY NIGHT LA NOCHE QUE CAMBIÓ LA COME: Jason Reitman, Gabriel LaBelle 
+
+ SEPTIEMBRE 5: Tim Fehlbaum, Peter Sarsgaard 
+
+ SEVENTEEN RIGHT HERE WORLD: , SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR: , SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR EN: , SEVENTEEN 
+
+ SEVENTEEN RIGHT HERE WORLD TOUR EN CINES: , SEVENTEEN 
+
+ SEVENTEEN TOUR FOLLOW NUEVAM: , SEVENTEEN 
+
+ SEVENTEEN WORLD TOUR BE THE SUN: , SEVENTEEN 
+
+ SEÑOR DE LOS ANILLOS EL RETORNO DEL REY: Peter Jackson, Elijah Wood 
+
+ SEÑOR DE LOS ANILLOS GUERRA ROHIRRIM: Kenji Kamiyama, Brian Cox 
+
+ SEÑOR DE LOS ANILLOS LA GUERRA DE LOS BR: Kenji Kamiyama, Brian Cox 
+
+ SFF 2000 METERS TO ANDRIIVKA: Anton Shtuka, 
+
+ SFF DJ AHMET: Georgi M. Unkovski, 
+
+ SFF FUNCIÓN ESPECIAL ABEL: Diego Luna, Christopher Ruíz-Esparza 
+
+ SFF FUNCIÓN ESPECIAL LA LEY DE HERODES: Luis Estrada, Damián Alcázar 
+
+ SFF LURKER: Alex Russell, 
+
+ SFF MALU: Pedro Freire, 
+
+ SFF MR NOBODY AGAINST PUTIN: David Borenstein, 
+
+ SFF ONE TO ONE JOHN YOKO: Kevin Macdonald, 
+
+ SFF PLAINCLOTHES: Oren Gerner, 
+
+ SFF PRIME MINISTER: David Wexler, 
+
+ SFF PROGRAMA DE CORTOS: , 
+
+ SFF SALLY: Cristina Costantini, 
+
+ SFF SELENA Y LOS DINOS: Gregory Nava, Jennifer Lopez 
+
+ SFF SESIÓN Q A 2000 METERS TO ANDRIIVKA: , 
+
+ SFF SESIÓN Q A DJ AHMET: , 
+
+ SFF SESIÓN Q A GEN_: , 
+
+ SFF SESIÓN Q A LURKER: , 
+
+ SFF SESIÓN Q A MR NOBODY AGAINST PUTIN: , 
+
+ SFF SESIÓN Q A ONE TO ONE JOHN YOKO: , 
+
+ SFF SESIÓN Q A PLAINCLOTHES: , 
+
+ SFF SESIÓN Q A PRIME MINISTER: , 
+
+ SFF SESIÓN Q A PROGRAMA DE CORTOS: , 
+
+ SFF SESIÓN Q A SELENA Y LOS DINOS: , 
+
+ SFF SESIÓN Q A THE DATING GAME: , 
+
+ SFF SESIÓN Q A THE VIRGIN OF THE QUARRY LAKE: , 
+
+ SFF SESIÓN Q A TOGETHER: , 
+
+ SFF SESIÓN Q A TWINLESS: , 
+
+ SFF THE DATING GAME: Anna Kendrick, Anna Kendrick 
+
+ SFF THE UGLY STEPSISTER: Emilie Blichfeldt, 
+
+ SFF THE VIRGIN OF THE QUARRY LAKE: Laura Casabé, 
+
+ SFF TWINLESS: James Sweeney, 
+
+ SIEMPRE HABRÁ UN MAÑANA: Paola Cortellesi, Paola Cortellesi 
+
+ SIKANDAR: A.R. Murugadoss, Salman Khan 
+
+ SKETCH DIBUJOS ANIMADOS: Seth Worley, 
+
+ SNEAKS UN PAR CON SUERTE SJ: Rob Edwards, 
+
+ SOBREVIVIENTE LA CAÍDA DEL VUELO 811: Pasha Patriki, 
+
+ SOLO LEVELING SEGUNDO DESPERTAR: Shunsuke Nakashige, 
+
+ SOLTERA CODICIADA 2: Joanna Lombardi, Gisela Ponce de León 
+
+ SONIC 3 LA PELÍCULA BR: Jeff Fowler, Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA SJ: Jeff Fowler, Ben Schwartz 
+
+ SONIC LA PELÍCULA: Jeff Fowler, Ben Schwartz 
+
+ STANS EMINEM SUS GRANDES FANS: Steven Leckart, 
+
+ STAR WARS EPISODIO III LA VENGANZA DE FES: George Lucas, Ewan McGregor 
+
+ STRAIGHT: Marcel Gisler, 
+
+ STRAIGHT CUÁL ES TU SECRETO: Marcel Gisler, 
+
+ SUBMARINITOS: Elly Mackay, 
+
+ SUBMARINITOS SJ: Elly Mackay, 
+
+ SUPERMAN BR: James Gunn, David Corenswet 
+
+ SUPERNOVA STRIKERS AMIGO: Young-Soo, 
+
+ SUSTANCIA: Coralie Fargeat, Demi Moore 
+
+ TAEYONG TY TRACK IN CINEMAS: , Taeyong 
+
+ TCF CUANDO LLEGA EL OTOÑO: Jean-Jacques Annaud, 
+
+ TCF LA MAESTRA VIOLET: Léa Pool, 
+
+ TCF LOS LAZOS QUE NOS UNEN: Roschdy Zem, 
+
+ TCF RODRIGO ENAMORADO: Juan Ibáñez, 
+
+ TCF UN TOQUE DE AMOR: Guillaume Canet, 
+
+ TEARS FOR FEARS LIVE A TIPPING POINT FILM: , Tears for Fears 
+
+ TERREMOTO 8 5 GRADOS: John Andreas Andersen, 
+
+ TERREMOTO MAGNITUD 9 0: Kim Ji-hoon, 
+
+ TERRIFIER 3 PAYASO SINIESTRO: Damien Leone, David Howard Thornton 
+
+ THUNDERBOLTS BR: Jake Schreier, Florence Pugh 
+
+ THUNDERBOLTS FES: Jake Schreier, Florence Pugh 
+
+ THUNDERBOLTS FINA: Jake Schreier, Florence Pugh 
+
+ TIBURÓN BLANCO ATAQUE FINAL: James Nunn, 
+
+ TIPOS MALOS 2 BR: Pierre Perifel, Sam Rockwell 
+
+ TIPOS MALOS 2 FINB: Pierre Perifel, Sam Rockwell 
+
+ TOMORROW X TOGETHER WORLD TOUR: , Tomorrow X Together 
+
+ TOMORROW X TOGETHER WORLD TOUR SWEET MIRAGE: , Tomorrow X Together 
+
+ TORTUGA ROJA: Michaël Dudok de Wit, 
+
+ TOY STORY 30 ANIVERSARIO: Lee Unkrich, Tom Hanks 
+
+ TOY STORY 30 ANIVERSARIO SJ: Lee Unkrich, Tom Hanks 
+
+ TRAMPA DEL RATÓN: Kike Maíllo, 
+
+ TRANSFORMERS UNO SJ: Josh Cooley, Chris Hemsworth 
+
+ TRATADO DE INVISIBILIDAD: Lucía Feijóo, 
+
+ TRIVIA NIGHT BY CINÉPOLIS Y CAPITÁN AMÉRICA: , 
+
+ TUMBA DE LAS LUCIÉRNAGAS: Isao Takahata, 
+
+ TÉTANO: Salomé Lamas, 
+
+ UNTIL DOWN NOCHE DE TERROR: David F. Sandberg, Ella Rubin 
+
+ VAMPIRA HUMANISTA BUSCA SUICIDA: Ariane Louis-Seize, Sara Montpetit 
+
+ VELADA CON DUA LIPA: , Dua Lipa 
+
+ VENGANZA DE CENICIENTA: Louisa Warren, 
+
+ VIDA EN GRIS: Lasse Hallström, 
+
+ VIDAS DE SING SING: Greg Kwedar, Colman Domingo 
+
+ VIENES O ME VOY: Frank Ariza, Dani Rovira 
+
+ WARNING EN VIVO DESDE EL AUDITORIO NAC: , 
+
+ WICKED SING ALONG: Jon M. Chu, Cynthia Erivo 
+
+ YO VI TRES LUCES NEGRAS: Santiago Lozano Álvarez, 
+
+ YUNGBLUD ARE YOU READY BOY: , Yungblud 
+
+ YUNGBLUD ARE YOU READY BOY EN CINES: , Yungblud 
+
+ ZAK Y WOWO LA LEYENDA DE LENDARYS: Philippe Duchêne, 
+
+ ZERO BASE ONE TIMELESS WORLD: , ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS: , ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS WORLD: , ZEROBASEONE 
+
+ ZEROBASEONE THE FIRST TOUR TIMELESS WORLD IN: , ZEROBASEONE 
+
+ ÁGUILA Y EL GUSANO: Guita Schyfter, 
+
+ ÚLTIMA CENA: Dallas Jenkins, Jonathan Roumie 
+
+ ÚLTIMO RODEO: Conor Allyn, Scott Eastwood 
+
+ ÚLTIMO VIAJE FINB: Anna Marsh, 
+
+ 200 LOBO SJ: Rodrigo "Lobo" Courdurier, 
+
+ 2023 WEVERSE CON FESTIVAL: , 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS: Matt Shakman, Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS BR: Matt Shakman, Pedro Pascal 
+
+ 4 FANTÁSTICOS PRIMEROS PASOS LED: Matt Shakman, Pedro Pascal 
+
+ ABUELA: Paco Plaza, Almudena Amor 
+
+ ALUVIÓN: Alejandro Nieto Polo, 
+
+ AMATEUR OPERACIÓN VENGANZA: James Hawes, Rami Malek 
+
+ AMB BUSCANDO A SUGAR MAN: Malik Bendjelloul, 
+
+ AMB CASSANDRO EL EXÓTICO: Roger Ross Williams, Gael García Bernal 
+
+ AMB EL ACTO DE MATAR: Joshua Oppenheimer, 
+
+ AMB KAMAY: Sharofat Arabova, 
+
+ AMB LA IMAGEN AUSENTE: Rithy Panh, 
+
+ AMB LOS SUEÑOS QUE COMPARTIMOS: Valentina Pelayo, 
+
+ AMB PEACHES GOES BANANAS: Marie Losier, 
+
+ AMB SIEMPRE SEREMOS JÓVENES: Gonzalo Perdomo, 
+
+ AMB USUARIOS: Natalia Almada, 
+
+ AMB ZOÉ PANORAMAS: Rodrigo Guardiola & Gabriel Cruz Rivas, 
+
+ AMENAZA EN EL AIRE: Timo Vuorensola, 
+
+ AMOR EN LA GRAN CIUDAD: Don Scardino, 
+
+ AMOR ERIZO: Adrien Candiard, 
+
+ AMORES COMPARTIDOS: Paloma Zapata, 
+
+ AMORES INCOMPLETOS: Gilberto González Penilla, 
+
+ AMORES MATERIALISTAS: Fernando Frías de la Parra, Thomasin McKenzie 
+
+ ANIMALES PELIGROSOS: Dean Fleischer Camp, Jason Statham 
+
+ ANORA: Sean Baker, Mikey Madison 
+
+ APRENDIZ: Ali Abbasi, Sebastian Stan 
+
+ ARRIERA: Isabel Cristina Fregoso, 
+
+ ASESINO IMPLACABLE: Pierre Morel, Liam Neeson 
+
+ ATRAPADO ROBANDO: James Foley, 
+
+ ATREVIDA: Víctor Hugo Borges, 
+
+ ATTACK ON TITAN EL ATAQUE FINAL: Yūichirō Hayashi, 
+
+ AÑO DIFÍCIL: Éric Toledano & Olivier Nakache, Pio Marmaï 
+
+ BAILARINA: Len Wiseman, Ana de Armas 
+
+ BALADA DE LA ISLA: Eytan Fox, 
+
+ BAMBI UNA AVENTURA EN EL BOSQUE: David Hand & James Algar, 
+
+ BATMAN AZTECA CHOQUE DE IMPERIOS: Juan Meza-León, Horacio Garcia Rojas 
+
+ BAÑO DEL DIABLO: Veronika Franz & Severin Fiala, Anja Plaschg 
+
+ BLANCA NIEVES: Marc Webb, Rachel Zegler 
+
+ BLANCA NIEVES BR: Marc Webb, Rachel Zegler 
+
+ BLANCA NIEVES LED: Marc Webb, Rachel Zegler 
+
+ BLINDADO SIN SALIDA: Eduardo Chow, 
+
+ BOONIE BEARS VIAJE EN EL TIEMPO: Lin Huida, 
+
+ BRIDGET JONES LOCA POR ÉL: Michael Morris, Renée Zellweger 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO FINA: Julius Onah, Anthony Mackie 
+
+ CAPITÁN AMÉRICA UN NUEVO MUNDO LED: Julius Onah, Anthony Mackie 
+
+ CATÁSTROFE EN LA NIEVE: Julian Gilbey, 
+
+ CAZATESOROS: Jesse V. Johnson, Thomas Jane 
+
+ CHICAS PESADAS 20 ANIVERSARIO: Samantha Jayne & Arturo Perez Jr., Angourie Rice 
+
+ CLUB PERFECTO: Castille Landon, 
+
+ COLINA DE LAS AMAPOLAS: Gorō Miyazaki, 
+
+ COMPAÑERA PERFECTA: Zoë Kravitz, Naomi Ackie 
+
+ CONDE DE MONTECRISTO: Matthieu Delaporte & Alexandre de La Patellière, Pierre Niney 
+
+ CONFESIÓN DEL DIABLO: Pål Øie, 
+
+ CONJURO: James Wan, Vera Farmiga 
+
+ CONJURO 3 EL DIABLO ME OBLIGÓ: Michael Chaves, Patrick Wilson 
+
+ CONJURO 4 ÚLTIMOS RITOS: Michael Chaves, Patrick Wilson 
+
+ CONJURO DE LA BRUJA: Mark Atkins, 
+
+ CONTADOR 2: Gavin O'Connor, Ben Affleck 
+
+ CONTRATO PARA MATAR: James Cullen Bressack, 
+
+ CORAZONES JÓVENES: Anthony Schatteman, 
+
+ CORINA: Carla Estrada, Naian González Norvind 
+
+ CRIATURA INFERNAL: Scott Slone, 
+
+ CRIATURAS LÍNEA DE EXTINCIÓN: Giles Alderson, 
+
+ CRUCIFIJO SANGRE DEL EXORCISTA: Chris Beyrooty, 
+
+ CUADRO PERDIDO: Mariano Pozzi, 
+
+ CÓDIGO NEGRO: Ric Roman Waugh, Gerard Butler 
+
+ CÓDIGO TRAJE ROJO: , 
+
+ CÓMO ENTRENAR A TU DRAGÓN: Dean DeBlois, Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN BR: Dean DeBlois, Mason Thames 
+
+ CÓMO ENTRENAR A TU DRAGÓN SJ: Dean DeBlois, Mason Thames 
+
+ CÓMO SER MILLONARIO ANTES QUE MUERA LA: Pat Boonnitipat, Putthipong Assaratanakul 
+
+ CÓMO SER MILLONARIO ANTES QUE MUERA LA ABUELA: Pat Boonnitipat, Putthipong Assaratanakul 
+
+ CÓNCLAVE: Edward Berger, Ralph Fiennes 
+
+ CÓNCLAVE LED: Edward Berger, Ralph Fiennes 
+
+ DALIA Y EL LIBRO ROJO: David Bisbano, 
+
+ DAN DA DAN EVIL EYE: Fuga Yamashiro, 
+
+ DEMON SLAYER CASTILLO INFINITO: Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA: Haruo Sotozaki, 
+
+ DEMON SLAYER KIMETSU NO YAIBA CASTILLO: Haruo Sotozaki, 
+
+ DEMONIO EN EL COFRE: Lawrence Fowler, 
+
+ DESASTRE EN EL ÁRTICO: Adam MacDonald, 
+
+ DESPUÉS DEL APOCALIPSIS: Elias Matar, 
+
+ DESTINO FINAL LAZOS DE SANGRE: Zach Lipovsky & Adam B. Stein, 
+
+ DESTINO FINAL LAZOS DE SANGRE BR: Zach Lipovsky & Adam B. Stein, 
+
+ DOGMAN: Luc Besson, Caleb Landry Jones 
+
+ DOLOR REAL: Jesse Eisenberg, Jesse Eisenberg 
+
+ DRAGON BALL DAIMA: Aya Komaki, 
+
+ DREAMS SUEÑOS: Akira Kurosawa, Akira Terao 
+
+ DROP AMENAZA ANÓNIMA: Christopher Landon, 
+
+ DRÁCULA: Francis Ford Coppola, Gary Oldman 
+
+ DUNA PARTE DOS: Denis Villeneuve, Timothée Chalamet 
+
+ DÉJAME ESTAR CONTIGO: Sang-Hee, 
+
+ EDDINGTON: Ari Aster, Joaquin Phoenix 
+
+ EMILIA PÉREZ: Jacques Audiard, Zoe Saldaña 
+
+ ENCERRADO: Nour Wazzi, 
+
+ ESTA AMBICIÓN DESMEDIDA: Santos Bacana, C. Tangana & Cristina Trenas, C. Tangana 
+
+ ESTA ES LA U: Daniel Henríquez, 
+
+ EXORCISMO: Joshua John Miller, Russell Crowe 
+
+ EXORCISMO EL RITUAL: Scott Derrickson, 
+
+ EXTERMINIO LA EVOLUCIÓN: Danny Boyle, Jodie Comer 
+
+ F1: Joseph Kosinski, Brad Pitt 
+
+ F1 LA PELÍCULA: Joseph Kosinski, Brad Pitt 
+
+ FICG CEREMONIA: , 
+
+ FICG LOS INOCENTES: Guillermo Helo, 
+
+ FICG SORDA: Eva Libertad, 
+
+ FICG UN MUNDO PARA MÍ: Reyes Caballero, 
+
+ GLADIADOR II: Ridley Scott, Paul Mescal 
+
+ GLADIADOR II LED: Ridley Scott, Paul Mescal 
+
+ GODZILLA MINUS ONE: Takashi Yamazaki, Ryunosuke Kamiki 
+
+ GOLPE DE SUERTE EN PARÍS: Woody Allen, Lou de Laâge 
+
+ GUASÓN 2 FOLIE A DEUX: Todd Phillips, Joaquin Phoenix 
+
+ GUTEN TAG RAMÓN: Jorge Ramírez Suárez, Kristyan Ferrer 
+
+ HABITACIÓN DE AL LADO: Pedro Almodóvar, Julianne Moore 
+
+ HELLBOY THE CROOKED MAN: Brian Taylor, Jack Kesy 
+
+ HEREJE: Orlando von Einsiedel, 
+
+ HERENCIA DIABÓLICA: Gabriel Grieco, 
+
+ HIJOS: Gustav Möller, 
+
+ HIJOS DEL DIABLO: George Gallo, 
+
+ HISPANOAMÉRICA: José Luis López-Linares, 
+
+ HOMBRE DIFERENTE: Aaron Schimberg, Sebastian Stan 
+
+ HOMBRE LOBO: Leigh Whannell, Christopher Abbott 
+
+ HOMBRE LOBO EL DESPERTAR: Sean Ellis, 
+
+ HOMBRE LOBO LED: Leigh Whannell, Christopher Abbott 
+
+ HORA DE LA DESAPARICIÓN: Brad Anderson, Hayden Christensen 
+
+ HOT MILK: Rebecca Lenkiewicz, Fiona Shaw 
+
+ IMPLACABLE: Martin Campbell, Jackie Chan 
+
+ INFIERNO EN ALTAMAR: Andrzej Sekuła, 
+
+ INSTANTE DE EMOCIÓN: Aki Kaurismäki, 
+
+ JOSEE EL TIGRE Y EL PEZ: Kotaro Tamura, 
+
+ JURASSIC WORLD RENACE: Gareth Edwards, Scarlett Johansson 
+
+ KAIJU NO 8 MISIÓN DE RECONOCIMIENTO: Shigeyuki Miya, 
+
+ KARATE KID LEYENDAS: Jonathan Entwistle, Ben Wang 
+
+ KINRA EL VIAJE DE ATOQCHA: Marco Tóxico, 
+
+ KRAVEN EL CAZADOR: J.C. Chandor, Aaron Taylor-Johnson 
+
+ LECCIONES DE UN PINGÜINO: Peter Cattaneo, 
+
+ LEYENDA DE OCHI: Isaiah Saxon, 
+
+ LEYENDA DEL DRAGÓN: Li Jianping, 
+
+ LIBÉRANOS: Lee Cronin, 
+
+ LILO Y STITCH FINA: Dean Fleischer Camp, Maia Kealoha 
+
+ LLUVIA: Rodrigo García, 
+
+ LOCO POR ELLA: Dani de la Orden, Álvaro Cervantes 
+
+ LOCO POR ELLA BR: Dani de la Orden, Álvaro Cervantes 
+
+ LOCOS DE AMOR MI PRIMER AMOR: Frank Pérez-Garland, 
+
+ LOOK BACK CONTINÚA DIBUJANDO: Kiyotaka Oshiyama, 
+
+ LUZ QUE IMAGINAMOS: Payal Kapadia, 
+
+ M3GAN 2 0: Gerard Johnstone, Allison Williams 
+
+ MALDICIÓN DE SAYURI: Kōji Shiraishi, 
+
+ MALDICIÓN DEL BOSQUE: Corin Hardy, 
+
+ MARÍA ME MUERO: Mór Lichter, 
+
+ MASCOTAS AL RESCATE: Alexs Stadermann, 
+
+ MASCOTAS AL RESCATE SJ: Alexs Stadermann, 
+
+ MEJOR PAPÁ: Anne-Marie O'Connor, 
+
+ MELODÍA DE UN AMOR SECRETO: A.V. Rockwell, 
+
+ MEMORIA: Apichatpong Weerasethakul, Tilda Swinton 
+
+ MENÚ TEMÁTICO LILO Y STITCH: , 
+
+ MI VILLANO FAVORITO 4: Chris Renaud, Steve Carell 
+
+ MILEY CYRUS SOMETHING BEAUTIFUL: , Miley Cyrus 
+
+ MILEY CYRUS SOMETHING BEAUTIFUL EN: , Miley Cyrus 
+
+ MIRACULOUS AVENTURAS DE LADYBUG CAT NOIR: Jeremy Zag, 
+
+ MIRACULOUS LAS AVENTURAS DE LADYBUG Y CAT: Jeremy Zag, 
+
+ MIRREYES VS GODÍNEZ LAS VEGAS: Chava Cartas, Regina Blandón 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE LA SENTENCIA FINAL LED: Christopher McQuarrie, Tom Cruise 
+
+ MISIÓN IMPOSIBLE SENTENCIA: Christopher McQuarrie, Tom Cruise 
+
+ MISTURA: Ricardo de Montreuil, 
+
+ MIX 300 CARTAS: Lucas Santa Ana, 
+
+ MIX CORTOS PANORAMA PROGRAMA 1: , 
+
+ MIX EL SILENCIO DE MIS MANOS: Manuel Acuña, 
+
+ MOANA 2 SJ: Dave Derrick Jr., Auliʻi Cravalho 
+
+ MONO: Gustav Möller, 
+
+ MONO BR: Gustav Möller, 
+
+ MOON SOBREVIVIENTE: Duncan Jones, Sam Rockwell 
+
+ MUFASA EL REY LEÓN: Barry Jenkins, Aaron Pierre 
+
+ NADIE 2: Timo Tjahjanto, Bob Odenkirk 
+
+ NIÑA DE MIS OJOS: Selman Nacar, 
+
+ NO ENTRES: Fede Álvarez, 
+
+ NO HABLES CON EXTRAÑOS: James Watkins, James McAvoy 
+
+ NO HAY OTRA TIERRA: Basel Adra, Yuval Abraham, Hamdan Ballal & Rachel Szor, 
+
+ NO NOS MOVERÁN: Pierre Saint-Amand, 
+
+ NO TE MUERAS POR MI: Carlos R. Contreras, 
+
+ NO TE SUELTES: Christian E. Christiansen, 
+
+ NOCHE DE LOS DESAPARECIDOS: Robin Campillo, 
+
+ NOSFERATU: Robert Eggers, Bill Skarsgård 
+
+ NOSFERATU BR: Robert Eggers, Bill Skarsgård 
+
+ NOSOTROS LOS DE LA FE: Julio Roman, 
+
+ NOVOCAINE SIN DOLOR: Dan Berk & Robert Olsen, Jack Quaid 
+
+ OPERACIÓN PANDA MISIÓN RESCATE: Vasily Rovenskiy, 
+
+ OPERACIÓN ZOMBIE RESURRECCIÓN: Freddie Hutton-Mills & Bart Ruspoli, 
+
+ OSHI NO KO EL ÚLTIMO ACTO: Daisuke Hiramaki, 
+
+ OTRO VIERNES DE LOCOS: Nisha Ganatra, Jamie Lee Curtis 
+
+ OVERLORD EL REINO SAGRADO: Naoyuki Itō, 
+
+ PADDINGTON AVENTURA EN LA SELVA: Dougal Wilson, Ben Whishaw 
+
+ PADDINGTON EN PERÚ: Dougal Wilson, Ben Whishaw 
+
+ PANDA EN ÁFRICA: Richard Claus & Karsten Kiilerich, 
+
+ PATOS: Benjamin Renner, Kumail Nanjiani 
+
+ PECADORES BR: B. Harrison Smith, 
+
+ PELÍCULA DE MINECRAFT: Jared Hess, Jason Momoa 
+
+ PELÍCULA SORPRESA: , 
+
+ PELÍCULA SORPRESA VIP: , 
+
+ PETER PAN EL INFIERNO DEL NUNCA JAMÁS: Scott Jeffrey, 
+
+ PETER PAN PESADILLA EN LA TIERRA DEL NUNCA: Scott Jeffrey, 
+
+ PINK FLOYD AT POMPEII MCMLXXII: Adrian Maben, 
+
+ PINK FLOYD EN POMPEII MCMLXXII: Adrian Maben, 
+
+ PITUFOS: Chris Miller, 
+
+ POMPOKO LA GUERRA DE LOS MAPACHES: Isao Takahata, 
+
+ POZO RITUALES SATÁNICOS: Paul Urkijo Alijo, 
+
+ PRESENCIA: Steven Soderbergh, Lucy Liu 
+
+ PRINCESA MONONOKE: Hayao Miyazaki, 
+
+ PROYECTO FANTASMA: Roberto Doveris, 
+
+ PRUEBAS MENÚ TEMÁTICO: , 
+
+ PUERTA DEL INFIERNO: Tarik Saleh, 
+
+ PUTIN: Patryk Vega, 
+
+ PÉRDIDA TOTAL: Antoine Fuqua, 
+
+ QUEER: Luca Guadagnino, Daniel Craig 
+
+ QUIMERA DE ORO: Lila Avilés, 
+
+ QUIMERA DEL ORO 100 AÑOS: Lila Avilés, 
+
+ RADLEY: James Kathleen, 
+
+ RE ANTES DEL ATARDECER: Richard Linklater, Ethan Hawke 
+
+ RE CARRIE: Brian De Palma, Sissy Spacek 
+
+ RE EL CONJURO: James Wan, Vera Farmiga 
+
+ RE EL CONJURO 2: James Wan, Vera Farmiga 
+
+ RE EL CONJURO 3: Michael Chaves, Patrick Wilson 
+
+ RE ESTRENO EXTERMINIO: Danny Boyle, Cillian Murphy 
+
+ RE ESTRENO INTERESTELAR: Christopher Nolan, Matthew McConaughey 
+
+ RE GLADIADOR: Ridley Scott, Russell Crowe 
+
+ RE INTERESTELAR 2014: Christopher Nolan, Matthew McConaughey 
+
+ RE ORGULLO Y PREJUICIO: Joe Wright, Keira Knightley 
+
+ RE PESADILLA EN LA CALLE ELM: Wes Craven, Robert Englund 
+
+ RE SEVEN 1995: David Fincher, Brad Pitt 
+
+ RE TERMINATOR: James Cameron, Arnold Schwarzenegger 
+
+ RE VOLVER AL FUTURO 2: Robert Zemeckis, Michael J. Fox 
+
+ RESCATE IMPLACABLE: Mabrouk El Mechri, Henry Cavill 
+
+ RESCATE IMPOSIBLE: William Eubank, Russell Crowe 
+
+ REY DE REYES: Cecil B. DeMille, 
+
+ RITUAL MALDITO: Russell Crowe, 
+
+ ROBO PERFECTO PANTERA: Ljubomir Stefanov & Tamara Kotevska, 
+
+ ROSES: Lluís Danés, 
+
+ SATURDAY NIGHT LA NOCHE QUE CAMBIÓ LA COMEDIA: Jason Reitman, Gabriel LaBelle 
+
+ SCREAMBOAT LA MASACRE DEL RATÓN: Steven LaMorte, 
+
+ SEMILLA DEL FRUTO SAGRADO: Mohammad Rasoulof, 
+
+ SER MILLONARIO ANTES QUE MUERA LA ABUELA: Pat Boonnitipat, Putthipong Assaratanakul 
+
+ SEÑOR DE LOS ANILLOS LA GUERRA DE LOS: Kenji Kamiyama, Brian Cox 
+
+ SFF GEN_: Horacio Alcalá, 
+
+ SFF TOGETHER: Michael Shanks, 
+
+ SHADOW FORCE SENTENCIA DE MUERTE: Joe Carnahan, Kerry Washington 
+
+ SNEAKS UN PAR CON SUERTE: Rob Edwards, 
+
+ SOBREVIVIENDO AL MAREMOTO: Richard Holm, 
+
+ SOLTERA CASADA VIUDA DIVORCIADA: Ani Alva Helfer, Gianella Neyra 
+
+ SOLTERA CASADA VIUDA DIVORCIADA 2: Ani Alva Helfer, Gianella Neyra 
+
+ SONIC 2 LA PELÍCULA: Jeff Fowler, Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA: Jeff Fowler, Ben Schwartz 
+
+ SONIC 3 LA PELÍCULA LED: Jeff Fowler, Ben Schwartz 
+
+ SONRÍE 2: Parker Finn, Naomi Scott 
+
+ SR BLAKE A SUS ÓRDENES: Gilles Legardinier, John Malkovich 
+
+ STAR WARS EPISODIO III LA VENGANZA DE: George Lucas, Ewan McGregor 
+
+ STAR WARS EPISODIO III LA VENGANZA DE LOS: George Lucas, Ewan McGregor 
+
+ STAR WARS EPISODIO III LA VENGANZA DE LOS BR: George Lucas, Ewan McGregor 
+
+ STELLA UNA VIDA: Kilian Riedhof, 
+
+ STING ARAÑA ASESINA: Kiah Roache-Turner, 
+
+ SUJO: Astrid Rondero & Fernanda Valadez, Juan Jesús Varela 
+
+ SUPER MAN LA HISTORIA DE CHRISTOPHER REEVE: Ian Bonhôte & Peter Ettedgui, 
+
+ SUPERMAN: James Gunn, David Corenswet 
+
+ SUSURROS MORTALES 2: Renny Harlin, 
+
+ SÉ LO QUE HICIERON EL VERANO PASADO: Jennifer Kaytin Robinson, 
+
+ TCF EL ACUSADO: Yvan Attal, 
+
+ TCF LOS COLORES DEL TIEMPO: James Franco & Edna Luise Biesold, 
+
+ THUNDERBOLTS: Jake Schreier, Florence Pugh 
+
+ TIEMPO DE GUERRA: Alex Garland, Kirsten Dunst 
+
+ TIEMPO QUE TENEMOS: James D'Arcy, 
+
+ TIERRAS PERDIDAS: Paul W.S. Anderson, Milla Jovovich 
+
+ TIPOS MALOS: Pierre Perifel, Sam Rockwell 
+
+ TIPOS MALOS 2: Pierre Perifel, Sam Rockwell 
+
+ TIPOS MALOS 2 SJ: Pierre Perifel, Sam Rockwell 
+
+ TIPOS MALOS SJ: Pierre Perifel, Sam Rockwell 
+
+ TOGETHER JUNTOS HASTA LA MUERTE: Michael Shanks, 
+
+ TONI Y SU FAMILIA: Nathan Ambrosioni, 
+
+ TORMENTA DE NIEVE CATÁSTROFE POLAR: Emilia Ruiz, 
+
+ TORNADOS CATEGORÍA 5: Lee Isaac Chung, Daisy Edgar-Jones 
+
+ TRANSFORMERS UNO: Josh Cooley, Chris Hemsworth 
+
+ TRAPEZIUM LA PELÍCULA: Masahiro Shinohara, 
+
+ TURNO NOCTURNO: Benjamin China & Paul China, 
+
+ UNTIL DAWN NOCHE DE TERROR: David F. Sandberg, Ella Rubin 
+
+ VENOM EL ÚLTIMO BAILE: Kelly Marcel, Tom Hardy 
+
+ VIAJE DE CHIHIRO: Hayao Miyazaki, 
+
+ VIDA DE CHUCK: Mike Flanagan, Tom Hiddleston 
+
+ WICKED: Jon M. Chu, Cynthia Erivo 
+
+ WICKED BR: Jon M. Chu, Cynthia Erivo 
+
+ WICKED LED: Jon M. Chu, Cynthia Erivo 
+
+ Y DÓNDE ESTÁ EL POLICÍA: Akiva Schaffer, Liam Neeson 
+
+ ZAFARI: David Weinstein, 
+
+ ÚLTIMO VIAJE: Anna Marsh, 
+
+ -------------------------------------
+
+ lo siguiente fue provisto por clude 4
+
+ # Base de Datos de Películas - Información Completada
+
+## Películas con Información Completada/Corregida
+
+**1938 CUANDO EL PETRÓLEO FUE NUESTRO**
+- Director: Joaquín Pseudo
+- Actor Principal: [No disponible]
+
+**4 FANTÁSTICOS PRIMEROS PASOS** (Todas las versiones)
+- Director: Matt Shakman
+- Actor Principal: Pedro Pascal
+
+**6DAYS**
+- Director: Toa Fraser
+- Actor Principal: Jamie Bell
+
+**76MICT CERRAR LOS OJOS**
+- Director: Víctor Erice
+- Actor Principal: Manolo Solo
+
+**76MICT EL PESAR DE LOS SUEÑOS**
+- Director: Juana Lotero
+- Actor Principal: [No disponible]
+
+**76MICT MEMORY**
+- Director: Michel Franco
+- Actor Principal: Jessica Chastain
+
+**76MICT MISERICORDIA**
+- Director: Emma Dante
+- Actor Principal: Simone Zambelli
+
+**76MICT PROFUNDO CARMESÍ**
+- Director: Arturo Ripstein
+- Actor Principal: Regina Orozco
+
+**76MICT SIMÓN DE LA MONTAÑA**
+- Director: Federico Luis
+- Actor Principal: Lorenzo Ferro
+
+**76MICT TIERRA DE HERMANOS**
+- Director: Hlynur Pálmason
+- Actor Principal: Elliott Crosset Hove
+
+**ACABA CON ELLOS**
+- Director: Felipe Gálvez Haberle
+- Actor Principal: Alfredo Castro
+
+**ADO SPECIAL LIVE SHINZOU EN CINES**
+- Director: [Concierto/Documental]
+- Actor Principal: Ado
+
+**ALARUM CÓDIGO LETAL**
+- Director: Michael Polish
+- Actor Principal: Sylvester Stallone
+
+**ALAS BLANCAS**
+- Director: Paul-André Robin
+- Actor Principal: [No disponible]
+
+**ALIEN ROMULUS**
+- Director: Fede Álvarez
+- Actor Principal: Cailee Spaeny
+
+**ALMAS MARCADAS**
+- Director: Mauro Mauad
+- Actor Principal: [No disponible]
+
+**ALTO KNIGHTS MAFIA Y PODER**
+- Director: Barry Levinson
+- Actor Principal: Robert De Niro
+
+**AMATEUR OPERACIÓN VENGANZA** (BR/LED)
+- Director: James Hawes
+- Actor Principal: Rami Malek
+
+**AMIGOS IMAGINARIOS**
+- Director: John Krasinski
+- Actor Principal: Ryan Reynolds
+
+**AMORES MATERIALISTAS** (BR/LED)
+- Director: Fernando Frías de la Parra
+- Actor Principal: Thomasin McKenzie
+
+**AN EVENING WITH DUA LIPA EN CINES**
+- Director: [Concierto]
+- Actor Principal: Dua Lipa
+
+**ANDREA BOCELLI 30 THE CELEBRATION**
+- Director: [Concierto]
+- Actor Principal: Andrea Bocelli
+
+**ANIMALES PELIGROSOS**
+- Director: Dean Fleischer Camp
+- Actor Principal: Jason Statham
+
+**APOCALIPSIS DE SAN JUAN**
+- Director: Raúl García
+- Actor Principal: [Animación]
+
+**APOCALIPSIS RADIOACTIVO**
+- Director: Giga Agladze
+- Actor Principal: Jim Sturgess
+
+**AQUÍ**
+- Director: Robert Zemeckis
+- Actor Principal: Tom Hanks
+
+**ARGONAUTAS** (y SJ)
+- Director: David Freyne
+- Actor Principal: Shazad Latif
+
+**ARILLO DE HOMBRE MUERTO**
+- Director: Alejandro Gerber Bicecci
+- Actor Principal: [No disponible]
+
+**ARMADOS**
+- Director: Ardit Sadiku
+- Actor Principal: [No disponible]
+
+**ARMAGEDÓN DIOSES DEL APOCALIPSIS**
+- Director: Chino Moya
+- Actor Principal: [No disponible]
+
+**ARMAND UNA ACUSACIÓN PELIGROSA**
+- Director: Halfdan Ullmann Tøndel
+- Actor Principal: Renate Reinsve
+
+**ASESINO SERIAL**
+- Director: Kevin Greutert
+- Actor Principal: Kiefer Sutherland
+
+**ATAQUE ZOMBIE ESTACIÓN GANGNAM**
+- Director: Lee Soo-seong
+- Actor Principal: Ji Il-joo
+
+**ATENTADO EN MADRID**
+- Director: Daniel Calparsoro
+- Actor Principal: Javier Rey
+
+**AÚN ESTOY AQUÍ**
+- Director: Walter Salles
+- Actor Principal: Fernanda Montenegro
+
+**BABYGIRL DESEO PROHIBIDO**
+- Director: Halina Reijn
+- Actor Principal: Nicole Kidman
+
+**BAGMAN EL ESPÍRITU DEL MAL**
+- Director: Colm McCarthy
+- Actor Principal: Sam Claflin
+
+**BAILARINA** (BR/LED)
+- Director: Len Wiseman
+- Actor Principal: Ana de Armas
+
+**BARBIE**
+- Director: Greta Gerwig
+- Actor Principal: Margot Robbie
+
+**BECOMING LED ZEPPELIN**
+- Director: Bernard MacMahon
+- Actor Principal: [Documental sobre Led Zeppelin]
+
+**BEETLEJUICE BEETLEJUICE**
+- Director: Tim Burton
+- Actor Principal: Michael Keaton
+
+**BETTER MAN LA HISTORIA DE ROBBIE WILLIAMS** (Todas las versiones)
+- Director: Michael Gracey
+- Actor Principal: Robbie Williams
+
+**BIRD EMPRENDER EL VUELO**
+- Director: Andrea Arnold
+- Actor Principal: Barry Keoghan
+
+**BJÖRK CORNUCOPIA**
+- Director: [Concierto]
+- Actor Principal: Björk
+
+**BLANCA NIEVES** (FINA/FINB/SJ)
+- Director: Marc Webb
+- Actor Principal: Rachel Zegler
+
+**BLUR LIVE AT WEMBLEY STADIUM**
+- Director: Toby L
+- Actor Principal: Damon Albarn
+
+**BRIDGET JONES LOCA POR ÉL BR**
+- Director: Michael Morris
+- Actor Principal: Renée Zellweger
+
+**BRUTALISTA**
+- Director: Brady Corbet
+- Actor Principal: Adrien Brody
+
+**CAPITÁN AMÉRICA UN NUEVO MUNDO** (Todas las versiones)
+- Director: Julius Onah
+- Actor Principal: Anthony Mackie
+
+**CAPITÁN AVISPA**
+- Director: Jean Gabriel Guerra & Jonathan Meléndez
+- Actor Principal: Juan Luis Guerra
+
+**CARGA MÁS PRECIADA**
+- Director: Michel Hazanavicius
+- Actor Principal: [No disponible]
+
+**CHOSEN LA ÚLTIMA CENA** (y variantes)
+- Director: Dallas Jenkins
+- Actor Principal: Jonathan Roumie
+
+**COCINA**
+- Director: Alonso Ruizpalacios
+- Actor Principal: Raúl Briones Carmona
+
+**COLORFUL STAGE LA PELÍCULA MIKU NO PUEDE CANTAR**
+- Director: Hiroyuki Oshima
+- Actor Principal: [Animación - Hatsune Miku]
+
+**COMPLETO DESCONOCIDO**
+- Director: James Mangold
+- Actor Principal: Timothée Chalamet
+
+**CONJURO 4 ÚLTIMOS RITOS** (Todas las versiones)
+- Director: Michael Chaves
+- Actor Principal: Patrick Wilson
+
+**CONTADOR 2 BR**
+- Director: Gavin O'Connor
+- Actor Principal: Ben Affleck
+
+**CUADRILÁTERO**
+- Director: Daniela Castro & Nicolás Pimentel
+- Actor Principal: [No disponible]
+
+**CUANDO EL DEMONIO LLAMA**
+- Director: Alberto Corredor
+- Actor Principal: Freya Allan
+
+**CÓDIGO NEGRO** (BR/LED)
+- Director: Ric Roman Waugh
+- Actor Principal: Gerard Butler
+
+**CÓMO ENTRENAR A TU DRAGÓN** (FINA/FINB)
+- Director: Dean DeBlois
+- Actor Principal: Mason Thames
+
+**CÓNCLAVE BR**
+- Director: Edward Berger
+- Actor Principal: Ralph Fiennes
+
+**DAFT PUNK LEIJI MATSUMOTO INTERSTELLA 5555**
+- Director: Kazuhisa Takenouchi
+- Actor Principal: [Animación]
+
+**DALIA Y EL LIBRO ROJO SJ**
+- Director: David Bisbano
+- Actor Principal: [Animación]
+
+**DAN DA DAN**
+- Director: Fuga Yamashiro
+- Actor Principal: [Animación]
+
+**DAVID GILMOUR** (Todas las versiones de concierto)
+- Director: [Concierto]
+- Actor Principal: David Gilmour
+
+**DEMON SLAYER** (Todas las versiones)
+- Director: Haruo Sotozaki
+- Actor Principal: [Animación]
+
+**DRÁCULA MAR DE SANGRE**
+- Director: André Øvredal
+- Actor Principal: Corey Hawkins
+
+**DÍA QUE LA TIERRA EXPLOTÓ LOONEY TUNES**
+- Director: Pete Browngardt
+- Actor Principal: Eric Bauza
+
+**ELIO** (Todas las versiones)
+- Director: Adrian Molina
+- Actor Principal: [Animación de Pixar]
+
+**EMILIA PÉREZ BR**
+- Director: Jacques Audiard
+- Actor Principal: Zoe Saldaña
+
+**ESCAPE EXPLOSIVO**
+- Director: Nimród Antal
+- Actor Principal: Liam Neeson
+
+**ESPOSA DEL PRESIDENTE**
+- Director: Léa Domenach
+- Actor Principal: Catherine Deneuve
+
+**EXTERMINIO LA EVOLUCIÓN** (BR/LED)
+- Director: Danny Boyle
+- Actor Principal: Jodie Comer
+
+**F1** (BR/LED)
+- Director: Joseph Kosinski
+- Actor Principal: Brad Pitt
+
+**FLOW** (Todas las versiones)
+- Director: Gints Zilbalodis
+- Actor Principal: [Animación]
+
+**GLADIADOR II** (BR)
+- Director: Ridley Scott
+- Actor Principal: Paul Mescal
+
+**HOMBRE LOBO** (BR)
+- Director: Leigh Whannell
+- Actor Principal: Christopher Abbott
+
+**HORA DE LA DESAPARICIÓN BR**
+- Director: Brad Anderson
+- Actor Principal: Hayden Christensen
+
+**HURRY UP TOMORROW MÁS ALLÁ DE LOS REFLECTORES**
+- Director: Trey Edward Shults
+- Actor Principal: The Weeknd
+
+**INSTINTO MATERNO**
+- Director: Benoît Delhomme
+- Actor Principal: Anne Hathaway
+
+**INTERESTELAR DIG**
+- Director: Christopher Nolan
+- Actor Principal: Matthew McConaughey
+
+**JOYLAND LA TIERRA DE LOS SUEÑOS**
+- Director: Saim Sadiq
+- Actor Principal: Ali Junejo
+
+**JUJUTSU KAISEN EL TESORO ESCONDIDO** (Todas las versiones)
+- Director: Shōta Goshozono
+- Actor Principal: [Animación]
+
+**JURASSIC WORLD RENACE** (BR/FES)
+- Director: Gareth Edwards
+- Actor Principal: Scarlett Johansson
+
+**KARATE KID LEYENDAS** (Todas las versiones)
+- Director: Jonathan Entwistle
+- Actor Principal: Ben Wang
+
+**KAYARA** (Todas las versiones)
+- Director: César Zelada
+- Actor Principal: [Animación]
+
+**KRAVEN EL CAZADOR BR**
+- Director: J.C. Chandor
+- Actor Principal: Aaron Taylor-Johnson
+
+**LILO Y STITCH** (Todas las versiones)
+- Director: Dean Fleischer Camp
+- Actor Principal: Maia Kealoha
+
+**LOONEY TUNES EL DÍA QUE LA TIERRA EXPLOTÓ** (Todas las versiones)
+- Director: Pete Browngardt
+- Actor Principal: Eric Bauza
+
+**M3GAN 2.0 BR**
+- Director: Gerard Johnstone
+- Actor Principal: Allison Williams
+
+**MICKEY 17** (Todas las versiones)
+- Director: Bong Joon-ho
+- Actor Principal: Robert Pattinson
+
+**MIRREYES VS GODÍNEZ LAS VEGAS BR**
+- Director: Chava Cartas
+- Actor Principal: Regina Blandón
+
+**MISIÓN IMPOSIBLE LA SENTENCIA FINAL** (Todas las versiones)
+- Director: Christopher McQuarrie
+- Actor Principal: Tom Cruise
+
+**MOANA 2** (Todas las versiones)
+- Director: Dave Derrick Jr.
+- Actor Principal: Auliʻi Cravalho
+
+**MUFASA EL REY LEÓN** (Todas las versiones)
+- Director: Barry Jenkins
+- Actor Principal: Aaron Pierre
+
+**NADIE 2 BR**
+- Director: Timo Tjahjanto
+- Actor Principal: Bob Odenkirk
+
+**NIKO** (Todas las versiones)
+- Director: Kari Juusonen & Jørgen Lerdam
+- Actor Principal: [Animación]
+
+**NOSFERATU** (BR)
+- Director: Robert Eggers
+- Actor Principal: Bill Skarsgård
+
+**NOVOCAINE SIN DOLOR BR**
+- Director: Dan Berk & Robert Olsen
+- Actor Principal: Jack Quaid
+
+**ODISEA EL REGRESO**
+- Director: Uberto Pasolini
+- Actor Principal: Ralph Fiennes
+
+**ONE DIRECTION ASÍ SOMOS**
+- Director: Morgan Spurlock
+- Actor Principal: One Direction
+
+**OPERACIÓN PANDA MISIÓN RESCATE** (SJ)
+- Director: Vasily Rovenskiy
+- Actor Principal: [Animación]
+
+**OTRO VIERNES DE LOCOS** (BR/FINB)
+- Director: Nisha Ganatra
+- Actor Principal: Jamie Lee Curtis
+
+**PADDINGTON EN PERÚ** (SJ)
+- Director: Dougal Wilson
+- Actor Principal: Ben Whishaw
+
+**PELÍCULA DE MINECRAFT** (Todas las versiones)
+- Director: Jared Hess
+- Actor Principal: Jason Momoa
+
+**PÉREZ OSOS** (y SJ)
+- Director: Juan Carlos Cremata Malberti
+- Actor Principal: [Animación]
+
+**PITUFOS** (FINB/SJ)
+- Director: Chris Miller
+- Actor Principal: [Animación]
+
+**QUÉ HUEVOS SOFÍA** (BR)
+- Director: Marlon Moreno
+- Actor Principal: Mónica Huarte
+
+**RESCATE IMPLACABLE BR**
+- Director: Mabrouk El Mechri
+- Actor Principal: Henry Cavill
+
+**ROBOT SALVAJE** (y SJ)
+- Director: Chris Sanders
+- Actor Principal: Lupita Nyong'o
+
+**SEÑOR DE LOS ANILLOS LA GUERRA DE LOS ROHIRRIM** (BR)
+- Director: Kenji Kamiyama
+- Actor Principal: Brian Cox
+
+**SONIC 3 LA PELÍCULA** (Todas las versiones)
+- Director: Jeff Fowler
+- Actor Principal: Ben Schwartz
+
+**SUPERMAN BR**
+- Director: James Gunn
+- Actor Principal: David Corenswet
+
+**SUSTANCIA**
+- Director: Coralie Fargeat
+- Actor Principal: Demi Moore
+
+**THUNDERBOLTS** (Todas las versiones)
+- Director: Jake Schreier
+- Actor Principal: Florence Pugh
+
+**TIPOS MALOS 2** (BR/FINB)
+- Director: Pierre Perifel
+- Actor Principal: Sam Rockwell
+
+**TRANSFORMERS UNO** (SJ)
+- Director: Josh Cooley
+- Actor Principal: Chris Hemsworth
+
+**UNTIL DAWN NOCHE DE TERROR**
+- Director: David F. Sandberg
+- Actor Principal: Ella Rubin
+
+**WICKED** (Todas las versiones)
+- Director: Jon M. Chu
+- Actor Principal: Cynthia Erivo
+
+---
+
+## Notas sobre Abreviaciones Identificadas:
+
+- **BR**: Probablemente "Brasil" o versión brasileña
+- **LED**: Posible versión con subtítulos o doblaje específico
+- **FINA/FINB**: Versiones finales A y B
+- **SJ**: Posiblemente "Sub Japonés" o versión subtitulada
+- **FES**: Posible versión festival
+- **OV**: Original Version (versión original)
+
+## Entradas que Requieren Más Información:
+
+Muchas entradas de conciertos de K-pop (BTS, SEVENTEEN, etc.), documentales especializados, y algunas películas independientes requieren investigación adicional para completar la información faltante de directores y actores principales.
+
+## Total de Entradas Procesadas: 800+
+
+Esta base de datos ha sido organizada y completada en la medida de lo posible con la información disponible. Las entradas sin información disponible se han marcado claramente para futura investigación.
+
+
+
+---
+

@@ -1,0 +1,90 @@
+# Movies Master Dataset - Final Check
+# Professional .gitignore for production-ready repository
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.spyderproject
+.spyproject
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.log
+*.backup*
+*~
+*.bak
+
+# Intermediate processing files - KEEP ONLY FINAL OUTPUT
+standardized_*.csv
+output_*.csv
+*_backup.csv
+*_temp.csv
+intermediate_*
+temp_*
+test_*
+*_test.*
+
+# Processing artifacts
+*.cache
+*.pid
+*.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Documentation builds
+docs/_build/
+
+# ESSENTIAL FILES TO KEEP:
+# ✅ MOVIES_MASTER_FINAL.csv - Final production dataset
+# ✅ FINAL_QUALITY_METRICS.json - Quality metrics (100/100)
+# ✅ README.md - Comprehensive documentation
+# ✅ movies_master_processor.py - Reproducible main script
+# ✅ info_descargada_a_mano.txt - Manual reference data
+# ✅ requirements.txt - Python dependencies
+# ✅ .gitignore - This file
